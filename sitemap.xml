@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
        <loc>https://hurghadaavenue.github.io/</loc>
   </url>
@@ -7,10 +8,37 @@
        <loc>https://hurghadaavenue.github.io/01-ar-studio-50m.html</loc>
   </url>
   <url>
-       <loc>https://hurghadaavenue.github.io/eng-index.html</loc>
+       <loc>https://hurghadaavenue.github.io/02-ar-studio-51m.html</loc>
+  </url>
+  <url>
+       <loc>https://hurghadaavenue.github.io/12-twobedrooms-120m.html</loc>
+  </url>
+  <url>
+       <loc>https://hurghadaavenue.github.io/04-onebedroom-63m.html</loc>
+  </url>
+  <url>
+       <loc>https://hurghadaavenue.github.io/05-onebedroom-68m.html</loc>
+  </url>
+  <url>
+       <loc>https://hurghadaavenue.github.io/06-twobedrooms-98m.html</loc>
+  </url>
+  <url>
+       <loc>https://hurghadaavenue.github.io/07-twobedrooms-108m.html</loc>
+  </url>
+  <url>
+       <loc>https://hurghadaavenue.github.io/08-twobedrooms-110m.html</loc>
+  </url>
+  <url>
+       <loc>https://hurghadaavenue.github.io/09-threebedrooms-123m.html</loc>
+  </url>
+  <url>
+       <loc>https://hurghadaavenue.github.io/index.html</loc>
   </url>
   <url>
        <loc>https://hurghadaavenue.github.io/ar-units.html</loc>
+  </url>
+  <url>
+       <loc>https://hurghadaavenue.github.io/eng-index.html</loc>
   </url>
   <url>
        <loc>https://hurghadaavenue.github.io/ar-location-features.html</loc>
@@ -32,5 +60,8 @@
   </url>
   <url>
        <loc>https://hurghadaavenue.github.io/ar-finishing.html</loc>
+  </url>
+  <url>
+       <loc>https://hurghadaavenue.github.io/11-threebedrooms-145m.html</loc>
   </url>
 </urlset>
