@@ -3,3 +3,5 @@ Allow: /
 
 Sitemap: https://hurghadaavenue.github.io/sitemap.xml
 Sitemap: https://hurghadaavenue.github.io/sitemapeng.xml
+Sitemap: https://hurghadaavenue.github.io/img-sitemap-ar.xml
+Sitemap: https://hurghadaavenue.github.io/img-sitemap-eng.xml
