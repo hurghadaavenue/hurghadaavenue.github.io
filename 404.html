@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Redirecting…</title>
+
+  <script>
+    (function () {
+      var path = window.location.pathname.toLowerCase();
+      var lang = 'ru'; // default
+
+      // Detect language from the URL the visitor tried to reach
+      if (path.indexOf('/ru/') === 0 || path.indexOf('ru-') !== -1) {
+        lang = 'ru';
+      } else if (
+        path.indexOf('/en/') === 0 ||
+        path.indexOf('/en-') === 0 ||
+        path.indexOf('eng-') !== -1
+      ) {
+        lang = 'en';
+      } else if (/^\/[^\/]+\.html$/.test(path)) {
+        lang = 'ar'; // Arabic pages live at site root
+      } else {
+        // Fallback: browser language
+        var nav = (navigator.language || navigator.userLanguage || 'ru').toLowerCase();
+        if (nav.indexOf('ar') === 0)      lang = 'ar';
+        else if (nav.indexOf('en') === 0) lang = 'en';
+        else                              lang = 'ru';
+      }
+
+      var target = {
+        ar: 'https://hurghadaavenue.github.io/index.html',
+        en: 'https://hurghadaavenue.github.io/eng-index.html',
+        ru: 'https://hurghadaavenue.github.io/ru-index.html'
+      }[lang] || 'https://hurghadaavenue.github.io/ru-index.html';
+
+      // Instant redirect — replace() so the 404 URL is not kept in history
+      window.location.replace(target);
+    })();
+  </script>
+
+  <!-- Fallback for JS-disabled browsers: redirect via meta refresh -->
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=https://hurghadaavenue.github.io/ru-index.html">
+  </noscript>
+</head>
+<body>
+  <!-- Shown only if JS is disabled AND meta refresh fails -->
+  <p style="font-family:Arial;text-align:center;margin-top:40px;">
+    Redirecting to the main page…
+    <a href="https://hurghadaavenue.github.io/ru-index.html">Click here</a> if nothing happens.
+  </p>
+</body>
+</html>
