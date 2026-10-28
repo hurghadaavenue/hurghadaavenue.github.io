@@ -7,3 +7,4 @@ Sitemap: https://hurghadaavenue.github.io/img-sitemap-ar.xml
 Sitemap: https://hurghadaavenue.github.io/img-sitemap-eng.xml
 Sitemap: https://hurghadaavenue.github.io/sitemap-rus.xml
 Sitemap: https://hurghadaavenue.github.io/img-sitemap-rus.xml
+Sitemap: https://hurghadaavenue.github.io/sitemap-de.xml
