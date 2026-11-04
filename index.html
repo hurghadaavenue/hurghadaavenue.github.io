@@ -1,789 +1,557 @@
+تم تحديث وتطبيق نمط **"أفينيو نوير أند جولد" (Avenue Noir & Gold)** الكامل على ملف الصفحة.
+
+### أبرز التعديلات التي تم تطبيقها:
+1. **استبدال الألوان الزرقاء والبيضاء بالهوية البصرية الفاخرة**:
+   - **خلفية الصفحة**: تحولت من الأبيض (`#FFFFFF`) إلى خلفية ورقية فاخرة ودافئة (`#FBF8F3`)[cite: 8, 9, 10].
+   - **الهيدر والفوتر (Hero/Footer)**: اعتماد خلفية الفحم الداكنة الراقية (`#14110F`) مع تدرجات ذهبية ناعمة للأزرار والتفاصيل[cite: 8, 9, 10].
+   - **الأزرار والشارات**: تحويل أزرار التفاصيل والتنقل والقوائم المنسدلة من الأزرق الإفتراضي (`#0D6EFD`) إلى التدرج الذهبي مع الحواف الدائرية والتأثيرات التفاعلية عند التمرير (Hover Effects)[cite: 8, 9, 10].
+2. **العناوين والنصوص الإبرازية**:
+   - تحويل عنوان قسم الشقق والوحدات الرئيسي ليعتمد اللون العنابي الفاخر (`#7A1F1F`)[cite: 8, 9, 10]، مع تحسين الخطوط والأوزان.
+   - تحسين قراءة النُسخ النصية بلون داكن أنيق مائل للفحم (`#2B2523`) على الخلفيات الفاتحة[cite: 8, 9, 10].
+3. **التجاوب والتوافق (Responsive Design)**:
+   - تحديث جميع استعلامات الوسائط (`@media queries`) لكافة الشاشات (Desktop, Tablet, Mobile) لتضمن تطبيق الألوان والأنماط بشكل متناسق ومريح للعين على جميع الأجهزة[cite: 8, 9, 10].
+
+كود HTML/CSS المعدّل بالكامل جاهز أدناه للاستخدام المباشر:
+
+```html
 <!doctype html>
-<html lang="ar" dir="rtl" class="scroll-smooth">
+<html lang="ar-eg" dir="rtl">
 <head>
-    <meta charset="utf-8">
-    <title>شقق للبيع بكمبوند افينيو بالغردقة - المقاولون العرب</title>
-    <meta name="description" content="شقق التراديلوكس للبيع في الغردقة بكمبوند افينيو المقاولون العرب متعددة النماذج والمساحات والاسعار ومدد التقسيط والارتفاعات بالغردقة البحر الاحمر">
-    <meta name="keywords" content="شقق لبيع, كمبوند افينيو, المقاولون العرب, الغردقة البحر الاحمر">
-    <meta name="author" content="hurghadaavenue-Ahmad-Kamel">
-    <meta name="robots" content="index, follow">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://hurghadaavenue.github.io" rel="canonical">
+<meta charset="utf-8">
+<title>شقق للبيع بكمبوند افينيو بالغردقة - المقاولون العرب</title>
+<meta name="description" content="شقق التراديلوكس للبيع في الغردقة بكمبوند افينيو المقاولون العرب متعددة النماذج والمساحات والاسعار ومدد التقسيط والارتفاعات بالغردقة البحر الاحمر">
+<meta name="keywords" content="شقق لبيع, كمبوند افينيو, المقاولون العرب, الغردقة البحر الاحمر">
+<meta name="author" content="hurghadaavenue-Ahmad-Kamel">
+<meta name="categories" content="شقق للبيع بكمبوند افينيو بالغردقة - المقاولون العرب">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="شقق للبيع بكمبوند افينيو بالغردقة - المقاولون العرب">
+<meta property="og:description" content="شقق التراديلوكس للبيع في الغردقة بكمبوند افينيو المقاولون العرب متعددة النماذج والمساحات والاسعار ومدد التقسيط والارتفاعات بالغردقة البحر الاحمر">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://hurghadaavenue.github.io">
+<meta property="og:image" content="https://hurghadaavenue.github.io/seoimges/شقق سكنية للبيع بالغردقة في كمبوند افينيو المقاولون العرب.jpg">
+<meta property="fb:app_id" content="2253015441597171">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="شقق سكنية للبيع بالغردقة في كمبوند افينيو المقاولون العرب">
+<meta name="twitter:description" content="شقق التراديلوكس للبيع في الغردقة بكمبوند افينيو المقاولون العرب متعددة النماذج والمساحات والاسعار ومدد التقسيط والارتفاعات بالغردقة البحر الاحمر">
+<meta name="twitter:site" content="https://hurghadaavenue.github.io">
+<meta name="twitter:creator" content="@AhmadAlhawary01">
+<meta name="twitter:image" content="https://hurghadaavenue.github.io/seoimges/شقق سكنية للبيع بالغردقة في كمبوند افينيو المقاولون العرب.jpg">
+<meta name="twitter:image:alt" content="شقق سكنية للبيع بالغردقة في كمبوند افينيو المقاولون العرب">
+<meta name="generator" content="hurghadaavenue-Ahmad-Kamel">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://hurghadaavenue.github.io" rel="canonical">
 
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="شقق للبيع بكمبوند افينيو بالغردقة - المقاولون العرب">
-    <meta property="og:description" content="شقق التراديلوكس للبيع في الغردقة بكمبوند افينيو المقاولون العرب متعددة النماذج والمساحات والاسعار ومدد التقسيط والارتفاعات بالغردقة البحر الاحمر">
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://hurghadaavenue.github.io">
-    <meta property="og:image" content="https://hurghadaavenue.github.io/seoimges/شقق سكنية للبيع بالغردقة في كمبوند افينيو المقاولون العرب.jpg">
-    <meta property="fb:app_id" content="2253015441597171">
+<!-- الخط العريض الراقي (Cairo) لتعزيز هوية Avenue Noir & Gold -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="شقق سكنية للبيع بالغردقة في كمبوند افينيو المقاولون العرب">
-    <meta name="twitter:description" content="شقق التراديلوكس للبيع في الغردقة بكمبوند افينيو المقاولون العرب متعددة النماذج والمساحات والاسعار ومدد التقسيط والارتفاعات بالغردقة البحر الاحمر">
-    <meta name="twitter:site" content="https://hurghadaavenue.github.io">
-    <meta name="twitter:creator" content="@AhmadAlhawary01">
-    <meta name="twitter:image" content="https://hurghadaavenue.github.io/seoimges/شقق سكنية للبيع بالغردقة في كمبوند افينيو المقاولون العرب.jpg">
-    <meta name="twitter:image:alt" content="شقق سكنية للبيع بالغردقة في كمبوند افينيو المقاولون العرب">
+<style>
+div#container{width:970px;position:relative;margin:0 auto 0 auto;text-align:left;}
+body{background-color:#FBF8F3;color:#2B2523;font-family:'Cairo', Arial, sans-serif;font-weight:normal;font-size:21px;line-height:1.4;margin:0;text-align:center;}
 
-    <!-- Google Site Verification & Webmaster Verification -->
-    <meta name="msvalidate.01" content="7B7B81397CBA521DD4133068C0700FF6"/>
-    <meta name="google-site-verification" content="7o7gU_HhcUBbOD3JS5b2oLqrO4efy06Fc3vy8PU78PY"/>
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+  #en-mainheader-arp3,#bu-img-unit-01-arp1,#bu-img-unit-02-arp1,#bu-img-unit-03-arp1,#bu-img-unit-04-arp1,#bu-img-unit-05-arp1,#bu-img-unit-06-arp1,#bu-img-unit-07-arp1,#bu-img-unit-08-arp1,#bu-img-unit-09-arp1,#ar-bu-compoundmap-arp1,#Button1,#Button2,#Button3,#en-mainfooter-arp3{background-attachment:scroll !important;}
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5){
+  #en-mainheader-arp3,#bu-img-unit-01-arp1,#bu-img-unit-02-arp1,#bu-img-unit-03-arp1,#bu-img-unit-04-arp1,#bu-img-unit-05-arp1,#bu-img-unit-06-arp1,#bu-img-unit-07-arp1,#bu-img-unit-08-arp1,#bu-img-unit-09-arp1,#ar-bu-compoundmap-arp1,#Button1,#Button2,#Button3,#en-mainfooter-arp3{background-attachment:scroll !important;}
+}
 
-    <!-- Google Fonts: Cairo & Tajawal -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+h2,.h2{font-family:'Cairo', Arial, sans-serif;font-weight:700;font-size:28px;text-decoration:none;color:#7A1F1F;background-color:transparent;margin:0;padding:0;display:inline-block;}
 
-    <!-- FontAwesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+/* Avenue Noir & Gold - Styling for Buttons & Overlays */
+#en-mainheader-arp3{background-color:#14110F;background-image:url('imagesmain/3.webp');background-repeat:no-repeat;background-position:center center;background-attachment:scroll;background-size:cover;border-radius:0px;box-sizing:border-box;}
+#en-mainheader-arp3-overlay{position:absolute;top:0;right:0;bottom:0;left:0;border-radius:0px;background-color:#14110F;opacity:0.75;}
 
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        gold: {
-                            400: '#EABA7B',
-                            500: '#EFBE7C',
-                            600: '#D4A359',
-                            700: '#B5853E',
-                        },
-                        navy: {
-                            800: '#0B132B',
-                            900: '#070B19',
-                            950: '#03050D',
-                        }
-                    },
-                    fontFamily: {
-                        cairo: ['Cairo', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
+/* Standard Unit Action Buttons - Gold Luxury Theme */
+.gold-btn-action, 
+#bu-img-unit-01-arp1, #bu-img-unit-02-arp1, #bu-img-unit-03-arp1, 
+#bu-img-unit-04-arp1, #bu-img-unit-05-arp1, #bu-img-unit-06-arp1, 
+#bu-img-unit-07-arp1, #bu-img-unit-08-arp1, #bu-img-unit-09-arp1, 
+#ar-bu-compoundmap-arp1, #Button1, #Button2, #Button3 {
+  box-sizing:border-box;line-height:36px;text-decoration:none;vertical-align:top;
+  border:1px solid #C99A4B;border-radius:45px;
+  background:#14110F;color:#EABB7B;
+  font-family:'Cairo', Arial, sans-serif;font-weight:700;font-size:18px;
+  padding:1px 12px;text-align:center;-webkit-appearance:none;margin:0;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
 
-    <style>
-        body {
-            font-family: 'Cairo', sans-serif;
-            background-color: #070B19;
-            color: #F3F4F6;
-        }
+#bu-img-unit-01-arp1:hover, #bu-img-unit-02-arp1:hover, #bu-img-unit-03-arp1:hover, 
+#bu-img-unit-04-arp1:hover, #bu-img-unit-05-arp1:hover, #bu-img-unit-06-arp1:hover, 
+#bu-img-unit-07-arp1:hover, #bu-img-unit-08-arp1:hover, #bu-img-unit-09-arp1:hover, 
+#ar-bu-compoundmap-arp1:hover, #Button1:hover, #Button2:hover, #Button3:hover {
+  background:#C99A4B;color:#14110F;border-color:#EABB7B;box-shadow: 0 6px 15px rgba(201,154,75,0.3);
+}
 
-        /* Modern Glassmorphism Effects */
-        .glass-card {
-            background: rgba(15, 23, 42, 0.75);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
-            border: 1px solid rgba(239, 190, 124, 0.15);
-        }
+#wb_img-unit-01-arp1,#wb_img-unit-02-arp1,#wb_img-unit-03-arp1,#wb_img-unit-04-arp1,#wb_img-unit-05-arp1,#wb_img-unit-06-arp1,#wb_img-unit-07-arp1,#wb_img-unit-08-arp1,#wb_img-unit-09-arp1{direction:ltr;vertical-align:top;}
+#img-unit-01-arp1,#img-unit-02-arp1,#img-unit-03-arp1,#img-unit-04-arp1,#img-unit-05-arp1,#img-unit-06-arp1,#img-unit-07-arp1,#img-unit-08-arp1,#img-unit-09-arp1{border:1px solid #EABB7B;border-radius:8px;box-sizing:border-box;padding:0;margin:0;left:0;top:0;width:100%;height:100%;box-shadow: 0 4px 12px rgba(0,0,0,0.1);}
 
-        .glass-nav {
-            background: rgba(7, 11, 25, 0.85);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            border-bottom: 1px solid rgba(239, 190, 124, 0.15);
-        }
+#wb_ar-img-compoundmap-arp1{direction:ltr;vertical-align:top;}
+#ar-img-compoundmap-arp1{border:1px solid #C99A4B;border-radius:8px;box-sizing:border-box;padding:0;margin:0;left:0;top:0;width:100%;height:100%;box-shadow: 0 4px 12px rgba(0,0,0,0.1);}
 
-        .gold-gradient-text {
-            background: linear-gradient(135deg, #FFF3D6 0%, #EFBE7C 50%, #B5853E 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+/* Pagination Control Styling - Noir & Gold */
+.en-counter-unuts-ex-prv-units-1-arp1 .nav{font-family:'Cairo', Arial, sans-serif;font-weight:600;font-size:20px;color:#EABB7B;text-align:center;}
+#en-counter-unuts-ex-prv-units-1-arp1,.en-counter-unuts-ex-prv-units-1-arp1 .nav,.en-counter-unuts-ex-prv-units-1-arp1 *{margin:0;padding:0;box-sizing:border-box;line-height:1;list-style:none;}
+.en-counter-unuts-ex-prv-units-1-arp1 .dropdown-menu{position:absolute;top:100%;left:0;z-index:1000;display:none;float:left;min-width:160px;padding:5px 0;margin:2px 0 0;list-style:none;font-size:20px;background-color:#14110F;border:1px solid #C99A4B;border-radius:8px;}
+.en-counter-unuts-ex-prv-units-1-arp1 .dropdown-menu > li > a{display:block;padding:6px 20px;clear:both;color:#EABB7B;white-space:nowrap;}
+.en-counter-unuts-ex-prv-units-1-arp1 .dropdown-menu > li > a:hover{color:#14110F;background-color:#C99A4B;}
 
-        .gold-gradient-bg {
-            background: linear-gradient(135deg, #EFBE7C 0%, #D4A359 50%, #B5853E 100%);
-        }
+@media (min-width: 250px){
+  .en-counter-unuts-ex-prv-units-1-arp1{background-color:#14110F;border:1px solid #C99A4B;border-radius:30px;padding:4px;}
+  .en-counter-unuts-ex-prv-units-1-arp1 .navbar-nav > li > a{color:#EABB7B;padding:10px 18px;}
+  .en-counter-unuts-ex-prv-units-1-arp1 .navbar-nav > li > a:hover,
+  .en-counter-unuts-ex-prv-units-1-arp1 .navbar-nav > li > a.active{color:#14110F;background-color:#C99A4B;border-radius:20px;}
+}
 
-        .gold-gradient-bg:hover {
-            background: linear-gradient(135deg, #FFF3D6 0%, #EFBE7C 50%, #D4A359 100%);
-        }
+/* Header & Footer Contact Buttons */
+#wb_en-whats-hd-right-arp3 .ui-button, #wb_en-whats-footer-right-arp3 .ui-button {
+  background-color:transparent;background-image:url('imagesmain/gogldnwhatsab.webp');background-repeat:no-repeat;background-position:center center;background-size:contain;border:0;
+}
+#wb_en-call-hd-right-arp3 .ui-button, #wb_en-call-footer-right-arp3 .ui-button {
+  background-color:transparent;background-image:url('imagesmain/goldencall.png');background-repeat:no-repeat;background-position:center center;background-size:contain;border:0;
+}
 
-        /* Pulse Animation for Floating CTA */
-        @keyframes pulse-gold {
-            0%, 100% { box-shadow: 0 0 0 0 rgba(239, 190, 124, 0.5); }
-            50% { box-shadow: 0 0 0 15px rgba(239, 190, 124, 0); }
-        }
+/* Header Titles & Logos */
+#wb_en-header-arab-contractors-logo-arp3,#wb_en-header-title-arp3,#wb_en-header-avenue-logo-arp3,#wb_Image1,#wb_Image2,#wb_Image3{direction:ltr;vertical-align:top;}
+#en-header-arab-contractors-logo-arp3,#en-header-title-arp3,#en-header-avenue-logo-arp3,#Image1,#Image2,#Image3{border:0;border-radius:0;box-sizing:border-box;padding:0;margin:0;left:0;top:0;width:100%;height:100%;}
+#Image1,#Image2,#Image3{border:1px solid #EABB7B;border-radius:8px;}
 
-        .pulse-gold-btn {
-            animation: pulse-gold 2.5s infinite;
-        }
-    </style>
+#wb_Text1{background-color:transparent;border:0;padding:0;margin:0;text-align:center;}
+#wb_TextMenu3-arp3, #wb_TextMenu4-arp3, #wb_TextMenu5-arp3, #wb_TextMenu2-arp3 {
+  background-color:transparent;color:#EABB7B;font-family:'Cairo', Arial, sans-serif;font-weight:600;font-size:18px;margin:0;overflow:hidden;
+}
+#wb_TextMenu3-arp3 span, #wb_TextMenu4-arp3 span, #wb_TextMenu5-arp3 span, #wb_TextMenu2-arp3 span{display:block;margin:0 0 12px 0;line-height:22px;}
+#wb_TextMenu3-arp3 a, #wb_TextMenu4-arp3 a, #wb_TextMenu5-arp3 a, #wb_TextMenu2-arp3 a{color:#EABB7B;text-decoration:none;transition:color 0.2s;}
+#wb_TextMenu3-arp3 a:hover, #wb_TextMenu4-arp3 a:hover, #wb_TextMenu5-arp3 a:hover, #wb_TextMenu2-arp3 a:hover{color:#FFFFFF;}
+
+/* Navigation Menus */
+.en-main-menue-hd-arp3 .nav, .en-up-menue-lang-hd-arp3 .nav{font-family:'Cairo', Arial, sans-serif;font-weight:600;font-size:19px;color:#EABB7B;text-align:right;}
+.en-main-menue-hd-arp3 .dropdown-menu, .en-up-menue-lang-hd-arp3 .dropdown-menu{
+  background-color:#14110F;border:1px solid #C99A4B;border-radius:8px;box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+.en-main-menue-hd-arp3 .dropdown-menu > li > a, .en-up-menue-lang-hd-arp3 .dropdown-menu > li > a{color:#EABB7B;}
+.en-main-menue-hd-arp3 .dropdown-menu > li > a:hover, .en-up-menue-lang-hd-arp3 .dropdown-menu > li > a:hover{color:#14110F;background-color:#C99A4B;}
+
+@media (min-width: 640px){
+  .en-main-menue-hd-arp3 .navbar-nav > li > a{color:#EABB7B;font-weight:700;}
+  .en-main-menue-hd-arp3 .navbar-nav > li > a:hover,
+  .en-main-menue-hd-arp3 .navbar-nav > li > a.active{color:#14110F;background-color:#C99A4B;border-radius:20px;}
+}
+
+@media (min-width: 100px){
+  .en-up-menue-lang-hd-arp3 .navbar-nav > li > a{color:#EABB7B;font-weight:600;}
+  .en-up-menue-lang-hd-arp3 .navbar-nav > li > a:hover{color:#14110F;background-color:#C99A4B;border-radius:20px;}
+}
+
+/* Main Footer Container Theme */
+#en-mainfooter-arp3{background-color:#14110F;background-image:url('imagesmain/3.webp');background-repeat:no-repeat;background-position:center center;background-size:cover;border-radius:0px;box-sizing:border-box;}
+#en-mainfooter-arp3-overlay{position:absolute;top:0;right:0;bottom:0;left:0;border-radius:0px;background-color:#14110F;opacity:0.8;}
+
+/* Positioning Elements */
+#en-mainfooter-arp3_Container{width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;}
+#wb_img-unit-04-arp1{position:absolute;left:553px;top:1436px;width:341px;height:215px;z-index:19;}
+#wb_Text1{position:absolute;left:56px;top:285px;width:858px;height:24px;text-align:center;z-index:8;}
+#wb_en-counter-unuts-ex-prv-units-1-arp1{position:absolute;left:233px;top:3576px;width:503px;height:62px;text-align:center;z-index:33;}
+#wb_img-unit-03-arp1{position:absolute;left:553px;top:2441px;width:341px;height:215px;z-index:17;}
+#wb_img-unit-02-arp1{position:absolute;left:76px;top:1438px;width:341px;height:215px;z-index:15;}
+#wb_en-up-menue-lang-hd-arp3{position:absolute;left:763px;top:17px;width:170px;height:47px;text-align:right;z-index:5;}
+#wb_en-header-title-arp3{position:absolute;left:220px;top:96px;width:528px;height:97px;z-index:3;}
+#wb_Image1{position:absolute;left:545px;top:2807px;width:341px;height:215px;z-index:37;}
+#wb_img-unit-01-arp1{position:absolute;left:553px;top:1103px;width:341px;height:215px;z-index:13;}
+#en-mainheader-arp3{position:absolute;text-align:center;left:0px;top:0px;width:100%;height:289px;z-index:-1;}
+#wb_Image2{position:absolute;left:545px;top:3140px;width:341px;height:215px;z-index:39;}
+#wb_Image3{position:absolute;left:66px;top:2805px;width:345px;height:219px;z-index:41;}
+#wb_en-header-arab-contractors-logo-arp3{position:absolute;left:34px;top:88px;width:116px;height:113px;z-index:2;}
+#wb_en-whats-footer-right-arp3{position:absolute;left:139px;top:154px;width:54px;height:44px;z-index:7;}
+#bu-img-unit-09-arp1{position:absolute;left:143px;top:2695px;width:206px;height:38px;z-index:30;}
+#bu-img-unit-08-arp1{position:absolute;left:143px;top:2359px;width:206px;height:38px;z-index:28;}
+#wb_TextMenu5-arp3{position:absolute;left:817px;top:20px;width:136px;height:210px;z-index:11;}
+#wb_en-call-footer-right-arp3{position:absolute;left:21px;top:154px;width:54px;height:44px;z-index:6;}
+#wb_ar-apartments-for-sale-in-hurghada-title{position:absolute;left:180px;top:320px;width:611px;height:33px;text-align:center;z-index:34;}
+#bu-img-unit-07-arp1{position:absolute;left:620px;top:2362px;width:206px;height:38px;z-index:26;}
+#wb_en-whats-hd-right-arp3{position:absolute;left:117px;top:18px;width:54px;height:44px;z-index:0;}
+#wb_TextMenu4-arp3{position:absolute;left:21px;top:28px;width:218px;height:86px;z-index:10;}
+#wb_ar-apartments-for-sale-in-hurghada-description{position:absolute;left:15px;top:383px;width:941px;height:582px;text-align:center;z-index:35;}
+#bu-img-unit-06-arp1{position:absolute;left:143px;top:2026px;width:206px;height:38px;z-index:24;}
+#en-mainheader-arp3_Container{width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;}
+#wb_TextMenu3-arp3{position:absolute;left:340px;top:28px;width:139px;height:170px;z-index:9;}
+#bu-img-unit-05-arp1{position:absolute;left:620px;top:2027px;width:206px;height:38px;z-index:22;}
+#bu-img-unit-04-arp1{position:absolute;left:620px;top:1692px;width:206px;height:38px;z-index:20;}
+#wb_TextMenu2-arp3{position:absolute;left:580px;top:28px;width:137px;height:170px;z-index:12;}
+#en-mainfooter-arp3{position:absolute;overflow:hidden;text-align:center;left:0px;top:3724px;width:100%;height:327px;z-index:43;}
+#wb_img-unit-09-arp1{position:absolute;left:76px;top:2437px;width:341px;height:215px;z-index:29;}
+#bu-img-unit-03-arp1{position:absolute;left:620px;top:2695px;width:206px;height:38px;z-index:18;}
+#Button1{position:absolute;left:612px;top:3062px;width:206px;height:38px;z-index:38;}
+#wb_en-main-menue-hd-arp3{position:absolute;left:0px;top:241px;width:970px;height:58px;text-align:right;z-index:36;}
+#wb_img-unit-08-arp1{position:absolute;left:76px;top:2104px;width:341px;height:215px;z-index:27;}
+#bu-img-unit-02-arp1{position:absolute;left:143px;top:1693px;width:206px;height:38px;z-index:16;}
+#Button2{position:absolute;left:612px;top:3396px;width:206px;height:38px;z-index:40;}
+#wb_img-unit-07-arp1{position:absolute;left:553px;top:2106px;width:341px;height:215px;z-index:25;}
+#bu-img-unit-01-arp1{position:absolute;left:620px;top:1358px;width:206px;height:38px;z-index:14;}
+#wb_en-header-avenue-logo-arp3{position:absolute;left:817px;top:88px;width:116px;height:113px;z-index:4;}
+#wb_en-call-hd-right-arp3{position:absolute;left:21px;top:18px;width:54px;height:44px;z-index:1;}
+#Button3{position:absolute;left:135px;top:3064px;width:206px;height:38px;z-index:42;}
+#wb_ar-img-compoundmap-arp1{position:absolute;left:74px;top:1101px;width:345px;height:219px;z-index:31;}
+#wb_img-unit-06-arp1{position:absolute;left:76px;top:1771px;width:341px;height:215px;z-index:23;}
+#ar-bu-compoundmap-arp1{position:absolute;left:143px;top:1360px;width:206px;height:38px;z-index:32;}
+#wb_img-unit-05-arp1{position:absolute;left:553px;top:1771px;width:341px;height:215px;z-index:21;}
+
+/* Responsive Media Queries */
+@media only screen and (max-width: 1280px){
+  div#container{width:1280px;}
+  #en-mainheader-arp3{top:0px;height:301px;visibility:visible;width:100%;}
+  #en-mainheader-arp3_Container{width:1280px;}
+  #wb_img-unit-01-arp1{left:61px;top:963px;width:522px;height:316px;}
+  #bu-img-unit-01-arp1{left:223px;top:1346px;width:198px;height:38px;}
+  #wb_img-unit-02-arp1{left:693px;top:1451px;width:532px;height:316px;}
+  #bu-img-unit-02-arp1{left:860px;top:1834px;width:198px;height:38px;}
+  #wb_img-unit-03-arp1{left:693px;top:2915px;width:532px;height:316px;}
+  #bu-img-unit-03-arp1{left:860px;top:3298px;width:198px;height:38px;}
+  #wb_img-unit-04-arp1{left:56px;top:1451px;width:532px;height:316px;}
+  #bu-img-unit-04-arp1{left:223px;top:1834px;width:198px;height:38px;}
+  #wb_img-unit-05-arp1{left:693px;top:1939px;width:532px;height:316px;}
+  #bu-img-unit-05-arp1{left:860px;top:2322px;width:198px;height:38px;}
+  #wb_img-unit-06-arp1{left:56px;top:1939px;width:532px;height:316px;}
+  #bu-img-unit-06-arp1{left:223px;top:2322px;width:198px;height:38px;}
+  #wb_img-unit-07-arp1{left:693px;top:2427px;width:532px;height:316px;}
+  #bu-img-unit-07-arp1{left:860px;top:2810px;width:198px;height:38px;}
+  #wb_img-unit-08-arp1{left:56px;top:2427px;width:532px;height:316px;}
+  #bu-img-unit-08-arp1{left:223px;top:2810px;width:198px;height:38px;}
+  #wb_img-unit-09-arp1{left:56px;top:2915px;width:532px;height:316px;}
+  #bu-img-unit-09-arp1{left:223px;top:3298px;width:198px;height:38px;}
+  #wb_ar-img-compoundmap-arp1{left:693px;top:963px;width:532px;height:316px;}
+  #ar-bu-compoundmap-arp1{left:860px;top:1346px;width:198px;height:38px;}
+  #wb_en-counter-unuts-ex-prv-units-1-arp1{left:403px;top:3396px;width:475px;height:66px;}
+  #wb_en-whats-hd-right-arp3{left:154px;top:17px;width:54px;height:44px;}
+  #wb_en-call-hd-right-arp3{left:27px;top:17px;width:54px;height:44px;}
+  #wb_en-header-arab-contractors-logo-arp3{left:45px;top:95px;width:104px;height:101px;}
+  #wb_en-header-title-arp3{left:373px;top:95px;width:537px;height:101px;}
+  #wb_en-header-avenue-logo-arp3{left:1134px;top:95px;width:104px;height:101px;}
+  #wb_en-call-footer-right-arp3{left:25px;top:162px;width:54px;height:44px;}
+  #wb_en-whats-footer-right-arp3{left:158px;top:162px;width:54px;height:44px;}
+  #wb_Text1{left:270px;top:269px;width:740px;height:24px;}
+  #wb_TextMenu3-arp3{left:412px;top:30px;width:159px;height:167px;}
+  #wb_TextMenu4-arp3{left:25px;top:30px;width:251px;height:85px;}
+  #wb_TextMenu5-arp3{left:1077px;top:30px;width:176px;height:203px;}
+  #wb_TextMenu2-arp3{left:707px;top:30px;width:233px;height:167px;}
+  #wb_ar-apartments-for-sale-in-hurghada-title{left:335px;top:336px;width:611px;height:33px;}
+  #wb_ar-apartments-for-sale-in-hurghada-description{left:34px;top:404px;width:1213px;height:510px;}
+  #wb_en-main-menue-hd-arp3{left:0px;top:255px;width:1280px;height:61px;}
+  #wb_en-up-menue-lang-hd-arp3{left:1067px;top:16px;width:171px;height:47px;}
+  #wb_Image1{left:59px;top:370px;width:522px;height:316px;}
+  #Button1{left:221px;top:753px;width:198px;height:38px;}
+  #wb_Image2{left:54px;top:858px;width:532px;height:316px;}
+  #Button2{left:221px;top:1241px;width:198px;height:38px;}
+  #wb_Image3{left:691px;top:370px;width:532px;height:316px;}
+  #Button3{left:858px;top:753px;width:198px;height:38px;}
+  #en-mainfooter-arp3{top:3493px;height:319px;width:100%;}
+  #en-mainfooter-arp3_Container{width:1280px;}
+}
+
+@media only screen and (max-width: 768px){
+  div#container{width:768px;}
+  #en-mainheader-arp3{top:0px;height:266px;width:100%;}
+  #en-mainheader-arp3_Container{width:768px;}
+  #wb_img-unit-01-arp1{left:176px;top:2005px;width:409px;height:252px;}
+  #bu-img-unit-01-arp1{left:276px;top:2302px;width:208px;height:38px;}
+  #wb_img-unit-02-arp1{left:176px;top:1625px;width:409px;height:252px;}
+  #bu-img-unit-02-arp1{left:276px;top:1922px;width:208px;height:38px;}
+  #wb_img-unit-03-arp1{left:176px;top:2385px;width:409px;height:252px;}
+  #bu-img-unit-03-arp1{left:276px;top:2682px;width:208px;height:38px;}
+  #wb_img-unit-04-arp1{left:176px;top:2765px;width:409px;height:252px;}
+  #bu-img-unit-04-arp1{left:276px;top:3062px;width:208px;height:38px;}
+  #wb_img-unit-05-arp1{left:176px;top:3145px;width:409px;height:252px;}
+  #bu-img-unit-05-arp1{left:276px;top:3442px;width:208px;height:38px;}
+  #wb_img-unit-06-arp1{left:176px;top:3525px;width:409px;height:252px;}
+  #bu-img-unit-06-arp1{left:276px;top:3822px;width:208px;height:38px;}
+  #wb_img-unit-07-arp1{left:176px;top:3905px;width:409px;height:252px;}
+  #bu-img-unit-07-arp1{left:276px;top:4202px;width:208px;height:38px;}
+  #wb_img-unit-08-arp1{left:176px;top:4285px;width:409px;height:252px;}
+  #bu-img-unit-08-arp1{left:276px;top:4582px;width:208px;height:38px;}
+  #wb_img-unit-09-arp1{left:176px;top:4665px;width:409px;height:252px;}
+  #bu-img-unit-09-arp1{left:276px;top:4962px;width:208px;height:38px;}
+  #wb_ar-img-compoundmap-arp1{left:176px;top:1245px;width:409px;height:252px;}
+  #ar-bu-compoundmap-arp1{left:276px;top:1542px;width:208px;height:38px;}
+  #wb_en-counter-unuts-ex-prv-units-1-arp1{left:86px;top:5061px;width:588px;height:62px;}
+  #wb_ar-apartments-for-sale-in-hurghada-title{left:79px;top:292px;width:611px;height:33px;}
+  #wb_ar-apartments-for-sale-in-hurghada-description{left:24px;top:351px;width:720px;height:838px;}
+  #wb_en-main-menue-hd-arp3{left:0px;top:211px;width:768px;height:62px;}
+  #en-mainfooter-arp3{top:5165px;height:444px;width:100%;}
+  #en-mainfooter-arp3_Container{width:768px;}
+}
+
+@media only screen and (max-width: 480px){
+  div#container{width:480px;}
+  #en-mainheader-arp3{top:0px;height:330px;width:100%;}
+  #en-mainheader-arp3_Container{width:480px;}
+  #wb_img-unit-01-arp1{left:60px;top:2106px;width:360px;height:206px;}
+  #bu-img-unit-01-arp1{left:154px;top:2344px;width:172px;height:38px;}
+  #wb_img-unit-02-arp1{left:60px;top:2414px;width:360px;height:206px;}
+  #bu-img-unit-02-arp1{left:154px;top:2652px;width:172px;height:38px;}
+  #wb_img-unit-03-arp1{left:60px;top:2722px;width:360px;height:206px;}
+  #bu-img-unit-03-arp1{left:154px;top:2960px;width:172px;height:38px;}
+  #wb_ar-apartments-for-sale-in-hurghada-title{left:15px;top:353px;width:451px;height:66px;}
+  #wb_ar-apartments-for-sale-in-hurghada-description{left:15px;top:429px;width:451px;height:1310px;}
+  #wb_en-main-menue-hd-arp3{left:30px;top:282px;width:421px;height:62px;}
+  #en-mainfooter-arp3{top:4989px;height:552px;width:100%;}
+  #en-mainfooter-arp3_Container{width:480px;}
+}
+</style>
+
+<!-- Google tag (gtag.js) -->
+<meta name="msvalidate.01" content="7B7B81397CBA521DD4133068C0700FF6"/>
+<meta name="google-site-verification" content="7o7gU_HhcUBbOD3JS5b2oLqrO4efy06Fc3vy8PU78PY"/>
 </head>
-<body class="antialiased selection:bg-gold-500 selection:text-navy-950 overflow-x-hidden">
 
-    <!-- Top Utility Bar -->
-    <div class="bg-navy-950 border-b border-white/5 text-xs text-gray-300 py-2.5 px-4 sm:px-8">
-        <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-4">
-            <div class="flex items-center space-x-6 space-x-reverse">
-                <a href="tel:+201131572319" class="hover:text-gold-400 transition flex items-center gap-2">
-                    <i class="fa-solid fa-phone text-gold-500"></i>
-                    <span dir="ltr">+20 113 157 2319</span>
-                </a>
-                <a href="https://api.whatsapp.com/send?phone=201131572319" target="_blank" class="hover:text-emerald-400 transition flex items-center gap-2">
-                    <i class="fa-brands fa-whatsapp text-emerald-500 text-sm"></i>
-                    <span>تواصل واتس اب</span>
-                </a>
-            </div>
-
-            <!-- Language Switcher -->
-            <div class="relative group">
-                <button class="flex items-center gap-2 hover:text-gold-400 transition bg-white/5 px-3 py-1 rounded-full text-xs">
-                    <i class="fa-solid fa-globe text-gold-500"></i>
-                    <span>العربية (AR)</span>
-                    <i class="fa-solid fa-chevron-down text-[10px]"></i>
-                </button>
-                <div class="absolute left-0 mt-1 w-36 glass-card rounded-xl shadow-2xl py-2 hidden group-hover:block z-50">
-                    <a href="https://hurghadaavenue.github.io" class="block px-4 py-2 hover:bg-gold-500/20 text-gold-400 font-bold">العربية</a>
-                    <a href="https://hurghadaavenue.github.io/eng-index.html" class="block px-4 py-2 hover:bg-gold-500/20 hover:text-gold-400">English</a>
-                    <a href="https://hurghadaavenue.github.io/de/de-index.html" class="block px-4 py-2 hover:bg-gold-500/20 hover:text-gold-400">Deutsch</a>
-                    <a href="https://hurghadaavenue.github.io/ru-index.html" class="block px-4 py-2 hover:bg-gold-500/20 hover:text-gold-400">Русский</a>
-                </div>
-            </div>
+<body>
+<div id="en-mainheader-arp3">
+  <div id="en-mainheader-arp3-overlay"></div>
+  <div id="en-mainheader-arp3_Container">
+    <div id="wb_en-whats-hd-right-arp3"><a class="ui-button ui-corner-all" id="en-whats-hd-right-arp3" href="https://api.whatsapp.com/send?phone=201131572319" title="تواصل معنا عبر واتساب - كمبوند افينيو"></a></div>
+    <div id="wb_en-call-hd-right-arp3"><a class="ui-button ui-corner-all" id="en-call-hd-right-arp3" href="tel:+201131572319" title="اتصل الآن - كمبوند افينيو المقاولون العرب"></a></div>
+    <div id="wb_en-header-arab-contractors-logo-arp3"><a href="https://hurghadaavenue.github.io" title="كمبوند افينيو الغردقة - المقاولون العرب"><img src="imagesmain/المقاولون العرب - شقق فاخرة بالغردقة للبيع.webp" srcset="imagesmain/المقاولون العرب - شقق فاخرة بالغردقة للبيع.webp 2x" id="en-header-arab-contractors-logo-arp3" alt="شقق سكنية للبيع في كمبوند المقاولون العرب بالغردقة" width="116" height="117"></a></div>
+    <div id="wb_en-header-title-arp3"><a href="https://hurghadaavenue.github.io" title="المقاولون العرب - شقق التراديلوكس للبيع في الغردقة"><img src="imagesmain/Hurghada Avenue Compound المقاولون العرب FOTTITL.webp" srcset="imagesmain/Hurghada Avenue Compound المقاولون العرب FOTTITL.webp 2x" id="en-header-title-arp3" alt="المقاولون العرب - شقق التراديلوكس للبيع في الغردقة" width="528" height="98"></a></div>
+    <div id="wb_en-header-avenue-logo-arp3"><a href="https://hurghadaavenue.github.io" title="شقق للبيع - كمبوند افينيو الغردقة - المقاولون العرب"><img src="imagesmain/شقق للبيع في الغردقة في كمبوند المقاولون العرب.webp" srcset="imagesmain/شقق للبيع في الغردقة في كمبوند المقاولون العرب.webp 2x" id="en-header-avenue-logo-arp3" alt="Avenue Compound كمبوند افينيو" width="116" height="113"></a></div>
+    
+    <div id="wb_en-up-menue-lang-hd-arp3">
+      <div id="en-up-menue-lang-hd-arp3" class="en-up-menue-lang-hd-arp3" style="width:100%;height:auto !important;">
+        <div class="container">
+          <div class="navbar-header">
+            <button title="Dropdown Menu" type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target=".en-up-menue-lang-hd-arp3-navbar-collapse">
+              <span class="line" style="background-color:#EABB7B;"></span>
+              <span class="line" style="background-color:#EABB7B;"></span>
+              <span class="line" style="background-color:#EABB7B;"></span>
+            </button>
+          </div>
+          <div class="en-up-menue-lang-hd-arp3-navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="nav-item dropdown">
+                <a href="#" class="dropdown-toggle" data-bs-placement="bottom-start" data-bs-toggle="dropdown">Ar<span class="arrow"></span></a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item dropdown-item"><a href="https://hurghadaavenue.github.io" title="شقق للبيع في الغردقة - كمبوند افينيو المقاولون العرب" class="nav-link">العربية</a></li>
+                  <li class="nav-item dropdown-item"><a href="https://hurghadaavenue.github.io/eng-index.html" title="Apartments For Sale in Hurghada in Avenue Compound" class="nav-link">English</a></li>
+                  <li class="nav-item dropdown-item"><a href="https://hurghadaavenue.github.io/de/de-index.html" title="Ultra-Luxus-Wohnungen zum Verkauf in Hurghada" class="nav-link">Deutsche</a></li>
+                  <li class="nav-item dropdown-item"><a href="https://hurghadaavenue.github.io/ru-index.html" title="Квартира на продажу в Хургаде — жилой комплекс Avenue Эль-Коусер" class="nav-link">Русский</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#" class="dropdown-toggle" data-bs-placement="bottom-start" data-bs-toggle="dropdown">التواصل<span class="arrow"></span></a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item dropdown-item"><a href="tel:+201131572319" title="اتصال - كمبوند افينيو - شقق للبيع في الغردقة" class="nav-link">اتصال</a></li>
+                  <li class="nav-item dropdown-item"><a href="https://api.whatsapp.com/send?phone=201131572319" title="واتس اب - كمبوند افينيو - شقق للبيع في الغردقة" class="nav-link">واتس اب</a></li>
+                  <li class="nav-item dropdown-item"><a href="https://hurghadaavenue.github.io/ar-comtact.html" title="التواصل - كمبوند افينيو الغردقة - شقق للبيع بالغردقة" class="nav-link">صفحة التواصل</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
+</div>
 
-    <!-- Main Navigation Bar -->
-    <header class="sticky top-0 z-40 glass-nav transition-all duration-300">
-        <div class="max-w-7xl mx-auto px-4 sm:px-8 py-3.5 flex justify-between items-center">
-            
-            <!-- Logos Section -->
-            <div class="flex items-center gap-4 sm:gap-6">
-                <a href="https://hurghadaavenue.github.io" class="flex items-center gap-3">
-                    <img src="imagesmain/المقاولون العرب - شقق فاخرة بالغردقة للبيع.webp" 
-                         onerror="this.onerror=null; this.src='https://placehold.co/120x120/0B132B/EFBE7C?text=المقاولون+العرب'" 
-                         alt="شعار المقاولون العرب" 
-                         class="h-11 sm:h-14 w-auto object-contain">
-                    <div class="hidden md:block h-8 w-[1px] bg-white/10"></div>
-                    <img src="imagesmain/شقق للبيع في الغردقة في كمبوند المقاولون العرب.webp" 
-                         onerror="this.onerror=null; this.src='https://placehold.co/120x120/0B132B/EFBE7C?text=Avenue+Compound'" 
-                         alt="كمبوند أفينيو الغردقة" 
-                         class="h-11 sm:h-14 w-auto object-contain">
-                </a>
-            </div>
+<div id="container">
+  <div id="wb_img-unit-01-arp1"><a href="https://hurghadaavenue.github.io/03-ar-studio-40m.html" title="شقة ستوديو للبيع 50م² بكمبوند افينيو الغردقة"><img src="imagesmain/شقة ستوديو للبيع في الغردقة بكمبوند افينيو 40م².jpg" srcset="imagesmain/شقة ستوديو للبيع في الغردقة بكمبوند افينيو 40م².jpg 2x" id="img-unit-01-arp1" alt="شقة ستوديو للبيع 50م² بكمبوند افينيو الغردقة المقاولون العرب" width="341" height="210"></a></div>
+  <a id="bu-img-unit-01-arp1" href="https://hurghadaavenue.github.io/03-ar-studio-40m.html" title="شقق استيديو للبيع بالغردقة 40م² كمبوند افينيو">التفاصيل</a>
 
-            <!-- Desktop Navigation Menu -->
-            <nav class="hidden lg:flex items-center gap-7 text-sm font-semibold">
-                <a href="https://hurghadaavenue.github.io" class="text-gold-400 hover:text-gold-500 transition">الرئيسية</a>
-                
-                <!-- Units Dropdown -->
-                <div class="relative group py-2">
-                    <a href="#units-section" class="hover:text-gold-400 transition flex items-center gap-1.5">
-                        <span>الوحدات والمساحات</span>
-                        <i class="fa-solid fa-chevron-down text-[10px]"></i>
-                    </a>
-                    <div class="absolute right-0 mt-2 w-64 glass-card rounded-2xl shadow-2xl p-3 hidden group-hover:grid grid-cols-2 gap-1 z-50">
-                        <a href="https://hurghadaavenue.github.io/03-ar-studio-40m.html" class="p-2 rounded-lg hover:bg-gold-500/10 text-xs hover:text-gold-400">ستوديو 40م²</a>
-                        <a href="https://hurghadaavenue.github.io/01-ar-studio-50m.html" class="p-2 rounded-lg hover:bg-gold-500/10 text-xs hover:text-gold-400">ستوديو 50م²</a>
-                        <a href="https://hurghadaavenue.github.io/02-ar-studio-51m.html" class="p-2 rounded-lg hover:bg-gold-500/10 text-xs hover:text-gold-400">ستوديو 51م²</a>
-                        <a href="https://hurghadaavenue.github.io/04-onebedroom-63m.html" class="p-2 rounded-lg hover:bg-gold-500/10 text-xs hover:text-gold-400">شقة 63م²</a>
-                        <a href="https://hurghadaavenue.github.io/05-onebedroom-68m.html" class="p-2 rounded-lg hover:bg-gold-500/10 text-xs hover:text-gold-400">شقة 68م²</a>
-                        <a href="https://hurghadaavenue.github.io/06-twobedrooms-98m.html" class="p-2 rounded-lg hover:bg-gold-500/10 text-xs hover:text-gold-400">شقة 98م²</a>
-                        <a href="https://hurghadaavenue.github.io/07-twobedrooms-108m.html" class="p-2 rounded-lg hover:bg-gold-500/10 text-xs hover:text-gold-400">شقة 108م²</a>
-                        <a href="https://hurghadaavenue.github.io/08-twobedrooms-110m.html" class="p-2 rounded-lg hover:bg-gold-500/10 text-xs hover:text-gold-400">شقة 110م²</a>
-                        <a href="https://hurghadaavenue.github.io/12-twobedrooms-120m.html" class="p-2 rounded-lg hover:bg-gold-500/10 text-xs hover:text-gold-400">شقة 120م²</a>
-                        <a href="https://hurghadaavenue.github.io/09-threebedrooms-123m.html" class="p-2 rounded-lg hover:bg-gold-500/10 text-xs hover:text-gold-400">شقة 123م²</a>
-                        <a href="https://hurghadaavenue.github.io/10-threebedrooms-125m.html" class="p-2 rounded-lg hover:bg-gold-500/10 text-xs hover:text-gold-400">شقة 125م²</a>
-                        <a href="https://hurghadaavenue.github.io/11-threebedrooms-145m.html" class="p-2 rounded-lg hover:bg-gold-500/10 text-xs hover:text-gold-400">شقة 145م²</a>
-                    </div>
-                </div>
+  <div id="wb_img-unit-02-arp1"><a href="https://hurghadaavenue.github.io/02-ar-studio-51m.html" title="شقق للبيع بكمبوند المقاولون العرب بالغردقة 51م²"><img src="imagesmain/ستوديو للبيع فث الغردقة 51م² بكمبوند افينيو.jpg" srcset="imagesmain/ستوديو للبيع فث الغردقة 51م² بكمبوند افينيو.jpg 2x" id="img-unit-02-arp1" alt="شقق ستوديو 51م² للبيع بالغردقة كمبوند افينيو" width="341" height="210"></a></div>
+  <a id="bu-img-unit-02-arp1" href="https://hurghadaavenue.github.io/02-ar-studio-51m.html" title="ستوديو 51م² للبيع بالغردقة">التفاصيل</a>
 
-                <!-- Info Dropdown -->
-                <div class="relative group py-2">
-                    <a href="#features-section" class="hover:text-gold-400 transition flex items-center gap-1.5">
-                        <span>تفاصيل المشروع</span>
-                        <i class="fa-solid fa-chevron-down text-[10px]"></i>
-                    </a>
-                    <div class="absolute right-0 mt-2 w-52 glass-card rounded-2xl shadow-2xl p-2 hidden group-hover:block z-50">
-                        <a href="https://hurghadaavenue.github.io/ar-finishing.html" class="block p-2.5 rounded-lg hover:bg-gold-500/10 text-xs hover:text-gold-400">مواصفات التشطيب</a>
-                        <a href="https://hurghadaavenue.github.io/ar-compount-features.html" class="block p-2.5 rounded-lg hover:bg-gold-500/10 text-xs hover:text-gold-400">مزايا الكمبوند</a>
-                        <a href="https://hurghadaavenue.github.io/ar-location-features.html" class="block p-2.5 rounded-lg hover:bg-gold-500/10 text-xs hover:text-gold-400">مزايا الموقع</a>
-                    </div>
-                </div>
+  <div id="wb_img-unit-03-arp1"><a href="https://hurghadaavenue.github.io/12-twobedrooms-120m.html" title="شقق للبيع بكمبوند المقاولون العرب بالغردقة 120م²"><img src="imagesmain/شقة 120م² للبيع في الغردقة Aneue Compound.jpg" id="img-unit-03-arp1" alt="شقق للبيع بكمبوند المقاولون العرب بالغردقة 120م²" width="341" height="210"></a></div>
+  <a id="bu-img-unit-03-arp1" href="https://hurghadaavenue.github.io/12-twobedrooms-120m.html" title="المقاولون العرب - شقق 120م² للبيع بالغردقة">التفاصيل</a>
 
-                <a href="https://hurghadaavenue.github.io/ar-orangepay.html" class="hover:text-gold-400 transition">أورانج باي</a>
-                <a href="https://hurghadaavenue.github.io/ar-company.html" class="hover:text-gold-400 transition">عن الشركة</a>
-                <a href="https://hurghadaavenue.github.io/ar-prices.html" class="hover:text-gold-400 transition">الأسعار ونظم الدفع</a>
-            </nav>
+  <div id="wb_img-unit-04-arp1"><a href="https://hurghadaavenue.github.io/04-onebedroom-63m.html" title="المقاولون العرب - شقق 63م² للبيع بالغردقة"><img src="imagesmain/شقة غرفة واحدة 63م² للبيع في الغردقة بكمبوند افينيو.jpg" srcset="imagesmain/شقة غرفة واحدة 63م² للبيع في الغردقة بكمبوند افينيو.jpg 2x" id="img-unit-04-arp1" alt="المقاولون العرب - شقق 63م² للبيع بالغردقة" width="341" height="210"></a></div>
+  <a id="bu-img-unit-04-arp1" href="https://hurghadaavenue.github.io/04-onebedroom-63m.html" title="المقاولون العرب - شقة 63م² للبيع بالغردقة">التفاصيل</a>
 
-            <!-- CTA Call Button -->
-            <div class="flex items-center gap-3">
-                <a href="tel:+201131572319" class="gold-gradient-bg text-navy-950 font-bold px-5 py-2.5 rounded-full text-xs sm:text-sm transition-all transform hover:scale-105 shadow-lg shadow-gold-500/20 flex items-center gap-2">
-                    <i class="fa-solid fa-headset"></i>
-                    <span>احجز وحدتك الآن</span>
-                </a>
+  <div id="wb_img-unit-05-arp1"><a href="https://hurghadaavenue.github.io/05-onebedroom-68m.html" title="شقق للبيع بكمبوند المقاولون العرب في الغردقة 68م²"><img src="imagesmain/شقة غرفة واحدة 68م² للبيع بالغردقة المقاولون العرب.jpg" id="img-unit-05-arp1" alt="شقق للبيع بكمبوند المقاولون العرب في الغردقة 68م²" width="341" height="210"></a></div>
+  <a id="bu-img-unit-05-arp1" href="https://hurghadaavenue.github.io/05-onebedroom-68m.html" title="المقاولون العرب - شقق 68م² للبيع بالغردقة">التفاصيل</a>
 
-                <!-- Mobile Menu Button -->
-                <button id="mobile-menu-btn" class="lg:hidden text-2xl text-gold-400 p-2 focus:outline-none">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-            </div>
+  <div id="wb_img-unit-06-arp1"><a href="https://hurghadaavenue.github.io/06-twobedrooms-98m.html" title="شقق للبيع بكمبوند المقاولون العرب في الغردقة 98م²"><img src="imagesmain/شقة للبيع في الغردقة 98م² - كمباوند افينيو الغردقة.jpg" id="img-unit-06-arp1" alt="شقق للبيع بكمبوند المقاولون العرب في الغردقة 98م²" width="341" height="210"></a></div>
+  <a id="bu-img-unit-06-arp1" href="https://hurghadaavenue.github.io/06-twobedrooms-98m.html" title="المقاولون العرب - شقق 98م² للبيع بالغردقة">التفاصيل</a>
+
+  <div id="wb_img-unit-07-arp1"><a href="https://hurghadaavenue.github.io/07-twobedrooms-108m.html" title="شقق للبيع بكمبوند المقاولون العرب في الغردقة 108م²"><img src="imagesmain/شقة للبيع بالغردقة 108م² داخل كمبوند افينيو الغردقة.jpg" id="img-unit-07-arp1" alt="شقق للبيع بكمبوند المقاولون العرب في الغردقة 108م²" width="341" height="210"></a></div>
+  <a id="bu-img-unit-07-arp1" href="https://hurghadaavenue.github.io/07-twobedrooms-108m.html" title="المقاولون العرب - شقق 108م² للبيع بالغردقة">التفاصيل</a>
+
+  <div id="wb_img-unit-08-arp1"><a href="https://hurghadaavenue.github.io/08-twobedrooms-110m.html" title="شقق من المقاولون العرب للبيع في الغردقة 110م²"><img src="imagesmain/شقة للبيع بالغردقة 110م² بكمبوند افينيو الغردقة.jpg" id="img-unit-08-arp1" alt="شقق من المقاولون العرب للبيع في الغردقة 110م²" width="341" height="210"></a></div>
+  <a id="bu-img-unit-08-arp1" href="https://hurghadaavenue.github.io/08-twobedrooms-110m.html" title="المقاولون العرب - شقة 110م² للبيع بالغردقة">التفاصيل</a>
+
+  <div id="wb_img-unit-09-arp1"><a href="https://hurghadaavenue.github.io/09-threebedrooms-123m.html" title="شقق من المقاولون العرب للبيع في الغردقة 123م²"><img src="imagesmain/شقة للبيع بالغردقة 123م² في كمبوند افينيو الغردقة.jpg" id="img-unit-09-arp1" alt="شقق من المقاولون العرب للبيع في الغردقة 123م²" width="341" height="210"></a></div>
+  <a id="bu-img-unit-09-arp1" href="https://hurghadaavenue.github.io/09-threebedrooms-123m.html" title="المقاولون العرب - شقق 123م² للبيع في الغردقة">التفاصيل</a>
+
+  <div id="wb_ar-img-compoundmap-arp1"><a href="https://hurghadaavenue.github.io/ar-compound-map.html" title="شقق التراديلوكس للبيع بكمبوند المقاولون العرب بالغردقة"><img src="imagesmain/ar-project-floorplan.webp" srcset="imagesmain/ar-project-floorplan.webp 2x" id="ar-img-compoundmap-arp1" alt="خريطة الكمبوند - شقق للبيع في الغردقة" width="341" height="202"></a></div>
+  <a id="ar-bu-compoundmap-arp1" href="https://hurghadaavenue.github.io/ar-compound-map.html" title="ستوديو 51م² للبيع بالغردقة">مواقع الوحدات</a>
+
+  <div id="wb_en-counter-unuts-ex-prv-units-1-arp1">
+    <div id="en-counter-unuts-ex-prv-units-1-arp1" class="en-counter-unuts-ex-prv-units-1-arp1" style="width:100%;height:auto !important;">
+      <div class="container">
+        <div class="navbar-header">
+          <button title="Dropdown Menu" type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target=".en-counter-unuts-ex-prv-units-1-arp1-navbar-collapse"><span class="line" style="background-color:#EABB7B;"></span><span class="line" style="background-color:#EABB7B;"></span><span class="line" style="background-color:#EABB7B;"></span></button>
         </div>
-
-        <!-- Mobile Navigation Menu Dropdown -->
-        <div id="mobile-menu" class="hidden lg:hidden bg-navy-900/95 border-b border-gold-500/20 px-6 py-6 transition-all">
-            <div class="flex flex-col gap-4 font-semibold text-sm">
-                <a href="https://hurghadaavenue.github.io" class="text-gold-400">الرئيسية</a>
-                <a href="#units-section" class="hover:text-gold-400">الوحدات والمساحات</a>
-                <a href="#features-section" class="hover:text-gold-400">مميزات الكمبوند</a>
-                <a href="https://hurghadaavenue.github.io/ar-finishing.html" class="hover:text-gold-400">مواصفات التشطيب</a>
-                <a href="https://hurghadaavenue.github.io/ar-location-features.html" class="hover:text-gold-400">مزايا الموقع</a>
-                <a href="https://hurghadaavenue.github.io/ar-orangepay.html" class="hover:text-gold-400">عضوية أورانج باي</a>
-                <a href="https://hurghadaavenue.github.io/ar-company.html" class="hover:text-gold-400">عن المقاولون العرب</a>
-                <a href="https://hurghadaavenue.github.io/ar-prices.html" class="hover:text-gold-400">الأسعار وطرق السداد</a>
-                <a href="https://hurghadaavenue.github.io/ar-comtact.html" class="hover:text-gold-400">صفحة التواصل</a>
-            </div>
+        <div class="en-counter-unuts-ex-prv-units-1-arp1-navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="nav-item"><a href="./ar-units.html" class="nav-link">السابق</a></li>
+            <li class="nav-item"><a href="./01-ar-studio-50m.html" class="nav-link">1</a></li>
+            <li class="nav-item"><a href="./02-ar-studio-51m.html" class="nav-link">2</a></li>
+            <li class="nav-item"><a href="./03-ar-studio-40m.html" class="nav-link">3</a></li>
+            <li class="nav-item"><a href="./ar-units.html" class="nav-link">التالي</a></li>
+          </ul>
         </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="relative min-h-[85vh] flex items-center justify-center py-20 px-4 sm:px-8 bg-cover bg-center overflow-hidden" style="background-image: url('imagesmain/3.webp');">
-        <!-- Overlay Layer -->
-        <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/80 to-navy-900/60"></div>
-
-        <div class="relative z-10 max-w-5xl mx-auto text-center space-y-8">
-            <!-- Badge -->
-            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card text-gold-400 text-xs sm:text-sm font-semibold border border-gold-500/30 shadow-xl">
-                <i class="fa-solid fa-award text-gold-400"></i>
-                <span>المشروع الأحدث والأفخم في قلب الغردقة - المقاولون العرب</span>
-            </div>
-
-            <!-- Title Header Image & Headline -->
-            <div class="space-y-4">
-                <div class="flex justify-center mb-4">
-                    <img src="imagesmain/Hurghada Avenue Compound المقاولون العرب FOTTITL.webp" 
-                         onerror="this.onerror=null; this.src='https://placehold.co/600x120/0B132B/EFBE7C?text=كمبوند+أفينيو+الغردقة'" 
-                         alt="المقاولون العرب - شقق التراديلوكس للبيع في الغردقة" 
-                         class="max-w-xs sm:max-w-md md:max-w-lg w-full h-auto drop-shadow-2xl">
-                </div>
-                <h1 class="text-3xl sm:text-5xl md:text-6xl font-black leading-tight tracking-tight">
-                    امتلك شقتك بتشطيب <span class="gold-gradient-text">ألترا ديلوكس</span> بموصفات عالمية
-                </h1>
-                <p class="text-gray-300 text-base sm:text-xl max-w-3xl mx-auto font-light leading-relaxed">
-                    بقلب الكوثر المنطقة السياحية الأولى أمام مطار الغردقة الدولي مباشرة وعلى بعد دقيقة من الممشى السياحي.
-                </p>
-            </div>
-
-            <!-- Highlights Quick Badges -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto pt-4">
-                <div class="glass-card p-4 rounded-2xl text-center">
-                    <i class="fa-solid fa-car text-gold-400 text-2xl mb-2"></i>
-                    <h2 class="text-xs sm:text-sm font-bold text-gray-200">جراج 40,000م²</h2>
-                    <p class="text-[11px] text-gray-400">بكامل مساحة البدروم</p>
-                </div>
-                <div class="glass-card p-4 rounded-2xl text-center">
-                    <i class="fa-solid fa-water-ladder text-gold-400 text-2xl mb-2"></i>
-                    <h2 class="text-xs sm:text-sm font-bold text-gray-200">5 حمامات سباحة</h2>
-                    <p class="text-[11px] text-gray-400">ومساحات خضراء شاسعة</p>
-                </div>
-                <div class="glass-card p-4 rounded-2xl text-center">
-                    <i class="fa-solid fa-file-contract text-gold-400 text-2xl mb-2"></i>
-                    <h2 class="text-xs sm:text-sm font-bold text-gray-200">تقسيط حتى 8 سنوات</h2>
-                    <p class="text-[11px] text-gray-400">بخطط سداد مرنة وميسرة</p>
-                </div>
-                <div class="glass-card p-4 rounded-2xl text-center">
-                    <i class="fa-solid fa-shield-halved text-gold-400 text-2xl mb-2"></i>
-                    <h2 class="text-xs sm:text-sm font-bold text-gray-200">عقود مسجلة</h2>
-                    <p class="text-[11px] text-gray-400">من المقاولون العرب مباشرة</p>
-                </div>
-            </div>
-
-            <!-- Action Buttons -->
-            <div class="flex flex-wrap justify-center items-center gap-4 pt-6">
-                <a href="https://api.whatsapp.com/send?phone=201131572319" target="_blank" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-8 py-4 rounded-full shadow-lg shadow-emerald-600/30 flex items-center gap-3 transition-all transform hover:-translate-y-1">
-                    <i class="fa-brands fa-whatsapp text-xl"></i>
-                    <span>تواصل عبر الواتساب</span>
-                </a>
-                <a href="tel:+201131572319" class="glass-card hover:bg-white/10 text-gold-400 border border-gold-500/40 font-bold px-8 py-4 rounded-full shadow-lg flex items-center gap-3 transition-all transform hover:-translate-y-1">
-                    <i class="fa-solid fa-phone-flip text-lg"></i>
-                    <span>اتصال مباشر: 01131572319</span>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Units Grid Section -->
-    <section id="units-section" class="py-24 px-4 sm:px-8 max-w-7xl mx-auto relative">
-        <div class="text-center space-y-4 mb-16">
-            <h2 class="text-gold-400 text-sm font-extrabold uppercase tracking-widest">نماذج الوحدات السكنية</h2>
-            <p class="text-3xl sm:text-5xl font-black">اختر مساحة شقتك المثالية بكمبوند أفينيو</p>
-            <div class="h-1 w-24 gold-gradient-bg mx-auto rounded-full"></div>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-            <!-- Card 0: Compound Map -->
-            <div class="glass-card rounded-3xl overflow-hidden group hover:border-gold-500/50 transition-all duration-300 flex flex-col justify-between shadow-2xl">
-                <div class="relative overflow-hidden h-56">
-                    <img src="imagesmain/ar-project-floorplan.webp" 
-                         onerror="this.onerror=null; this.src='https://placehold.co/400x250/0B132B/EFBE7C?text=خريطة+الكمبوند'" 
-                         alt="مخطط وخريطة كمبوند افينيو" 
-                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-transparent"></div>
-                    <span class="absolute top-4 right-4 bg-navy-950/80 text-gold-400 font-bold text-xs px-3 py-1.5 rounded-full border border-gold-500/30">
-                        مخطط الكمبوند
-                    </span>
-                </div>
-                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h3 class="text-xl font-bold text-white mb-2">خريطة ومواقع الوحدات بالكمبوند</h3>
-                        <p class="text-xs text-gray-400 leading-relaxed">استعرض المخطط العام، توزيع حمامات السباحة، المساحات الخضراء ومواقع العمائر السكنية.</p>
-                    </div>
-                    <a href="https://hurghadaavenue.github.io/ar-compound-map.html" class="w-full text-center gold-gradient-bg text-navy-950 font-bold py-3 rounded-2xl block hover:opacity-95 transition shadow-lg">
-                        عرض مواقع الوحدات
-                    </a>
-                </div>
-            </div>
-
-            <!-- Card 1: Studio 40m² -->
-            <div class="glass-card rounded-3xl overflow-hidden group hover:border-gold-500/50 transition-all duration-300 flex flex-col justify-between shadow-2xl">
-                <div class="relative overflow-hidden h-56">
-                    <img src="imagesmain/شقة ستوديو للبيع في الغردقة بكمبوند افينيو 40م².jpg" 
-                         onerror="this.onerror=null; this.src='https://placehold.co/400x250/0B132B/EFBE7C?text=ستوديو+40م²'" 
-                         alt="ستوديو للبيع 40م²" 
-                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-transparent"></div>
-                    <span class="absolute top-4 right-4 bg-gold-500 text-navy-950 font-black text-xs px-3 py-1.5 rounded-full">
-                        مساحة 40م²
-                    </span>
-                </div>
-                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h3 class="text-xl font-bold text-white mb-2">شقة ستوديو فاخرة 40م²</h3>
-                        <p class="text-xs text-gray-400 leading-relaxed">تصميم استغلال مساحات ذكي، مناسبة جداً للاستثمار السياحي والسكن الفردي بأعلى عائد.</p>
-                    </div>
-                    <a href="https://hurghadaavenue.github.io/03-ar-studio-40m.html" class="w-full text-center border border-gold-500/40 text-gold-400 hover:bg-gold-500/10 font-bold py-3 rounded-2xl block transition">
-                        تفاصيل النموذج
-                    </a>
-                </div>
-            </div>
-
-            <!-- Card 2: Studio 51m² -->
-            <div class="glass-card rounded-3xl overflow-hidden group hover:border-gold-500/50 transition-all duration-300 flex flex-col justify-between shadow-2xl">
-                <div class="relative overflow-hidden h-56">
-                    <img src="imagesmain/ستوديو للبيع فث الغردقة 51م² بكمبوند افينيو.jpg" 
-                         onerror="this.onerror=null; this.src='https://placehold.co/400x250/0B132B/EFBE7C?text=ستوديو+51م²'" 
-                         alt="ستوديو 51م² للبيع بالغردقة" 
-                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-transparent"></div>
-                    <span class="absolute top-4 right-4 bg-gold-500 text-navy-950 font-black text-xs px-3 py-1.5 rounded-full">
-                        مساحة 51م²
-                    </span>
-                </div>
-                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h3 class="text-xl font-bold text-white mb-2">ستوديو متميز 51م²</h3>
-                        <p class="text-xs text-gray-400 leading-relaxed">إطلالات مباشرة على حمامات السباحة والحدائق بفيو مفتوح وتراس واسع.</p>
-                    </div>
-                    <a href="https://hurghadaavenue.github.io/02-ar-studio-51m.html" class="w-full text-center border border-gold-500/40 text-gold-400 hover:bg-gold-500/10 font-bold py-3 rounded-2xl block transition">
-                        تفاصيل النموذج
-                    </a>
-                </div>
-            </div>
-
-            <!-- Card 3: One Bedroom 63m² -->
-            <div class="glass-card rounded-3xl overflow-hidden group hover:border-gold-500/50 transition-all duration-300 flex flex-col justify-between shadow-2xl">
-                <div class="relative overflow-hidden h-56">
-                    <img src="imagesmain/شقة غرفة واحدة 63م² للبيع في الغردقة بكمبوند افينيو.jpg" 
-                         onerror="this.onerror=null; this.src='https://placehold.co/400x250/0B132B/EFBE7C?text=شقة+63م²'" 
-                         alt="شقة 63م² غرفة وصالة" 
-                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-transparent"></div>
-                    <span class="absolute top-4 right-4 bg-gold-500 text-navy-950 font-black text-xs px-3 py-1.5 rounded-full">
-                        غرفة وصالة - 63م²
-                    </span>
-                </div>
-                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h3 class="text-xl font-bold text-white mb-2">شقة غرفة نوم واحدة 63م²</h3>
-                        <p class="text-xs text-gray-400 leading-relaxed">تشمل غرفة نوم رئيسية، ريسيبشن، مطبخ وحمام وتراس بلمسات ألترا ديلوكس.</p>
-                    </div>
-                    <a href="https://hurghadaavenue.github.io/04-onebedroom-63m.html" class="w-full text-center border border-gold-500/40 text-gold-400 hover:bg-gold-500/10 font-bold py-3 rounded-2xl block transition">
-                        تفاصيل النموذج
-                    </a>
-                </div>
-            </div>
-
-            <!-- Card 4: One Bedroom 68m² -->
-            <div class="glass-card rounded-3xl overflow-hidden group hover:border-gold-500/50 transition-all duration-300 flex flex-col justify-between shadow-2xl">
-                <div class="relative overflow-hidden h-56">
-                    <img src="imagesmain/شقة غرفة واحدة 68م² للبيع بالغردقة المقاولون العرب.jpg" 
-                         onerror="this.onerror=null; this.src='https://placehold.co/400x250/0B132B/EFBE7C?text=شقة+68م²'" 
-                         alt="شقة 68م² الغردقة المقاولون العرب" 
-                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-transparent"></div>
-                    <span class="absolute top-4 right-4 bg-gold-500 text-navy-950 font-black text-xs px-3 py-1.5 rounded-full">
-                        غرفة وصالة - 68م²
-                    </span>
-                </div>
-                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h3 class="text-xl font-bold text-white mb-2">شقة غرفة واحدة 68م²</h3>
-                        <p class="text-xs text-gray-400 leading-relaxed">تقسيم داخلي مميز يمنحك الراحة والاتساع التام مع إطلالة بانورامية.</p>
-                    </div>
-                    <a href="https://hurghadaavenue.github.io/05-onebedroom-68m.html" class="w-full text-center border border-gold-500/40 text-gold-400 hover:bg-gold-500/10 font-bold py-3 rounded-2xl block transition">
-                        تفاصيل النموذج
-                    </a>
-                </div>
-            </div>
-
-            <!-- Card 5: Two Bedrooms 98m² -->
-            <div class="glass-card rounded-3xl overflow-hidden group hover:border-gold-500/50 transition-all duration-300 flex flex-col justify-between shadow-2xl">
-                <div class="relative overflow-hidden h-56">
-                    <img src="imagesmain/شقة للبيع في الغردقة 98م² - كمباوند افينيو الغردقة.jpg" 
-                         onerror="this.onerror=null; this.src='https://placehold.co/400x250/0B132B/EFBE7C?text=شقة+98م²'" 
-                         alt="شقة غرفتين 98م²" 
-                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-transparent"></div>
-                    <span class="absolute top-4 right-4 bg-gold-500 text-navy-950 font-black text-xs px-3 py-1.5 rounded-full">
-                        غرفتين وصالة - 98م²
-                    </span>
-                </div>
-                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h3 class="text-xl font-bold text-white mb-2">شقة غرفتين نوم 98م²</h3>
-                        <p class="text-xs text-gray-400 leading-relaxed">مثالية للعائلات، تصميم عصري يوفر أعلى درجات الخصوصية والرفاهية.</p>
-                    </div>
-                    <a href="https://hurghadaavenue.github.io/06-twobedrooms-98m.html" class="w-full text-center border border-gold-500/40 text-gold-400 hover:bg-gold-500/10 font-bold py-3 rounded-2xl block transition">
-                        تفاصيل النموذج
-                    </a>
-                </div>
-            </div>
-
-            <!-- Card 6: Two Bedrooms 108m² -->
-            <div class="glass-card rounded-3xl overflow-hidden group hover:border-gold-500/50 transition-all duration-300 flex flex-col justify-between shadow-2xl">
-                <div class="relative overflow-hidden h-56">
-                    <img src="imagesmain/شقة للبيع بالغردقة 108م² داخل كمبوند افينيو الغردقة.jpg" 
-                         onerror="this.onerror=null; this.src='https://placehold.co/400x250/0B132B/EFBE7C?text=شقة+108م²'" 
-                         alt="شقة غرفتين 108م²" 
-                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-transparent"></div>
-                    <span class="absolute top-4 right-4 bg-gold-500 text-navy-950 font-black text-xs px-3 py-1.5 rounded-full">
-                        غرفتين وصالة - 108م²
-                    </span>
-                </div>
-                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h3 class="text-xl font-bold text-white mb-2">شقة غرفتين نوم 108م²</h3>
-                        <p class="text-xs text-gray-400 leading-relaxed">مساحة واسعة للحرية العائلية، تشطيبات فاخرة، مع إطلالات مميزة.</p>
-                    </div>
-                    <a href="https://hurghadaavenue.github.io/07-twobedrooms-108m.html" class="w-full text-center border border-gold-500/40 text-gold-400 hover:bg-gold-500/10 font-bold py-3 rounded-2xl block transition">
-                        تفاصيل النموذج
-                    </a>
-                </div>
-            </div>
-
-            <!-- Card 7: Two Bedrooms 110m² -->
-            <div class="glass-card rounded-3xl overflow-hidden group hover:border-gold-500/50 transition-all duration-300 flex flex-col justify-between shadow-2xl">
-                <div class="relative overflow-hidden h-56">
-                    <img src="imagesmain/شقة للبيع بالغردقة 110م² بكمبوند افينيو الغردقة.jpg" 
-                         onerror="this.onerror=null; this.src='https://placehold.co/400x250/0B132B/EFBE7C?text=شقة+110م²'" 
-                         alt="شقة غرفتين 110م²" 
-                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-transparent"></div>
-                    <span class="absolute top-4 right-4 bg-gold-500 text-navy-950 font-black text-xs px-3 py-1.5 rounded-full">
-                        غرفتين وصالة - 110م²
-                    </span>
-                </div>
-                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h3 class="text-xl font-bold text-white mb-2">شقة فاخرة غرفتين 110م²</h3>
-                        <p class="text-xs text-gray-400 leading-relaxed">إطلالة مزدوجة وحمامات واسعة مع أحدث مستويات التجهيزات المعمارية.</p>
-                    </div>
-                    <a href="https://hurghadaavenue.github.io/08-twobedrooms-110m.html" class="w-full text-center border border-gold-500/40 text-gold-400 hover:bg-gold-500/10 font-bold py-3 rounded-2xl block transition">
-                        تفاصيل النموذج
-                    </a>
-                </div>
-            </div>
-
-            <!-- Card 8: Two Bedrooms 120m² -->
-            <div class="glass-card rounded-3xl overflow-hidden group hover:border-gold-500/50 transition-all duration-300 flex flex-col justify-between shadow-2xl">
-                <div class="relative overflow-hidden h-56">
-                    <img src="imagesmain/شقة 120م² للبيع في الغردقة Aneue Compound.jpg" 
-                         onerror="this.onerror=null; this.src='https://placehold.co/400x250/0B132B/EFBE7C?text=شقة+120م²'" 
-                         alt="شقة 120م² بالغردقة" 
-                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-transparent"></div>
-                    <span class="absolute top-4 right-4 bg-gold-500 text-navy-950 font-black text-xs px-3 py-1.5 rounded-full">
-                        غرفتين كبيرة - 120م²
-                    </span>
-                </div>
-                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h3 class="text-xl font-bold text-white mb-2">شقة راقية 120م²</h3>
-                        <p class="text-xs text-gray-400 leading-relaxed">ريسيبشن واسع ومساحات معيشة ورحابة غير محدودة تناسب أصحاب الذوق الرفيع.</p>
-                    </div>
-                    <a href="https://hurghadaavenue.github.io/12-twobedrooms-120m.html" class="w-full text-center border border-gold-500/40 text-gold-400 hover:bg-gold-500/10 font-bold py-3 rounded-2xl block transition">
-                        تفاصيل النموذج
-                    </a>
-                </div>
-            </div>
-
-            <!-- Card 9: Three Bedrooms 123m² -->
-            <div class="glass-card rounded-3xl overflow-hidden group hover:border-gold-500/50 transition-all duration-300 flex flex-col justify-between shadow-2xl">
-                <div class="relative overflow-hidden h-56">
-                    <img src="imagesmain/شقة للبيع بالغردقة 123م² في كمبوند افينيو الغردقة.jpg" 
-                         onerror="this.onerror=null; this.src='https://placehold.co/400x250/0B132B/EFBE7C?text=شقة+123م²'" 
-                         alt="شقة 3 غرف 123م²" 
-                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-transparent"></div>
-                    <span class="absolute top-4 right-4 bg-gold-500 text-navy-950 font-black text-xs px-3 py-1.5 rounded-full">
-                        3 غرف نوم - 123م²
-                    </span>
-                </div>
-                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h3 class="text-xl font-bold text-white mb-2">شقة عائلية 3 غرف 123م²</h3>
-                        <p class="text-xs text-gray-400 leading-relaxed">توزيع استثنائي مع 3 غرف نوم مريحة، مناسبة للعائلات الكبيرة للإقامة أو المصيف.</p>
-                    </div>
-                    <a href="https://hurghadaavenue.github.io/09-threebedrooms-123m.html" class="w-full text-center border border-gold-500/40 text-gold-400 hover:bg-gold-500/10 font-bold py-3 rounded-2xl block transition">
-                        تفاصيل النموذج
-                    </a>
-                </div>
-            </div>
-
-            <!-- Card 10: Three Bedrooms 125m² -->
-            <div class="glass-card rounded-3xl overflow-hidden group hover:border-gold-500/50 transition-all duration-300 flex flex-col justify-between shadow-2xl">
-                <div class="relative overflow-hidden h-56">
-                    <img src="imagesmain/شقة للبيع بالغردقة 123م² في كمبوند افينيو الغردقة.jpg" 
-                         onerror="this.onerror=null; this.src='https://placehold.co/400x250/0B132B/EFBE7C?text=شقة+125م²'" 
-                         alt="شقة 3 غرف 125م²" 
-                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-transparent"></div>
-                    <span class="absolute top-4 right-4 bg-gold-500 text-navy-950 font-black text-xs px-3 py-1.5 rounded-full">
-                        3 غرف نوم - 125م²
-                    </span>
-                </div>
-                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h3 class="text-xl font-bold text-white mb-2">شقة الملكية الفاخرة 125م²</h3>
-                        <p class="text-xs text-gray-400 leading-relaxed">تشطيبات التراديلوكس على أعلى مستوى مع شرفات مطلة على الشوارع الرئيسية والرئيسية.</p>
-                    </div>
-                    <a href="https://hurghadaavenue.github.io/10-threebedrooms-125m.html" class="w-full text-center border border-gold-500/40 text-gold-400 hover:bg-gold-500/10 font-bold py-3 rounded-2xl block transition">
-                        تفاصيل النموذج
-                    </a>
-                </div>
-            </div>
-
-            <!-- Card 11: Three Bedrooms 145m² -->
-            <div class="glass-card rounded-3xl overflow-hidden group hover:border-gold-500/50 transition-all duration-300 flex flex-col justify-between shadow-2xl md:col-span-2 lg:col-span-1">
-                <div class="relative overflow-hidden h-56">
-                    <img src="imagesmain/شقة للبيع بالغردقة 123م² في كمبوند افينيو الغردقة.jpg" 
-                         onerror="this.onerror=null; this.src='https://placehold.co/400x250/0B132B/EFBE7C?text=شقة+145م²'" 
-                         alt="شقة 3 غرف 145م²" 
-                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-transparent"></div>
-                    <span class="absolute top-4 right-4 bg-gold-500 text-navy-950 font-black text-xs px-3 py-1.5 rounded-full">
-                        المساحة الأكبر - 145م²
-                    </span>
-                </div>
-                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
-                    <div>
-                        <h3 class="text-xl font-bold text-white mb-2">الشقة البانورامية الملكية 145م²</h3>
-                        <p class="text-xs text-gray-400 leading-relaxed">المساحة الأكبر والأكثر تميزاً في المشروع، توفر أعلى قدر من الفخامة والرفاهية المطلقة.</p>
-                    </div>
-                    <a href="https://hurghadaavenue.github.io/11-threebedrooms-145m.html" class="w-full text-center border border-gold-500/40 text-gold-400 hover:bg-gold-500/10 font-bold py-3 rounded-2xl block transition">
-                        تفاصيل النموذج
-                    </a>
-                </div>
-            </div>
-
-        </div>
-
-        <!-- Counter Pagination Links -->
-        <div class="mt-16 text-center">
-            <div class="inline-flex items-center gap-2 glass-card p-2 rounded-2xl border border-gold-500/20">
-                <a href="./ar-units.html" class="px-4 py-2 hover:bg-gold-500/20 text-xs font-bold rounded-xl transition">السابق</a>
-                <a href="./01-ar-studio-50m.html" class="w-9 h-9 flex items-center justify-center hover:bg-gold-500/20 text-gold-400 font-bold text-xs rounded-xl transition">1</a>
-                <a href="./02-ar-studio-51m.html" class="w-9 h-9 flex items-center justify-center hover:bg-gold-500/20 text-gold-400 font-bold text-xs rounded-xl transition">2</a>
-                <a href="./03-ar-studio-40m.html" class="w-9 h-9 flex items-center justify-center hover:bg-gold-500/20 text-gold-400 font-bold text-xs rounded-xl transition">3</a>
-                <a href="./ar-units.html" class="px-4 py-2 hover:bg-gold-500/20 text-xs font-bold rounded-xl transition">التالي</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Description & Features Section -->
-    <section id="features-section" class="py-20 bg-navy-900/60 border-y border-white/5 relative">
-        <div class="max-w-6xl mx-auto px-4 sm:px-8 space-y-12">
-            
-            <div class="text-center space-y-4">
-                <h2 class="text-2xl sm:text-4xl font-extrabold gold-gradient-text leading-snug">
-                    شقق للبيع في الغردقة التراديلوكس من المقاولون العرب
-                </h2>
-                <div class="h-1 w-20 gold-gradient-bg mx-auto rounded-full"></div>
-            </div>
-
-            <!-- Comprehensive Description Content -->
-            <div class="glass-card p-8 sm:p-12 rounded-3xl space-y-8 leading-loose text-gray-300 text-sm sm:text-base border border-gold-500/20 shadow-2xl">
-                <p class="first-letter:text-4xl first-letter:font-bold first-letter:text-gold-400">
-                    تنفرد شركة <strong>المقاولون العرب</strong> وهي شركة حكومية مصرية دولية بكل ما لها من خبرة محلية ودولية وموثوقية وضمان وجودة بكمبوند أفينيو في الغردقة بالبحر الأحمر في مصر والذي هو أيضاً فريد من نوعه في الغردقة والبحر الأحمر لما ينفرد به من موقع ومستوى جودة للوحدات والخدمات والمرافق، إذ يقع أمام مدخل مطار الغردقة الدولي في المنطقة السكنية السياحية الأولى بالغردقة "الكوثر" وعلى بعد دقيقة واحدة من الممشى السياحي الدولي بالغردقة.
-                </p>
-
-                <!-- Grid of Project Advantages -->
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4 text-xs sm:text-sm">
-                    <div class="flex items-start gap-4 p-4 rounded-2xl bg-white/5 border border-white/5">
-                        <div class="w-10 h-10 rounded-xl gold-gradient-bg text-navy-950 flex items-center justify-center shrink-0 font-bold text-lg">
-                            <i class="fa-solid fa-square-parking"></i>
-                        </div>
-                        <div>
-                            <h4 class="font-bold text-gold-400 text-sm mb-1">جراج بدروم عملاق</h4>
-                            <p class="text-gray-400">جراج مخصص لمالكي الوحدات يمتد على كامل مساحة البدروم بمساحة الكمبوند الإجمالية (40,000م²).</p>
-                        </div>
-                    </div>
-
-                    <div class="flex items-start gap-4 p-4 rounded-2xl bg-white/5 border border-white/5">
-                        <div class="w-10 h-10 rounded-xl gold-gradient-bg text-navy-950 flex items-center justify-center shrink-0 font-bold text-lg">
-                            <i class="fa-solid fa-water-ladder"></i>
-                        </div>
-                        <div>
-                            <h4 class="font-bold text-gold-400 text-sm mb-1">5 حمامات سباحة</h4>
-                            <p class="text-gray-400">موزعة باحترافية مع مساحات تشجير واسعة لتوفير إطلالات ساحرة لكافة الشقق.</p>
-                        </div>
-                    </div>
-
-                    <div class="flex items-start gap-4 p-4 rounded-2xl bg-white/5 border border-white/5">
-                        <div class="w-10 h-10 rounded-xl gold-gradient-bg text-navy-950 flex items-center justify-center shrink-0 font-bold text-lg">
-                            <i class="fa-solid fa-spa"></i>
-                        </div>
-                        <div>
-                            <h4 class="font-bold text-gold-400 text-sm mb-1">نادي صحي ومول تجاري</h4>
-                            <p class="text-gray-400">صالة رياضية، سونا، جاكوزي، مطعم خاص بالمالكين، مول تجاري، ونادي أطفال بمساحة 18,000م² للخدمات.</p>
-                        </div>
-                    </div>
-
-                    <div class="flex items-start gap-4 p-4 rounded-2xl bg-white/5 border border-white/5">
-                        <div class="w-10 h-10 rounded-xl gold-gradient-bg text-navy-950 flex items-center justify-center shrink-0 font-bold text-lg">
-                            <i class="fa-solid fa-map-location-dot"></i>
-                        </div>
-                        <div>
-                            <h4 class="font-bold text-gold-400 text-sm mb-1">موقع لا مثيل له</h4>
-                            <p class="text-gray-400">محاط بأربعة شوارع عريضة بدون مباني ملاصقة، وفي قلب منطقة الكوثر المليئة بالخدمات والمستشفيات والمدارس.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <p class="pt-4 border-t border-white/10 text-gray-300">
-                    يتم تسليم الوحدات بتشطيب <strong>ألترا ديلوكس</strong> بجودة المقاولون العرب بنماذج تتراوح بين الاستوديوهات والشقق (غرفة، غرفتين، 3 غرف) بمساحات من 40م² وحتى 145م²، مضافاً إليها خطط دفع مرنة مع خصومات مميزة وتقسيط يصل إلى 8 سنوات مع عقود ملكية مسجلة ورسمية ونسبة في الأرض.
-                </p>
-
-                <div class="text-center pt-4">
-                    <span class="text-gold-400 font-bold italic text-base sm:text-lg">" المقاولون العرب .. نبني الشرق الأوسط وأفريقيا "</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer Section -->
-    <footer class="bg-navy-950 border-t border-white/10 text-gray-400 text-xs sm:text-sm pt-16 pb-12 relative">
-        <div class="max-w-7xl mx-auto px-4 sm:px-8 space-y-12">
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                
-                <!-- Col 1: About -->
-                <div class="space-y-4">
-                    <img src="imagesmain/Hurghada Avenue Compound المقاولون العرب FOTTITL.webp" 
-                         onerror="this.onerror=null; this.src='https://placehold.co/300x80/0B132B/EFBE7C?text=كمبوند+أفينيو'" 
-                         alt="كمبوند افينيو" 
-                         class="h-10 w-auto">
-                    <p class="text-gray-400 text-xs leading-relaxed">
-                        كمبوند أفينيو الغردقة - المشروع السكني الأفخم من تنفيذ شركة المقاولون العرب في أرقى مناطق الغردقة بالبحر الأحمر.
-                    </p>
-                    <div class="flex items-center gap-3 pt-2">
-                        <a href="tel:+201131572319" class="w-9 h-9 rounded-full glass-card flex items-center justify-center text-gold-400 hover:bg-gold-500 hover:text-navy-950 transition">
-                            <i class="fa-solid fa-phone"></i>
-                        </a>
-                        <a href="https://api.whatsapp.com/send?phone=201131572319" target="_blank" class="w-9 h-9 rounded-full glass-card flex items-center justify-center text-emerald-400 hover:bg-emerald-500 hover:text-white transition">
-                            <i class="fa-brands fa-whatsapp"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Col 2: Units Menu -->
-                <div class="space-y-3">
-                    <h4 class="text-white font-bold text-sm border-r-2 border-gold-500 pr-3">الوحدات والمواصفات</h4>
-                    <ul class="space-y-2 text-xs">
-                        <li><a href="https://hurghadaavenue.github.io" class="hover:text-gold-400 transition">جميع الوحدات السكنية</a></li>
-                        <li><a href="https://hurghadaavenue.github.io/ar-finishing.html" class="hover:text-gold-400 transition">مواصفات التشطيب الالترا ديلوكس</a></li>
-                        <li><a href="https://hurghadaavenue.github.io/ar-compount-features.html" class="hover:text-gold-400 transition">مزايا وخدمات الكمبوند</a></li>
-                        <li><a href="https://hurghadaavenue.github.io/ar-location-features.html" class="hover:text-gold-400 transition">مميزات موقع الكوثر بالغردقة</a></li>
-                    </ul>
-                </div>
-
-                <!-- Col 3: Quick Links -->
-                <div class="space-y-3">
-                    <h4 class="text-white font-bold text-sm border-r-2 border-gold-500 pr-3">روابط سريعة</h4>
-                    <ul class="space-y-2 text-xs">
-                        <li><a href="https://hurghadaavenue.github.io/ar-orangepay.html" class="hover:text-gold-400 transition">عضوية أورانج باي المجانية</a></li>
-                        <li><a href="https://hurghadaavenue.github.io/ar-prices.html" class="hover:text-gold-400 transition">خطط الأسعار ونظم التقسيط</a></li>
-                        <li><a href="https://hurghadaavenue.github.io/ar-company.html" class="hover:text-gold-400 transition">عن شركة المقاولون العرب</a></li>
-                        <li><a href="https://hurghadaavenue.github.io/ar-comtact.html" class="hover:text-gold-400 transition">صفحة الاتصال والتواصل</a></li>
-                    </ul>
-                </div>
-
-                <!-- Col 4: Contact & Languages -->
-                <div class="space-y-3">
-                    <h4 class="text-white font-bold text-sm border-r-2 border-gold-500 pr-3">التواصل واللغات</h4>
-                    <div class="text-xs space-y-2">
-                        <p><a href="tel:+201131572319" class="hover:text-gold-400 transition font-mono">Call: +201131572319</a></p>
-                        <p><a href="https://api.whatsapp.com/send?phone=201131572319" target="_blank" class="hover:text-emerald-400 transition font-mono">Whatsapp: +201131572319</a></p>
-                    </div>
-                    <div class="pt-2 flex flex-wrap gap-2 text-[11px]">
-                        <a href="https://hurghadaavenue.github.io" class="px-2.5 py-1 bg-gold-500/20 text-gold-400 rounded-md">العربية</a>
-                        <a href="https://hurghadaavenue.github.io/eng-index.html" class="px-2.5 py-1 bg-white/5 hover:bg-white/10 rounded-md">English</a>
-                        <a href="https://hurghadaavenue.github.io/de/de-index.html" class="px-2.5 py-1 bg-white/5 hover:bg-white/10 rounded-md">Deutsch</a>
-                        <a href="https://hurghadaavenue.github.io/ru-index.html" class="px-2.5 py-1 bg-white/5 hover:bg-white/10 rounded-md">Русский</a>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- Copyright Line -->
-            <div class="pt-8 border-t border-white/5 text-center text-xs text-gray-300">
-                <p>All Rights Reserved © المقاولون العرب Avenue Compound Hurghada</p>
-            </div>
-
-        </div>
-    </footer>
-
-    <!-- Fixed Floating Quick Action Bar (Mobile & Desktop) -->
-    <div class="fixed bottom-6 left-6 z-50 flex flex-col gap-3">
-        <a href="https://api.whatsapp.com/send?phone=201131572319" 
-           target="_blank" 
-           title="تواصل عبر الواتس اب"
-           class="w-14 h-14 bg-emerald-500 text-white rounded-full flex items-center justify-center text-2xl shadow-2xl hover:bg-emerald-400 transition-all transform hover:scale-110 pulse-gold-btn">
-            <i class="fa-brands fa-whatsapp"></i>
-        </a>
-        <a href="tel:+201131572319" 
-           title="اتصال مباشر"
-           class="w-14 h-14 gold-gradient-bg text-navy-950 rounded-full flex items-center justify-center text-xl shadow-2xl hover:opacity-90 transition-all transform hover:scale-110">
-            <i class="fa-solid fa-phone"></i>
-        </a>
+      </div>
     </div>
+  </div>
 
-    <!-- Mobile Menu Toggle Script -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const menuBtn = document.getElementById('mobile-menu-btn');
-            const mobileMenu = document.getElementById('mobile-menu');
+  <!-- Title Section using Maroon Brand Color -->
+  <div id="wb_ar-apartments-for-sale-in-hurghada-title" class="h2" dir="rtl"><span style="color:#7A1F1F;font-family:'Cairo', Arial, sans-serif;font-weight:800;font-size:30px;">شقق للبيع في الغردقة التراديلوكس من المقاولون العرب</span></div>
+  
+  <div id="wb_ar-apartments-for-sale-in-hurghada-description" class="h2" dir="rtl"><span style="color:#2B2523;font-family:'Cairo', Arial, sans-serif;font-size:20px;line-height:38px;">&nbsp;&nbsp;&nbsp;&nbsp; تنفرد شركة المقاولون العرب وهي شركة حكومية مصرية دولية بكل ما لها من خبرة محلية ودولية وموثوقية وضمان وجودة بكمبوند افينيو في الغردقة بالبحر الاحمر في مصر والذي هو ايضا فريد من نوعه في الغردقة والبحر الاحمر لما ينفرد به من موقع ومستوى جودة للوحدات والخدمات والمرافق اذ يقع امام مدخل مطار الغردقة الدولي في المنطقة السكنية السياحية الاولى بالغردقة &quot;الكوثر&quot; وعلى بعد دقيقة واحدة من الممشى السياحي الدولي بالغردقة ويتم تسليم الوحدات تشطيب التراديلوكس بجودة المقاولون العرب باربع نماذج تتراوح بين الاستيديوهات والشقق غرفة واحدة والشقق غرفتين والشقق ثلاث غرف وبمساحات من 40م² وحتى 145م² وينفرد الكمبوند بميزة حصرية باحتواءه على جراج لمالكي الوحدات يحتل كامل مساحة البدروم والذي هو بمساحة كامل الكمبوند &quot;40,000م² &quot; مع خمس حمامات سباحة ومساحات تشجير واسعة ومنتشرة بارجاء الكمبوند بما يوفر اطلالات مميزة للوحدات على حمامات السباحة وعلى الحدائق وعلى الشوارع الرئيسية اذا يطل الكموند من الاربع اتجاهات على شوارع عريضة ولا مباني ملاصقة له ويحتوي الكمبوند على نادي صحي وصالة رياضية ومرافق سونا وجاكوزي وبه مطعم خاص بمالكي الوحدات ومول تجاري متكامل ونادي اطفال مع توافر كل الخدمات التجارية الاخرى اذ تشغل المساحات التجارية والخدمات بالكمبوند مساحة 18,000م² بالاضافة الى ما تتميز به منطقة الكوثر من توافر كافة المرافق والخدمات الاجتماعية والتجارية من المستشفيات والمدارس والاسواق التجارية والمطاعم والكافيهات والفنادق والاسماء والماركات العالمية وكل ما سبق مضافا اليه تشكيلة مميزة من الخطط المرنة لاساليب الدفع مع خصومات مميزة وخطط تقسيط تصل الى 8 سنوات مع عقود ملكية ثابتة مضمونة مسجلة ورسمية من المقاولون العرب مع نسبة في ارض المشروع والتزام قاطع بمعيير الجودة ومواعيد التسليم بما يجعل المشروع الخيار الامثل والاوثق للسكن وللاستثمار وللتجارة في الغردقة بالبحر الاحمر فالمشروع يبرز جليا مدى تفرد المقاولون العرب في جودة ما تبنية من منشئات وخدمات ومرافق فالتفرد دائما هو عنوان &quot;المقاولون العرب&quot;...<br>&quot;نبني الشرق الاوسط وافريقيا&quot;</span></div>
 
-            if (menuBtn && mobileMenu) {
-                menuBtn.addEventListener('click', function() {
-                    mobileMenu.classList.toggle('hidden');
-                });
-            }
-        });
-    </script>
+  <div id="wb_en-main-menue-hd-arp3">
+    <div id="en-main-menue-hd-arp3" class="en-main-menue-hd-arp3" style="width:100%;height:auto !important;">
+      <div class="container">
+        <div class="navbar-header">
+          <button title="Dropdown Menu" type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target=".en-main-menue-hd-arp3-navbar-collapse"><span class="line" style="background-color:#EABB7B;"></span><span class="line" style="background-color:#EABB7B;"></span><span class="line" style="background-color:#EABB7B;"></span></button>
+        </div>
+        <div class="en-main-menue-hd-arp3-navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="nav-item"><a href="https://hurghadaavenue.github.io" title="شقق للبيع في الغردقة - كمبوند المقاولون العرب" class="nav-link">الرئيسية</a></li>
+            <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle" data-bs-placement="bottom-start" data-bs-toggle="dropdown">الوحدات<span class="arrow"></span></a>
+              <ul class="dropdown-menu">
+                <li class="nav-item dropdown-item"><a href="https://hurghadaavenue.github.io/03-ar-studio-40m.html" title="شقق للبيع في الغردقة 40م² بكمبوند افينيو المقاولون العرب" class="nav-link">40م²</a></li>
+                <li class="nav-item dropdown-item"><a href="https://hurghadaavenue.github.io/01-ar-studio-50m.html" title="شقق ستوديو للبيع في الغردقة 50م² افينيو كمبوند" class="nav-link">50م²</a></li>
+                <li class="nav-item dropdown-item"><a href="https://hurghadaavenue.github.io/02-ar-studio-51m.html" title="شقق من المقاولون العرب للبيع في الغردقة 51م²" class="nav-link">51م²</a></li>
+                <li class="nav-item dropdown-item"><a href="https://hurghadaavenue.github.io/04-onebedroom-63m.html" title="شقق غرفة للبيع في الغردقة 63م² كمبوند المقاولون لاعرب" class="nav-link">63م²</a></li>
+                <li class="nav-item dropdown-item"><a href="https://hurghadaavenue.github.io/05-onebedroom-68m.html" title="المقاولون العرب - شقق 68م² للبيع بالغردقة" class="nav-link">68م²</a></li>
+                <li class="nav-item dropdown-item"><a href="https://hurghadaavenue.github.io/06-twobedrooms-98m.html" title="شقق غرفتين للبيع في الغردقة 98م² كمبوند المقاولون العرب" class="nav-link">98م²</a></li>
+                <li class="nav-item dropdown-item"><a href="https://hurghadaavenue.github.io/07-twobedrooms-108m.html" title="شقق للبيع في الغردقة 108م² بكمبوند المقاولون العرب" class="nav-link">108م²</a></li>
+                <li class="nav-item dropdown-item"><a href="https://hurghadaavenue.github.io/08-twobedrooms-110m.html" title="شقق للبيع بالغردقة 110م² بكمبوند افينيو الغردقة" class="nav-link">110م²</a></li>
+                <li class="nav-item dropdown-item"><a href="https://hurghadaavenue.github.io/12-twobedrooms-120m.html" title="شقق للبيع في الغردقة 120م² كمبوند المقاولون العرب افينيو" class="nav-link">120م²</a></li>
+                <li class="nav-item dropdown-item"><a href="https://hurghadaavenue.github.io/09-threebedrooms-123m.html" title="شقق عائلية للبيع بالغردقة 123م² في كمباوند افينيو الغردقة" class="nav-link">123م²</a></li>
+                <li class="nav-item dropdown-item"><a href="https://hurghadaavenue.github.io/10-threebedrooms-125m.html" title="شقق للبيع في الغردقة 125م² التراديلوكس بكمبوند افينيو الغردقة" class="nav-link">125م²</a></li>
+                <li class="nav-item dropdown-item"><a href="https://hurghadaavenue.github.io/11-threebedrooms-145m.html" title="شقق للبيع في الغردقة 145م² مع 5 حمامات سباحة" class="nav-link">145م²</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle" data-bs-placement="bottom-start" data-bs-toggle="dropdown">معلومات الكمبوند<span class="arrow"></span></a>
+              <ul class="dropdown-menu">
+                <li class="nav-item dropdown-item"><a href="https://hurghadaavenue.github.io/ar-finishing.html" title="شقق للبيع في الغردقة باعلى مواصفات تشطيب Avenue" class="nav-link">التشطيب</a></li>
+                <li class="nav-item dropdown-item"><a href="https://hurghadaavenue.github.io/ar-compount-features.html" title="شقق للبيع في الغردقة بكمبوند المقاولون العرب متكامل الخدمات " class="nav-link">مزايا الكمبوند</a></li>
+                <li class="nav-item dropdown-item"><a href="https://hurghadaavenue.github.io/ar-location-features.html" title="شقق للبيع في الغردقة بالمنطقة السياحية الاولى بالغردقة" class="nav-link">مزايا الموقع</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="https://hurghadaavenue.github.io/ar-orangepay.html" title="شقق للبيع في الغردقة مع عضوية مجانية باورانج باي" class="nav-link">اورانج باي</a></li>
+            <li class="nav-item"><a href="https://hurghadaavenue.github.io/ar-company.html" title="شقق للبيع في الغردقة من شركة المقاولون العرب" class="nav-link">الشركة</a></li>
+            <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle" data-bs-placement="bottom-start" data-bs-toggle="dropdown">التواصل<span class="arrow"></span></a>
+              <ul class="dropdown-menu">
+                <li class="nav-item dropdown-item"><a href="tel:+201131572319" title="اتصال - شقق بالغردقة في مصر للبيع" class="nav-link">اتصال</a></li>
+                <li class="nav-item dropdown-item"><a href="https://api.whatsapp.com/send?phone=201131572319" title="واتس اب - شقق سكنية للبيع بالغردقة مصر" class="nav-link">واتس اب</a></li>
+                <li class="nav-item dropdown-item"><a href="#" title="صفحة التواصل - شقق للبيع بالغردقة في افينيو" class="nav-link">صفحة التواصل</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="https://hurghadaavenue.github.io/ar-prices.html" title="شقق للبيع في الغردقة باسعار مميزة من المقاولون العرب" class="nav-link">الاسعار</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <!-- Google Analytics (gtag) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1Y9Z5YXGZ3"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-1Y9Z5YXGZ3');
-    </script>
+  <div id="wb_Image1"><a href="https://hurghadaavenue.github.io/01-ar-studio-50m.html" title="المقاولون العرب - شقق 50م² للبيع في الغردقة"><img src="imagesmain/استوديو للبيع 50م² بكمبوند افينيو في الغردقة.jpg" srcset="imagesmain/استوديو للبيع 50م² بكمبوند افينيو في الغردقة.jpg 2x" id="Image1" alt="المقاولون العرب - شقق 50م² للبيع في الغردقة" width="341" height="210"></a></div>
+  <a id="Button1" href="https://hurghadaavenue.github.io/03-ar-studio-40m.html" title="شقق استيديو للبيع بالغردقة 40م² كمبوند افينيو">التفاصيل</a>
+
+  <div id="wb_Image2"><a href="https://hurghadaavenue.github.io/11-threebedrooms-145m.html" title="المقاولون العرب - شقة عائلية 145م² للبيع بالغردقة"><img src="imagesmain/شقة للبيع بالغردقة 145م² بكمبوند افينيو.jpg" srcset="imagesmain/شقة للبيع بالغردقة 145م² بكمبوند افينيو.jpg 2x" id="Image2" alt="المقاولون العرب - شقة عائلية 145م² للبيع بالغردقة" width="341" height="210"></a></div>
+  <a id="Button2" href="https://hurghadaavenue.github.io/04-onebedroom-63m.html" title="المقاولون العرب - شقة 63م² للبيع بالغردقة">التفاصيل</a>
+
+  <div id="wb_Image3"><a href="https://hurghadaavenue.github.io/09-threebedrooms-123m.html" title="شقق من المقاولون العرب للبيع في الغردقة 123م²"><img src="imagesmain/شقة للبيع بالغردقة 123م² في كمبوند افينيو الغردقة.jpg" srcset="imagesmain/شقة للبيع بالغردقة 123م² في كمبوند افينيو الغردقة.jpg 2x" id="Image3" alt="المقاولون العرب - شقة 123م² للبيع في الغردقة" width="341" height="210"></a></div>
+  <a id="Button3" href="https://hurghadaavenue.github.io/09-threebedrooms-123m.html" title="المقاولون العرب - شقق 123م² للبيع في الغردقة">التفاصيل</a>
+</div>
+
+<div id="en-mainfooter-arp3">
+  <div id="en-mainfooter-arp3-overlay"></div>
+  <div id="en-mainfooter-arp3_Container">
+    <div id="wb_en-call-footer-right-arp3"><a class="ui-button ui-corner-all" id="en-call-footer-right-arp3" href="tel:+201131572319" title="اتصل الآن - كمبوند افينيو"></a></div>
+    <div id="wb_en-whats-footer-right-arp3"><a class="ui-button ui-corner-all" id="en-whats-footer-right-arp3" href="https://api.whatsapp.com/send?phone=201131572319" title="تواصل عبر واتساب - كمبوند افينيو"></a></div>
+    
+    <div id="wb_Text1"><span style="color:#EABB7B;font-family:'Cairo', Arial, sans-serif;font-size:20px;font-weight:600;">All Rights Reserved © المقاولون العرب Avenue Compound Hurghada</span></div>
+    
+    <div id="wb_TextMenu3-arp3">
+      <span><a href="https://hurghadaavenue.github.io/ar-orangepay.html" title="عضوية مجانية باورانج باي لمشتري شقق كمبوند المقاولون العرب">اورانج باي</a></span>
+      <span><a href="https://hurghadaavenue.github.io/ar-prices.html" title="شقق للبيع بالتقسيط في الغردقة من المقاولون العرب">الاسعار</a></span>
+      <span><a href="https://hurghadaavenue.github.io/ar-company.html" title="كمبوند افينيو - شقق للبيع بالغردقة من المقاولون العرب">عن الشركة</a></span>
+      <span><a href="https://hurghadaavenue.github.io/ar-comtact.html" title="تواصلوا معنا - شقق للبيع بالغردقة بكمبوند المقاولون العرب">التواصل</a></span>
+    </div>
+    <div id="wb_TextMenu4-arp3">
+      <span><a href="tel:+201131572319" title="بيانات الاتصال - 01131572319 - شقق للبيع بالغردقة كمبوند افينيو">Call: +201131572319</a></span>
+      <span><a href="https://api.whatsapp.com/send?phone=201131572319" title="واتس اب - شقق للبيع بالغردقة من المقاولون العرب">Whatsapp</a></span>
+    </div>
+    <div id="wb_TextMenu5-arp3">
+      <span><a href="https://hurghadaavenue.github.io" title="شقق التراديلوكس للبيع في الغردقة من المقاولون العرب">الرئيسية</a></span>
+      <span><a href="https://hurghadaavenue.github.io" title="شقق للبيع بكمبوند افينيو المقاولون العرب بمدينة الغردقة">العربية</a></span>
+      <span><a href="https://hurghadaavenue.github.io/eng-index.html" title="Apartments For Sale in Avenue Compound in Hurghada">English</a></span>
+      <span><a href="https://hurghadaavenue.github.io/de/de-index.html" title="Ultra Luxus Wohnungen zum Verkauf in Hurghada">Deutsche</a></span>
+      <span><a href="https://hurghadaavenue.github.io/ru-index.html" title="Квартиры на продажу в Хургаде — жилой комплекс Avenue">Русский</a></span>
+    </div>
+    <div id="wb_TextMenu2-arp3">
+      <span><a href="https://hurghadaavenue.github.io" title="شقق للبيع بالغردقة بكمبوند افينيو المقاولون العرب">الوحدات</a></span>
+      <span><a href="https://hurghadaavenue.github.io/ar-finishing.html" title="Ultradelux - Apartments For Sale in Avenue Compound Hurghada">التشطيب</a></span>
+      <span><a href="https://hurghadaavenue.github.io/ar-compount-features.html" title="شقق للبيع في الغردقة بكمبوند فاخر من المقاولون العرب">مزايا الكمبوند</a></span>
+      <span><a href="https://hurghadaavenue.github.io/ar-location-features.html" title="شقق للبيع في الغردقة بقلب المنطقة السياحية من المقاولون العرب">مزايا الموقع</a></span>
+    </div>
+  </div>
+</div>
+
+<script src="popper.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded',function(event)
+{
+  var en_counter_unuts_ex_prv_units_1_arp1_dropdownToggle=document.querySelectorAll('#en-counter-unuts-ex-prv-units-1-arp1 .dropdown-toggle');
+  en_counter_unuts_ex_prv_units_1_arp1_dropdownToggle.forEach(item=>{
+    var dropdown=new bootstrap.Dropdown(item,{popperConfig:{placement:item.getAttribute('data-bs-placement')}});
+  });
+  var en_counter_unuts_ex_prv_units_1_arp1_dropdown=document.querySelectorAll('#en-counter-unuts-ex-prv-units-1-arp1 .dropdown');
+  en_counter_unuts_ex_prv_units_1_arp1_dropdown.forEach(item=>{
+    item.addEventListener('shown.bs.dropdown',function(e){e.currentTarget.classList.add('show');});
+    item.addEventListener('hidden.bs.dropdown',function(e){e.currentTarget.classList.remove('show');});
+  });
+  
+  var en_main_menue_hd_arp3_dropdownToggle=document.querySelectorAll('#en-main-menue-hd-arp3 .dropdown-toggle');
+  en_main_menue_hd_arp3_dropdownToggle.forEach(item=>{
+    var dropdown=new bootstrap.Dropdown(item,{popperConfig:{placement:item.getAttribute('data-bs-placement')}});
+  });
+  var en_main_menue_hd_arp3_dropdown=document.querySelectorAll('#en-main-menue-hd-arp3 .dropdown');
+  en_main_menue_hd_arp3_dropdown.forEach(item=>{
+    item.addEventListener('shown.bs.dropdown',function(e){e.currentTarget.classList.add('show');});
+    item.addEventListener('hidden.bs.dropdown',function(e){e.currentTarget.classList.remove('show');});
+  });
+  
+  var en_up_menue_lang_hd_arp3_dropdownToggle=document.querySelectorAll('#en-up-menue-lang-hd-arp3 .dropdown-toggle');
+  en_up_menue_lang_hd_arp3_dropdownToggle.forEach(item=>{
+    var dropdown=new bootstrap.Dropdown(item,{popperConfig:{placement:item.getAttribute('data-bs-placement')}});
+  });
+  var en_up_menue_lang_hd_arp3_dropdown=document.querySelectorAll('#en-up-menue-lang-hd-arp3 .dropdown');
+  en_up_menue_lang_hd_arp3_dropdown.forEach(item=>{
+    item.addEventListener('shown.bs.dropdown',function(e){e.currentTarget.classList.add('show');});
+    item.addEventListener('hidden.bs.dropdown',function(e){e.currentTarget.classList.remove('show');});
+  });
+});
+</script>
+<script>
+$(document).ready(function()
+{
+  var iOS=!!navigator.platform&&/iPad|iPhone|iPod/.test(navigator.platform);
+  if(iOS){
+    $('#en-mainheader-arp3,#bu-img-unit-01-arp1,#bu-img-unit-02-arp1,#bu-img-unit-03-arp1,#bu-img-unit-04-arp1,#bu-img-unit-05-arp1,#bu-img-unit-06-arp1,#bu-img-unit-07-arp1,#bu-img-unit-08-arp1,#bu-img-unit-09-arp1,#ar-bu-compoundmap-arp1,#Button1,#Button2,#Button3,#en-mainfooter-arp3').css('background-attachment','scroll');
+  }
+});
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1Y9Z5YXGZ3"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','G-1Y9Z5YXGZ3');
+</script>
 </body>
 </html>
+```
