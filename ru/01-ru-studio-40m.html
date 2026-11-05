@@ -161,6 +161,48 @@ footer a:hover{color:var(--gold)}
   section{padding:48px 0}
   .cta{padding:34px 18px}
 }
+/* Sizes selection grid */
+.sizes-section {
+  padding: 20px 0 40px;
+  background: var(--paper);
+}
+.dark .sizes-section {
+  background: var(--ink);
+}
+.sizes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(85px, 1fr));
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.sizes-grid a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 12px 8px;
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--text);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+  transition: all 0.2s ease;
+}
+.dark .sizes-grid a {
+  background: var(--ink-2);
+  border-color: #2c2c34;
+  color: #ececf0;
+}
+.sizes-grid a:hover, .sizes-grid a.active {
+  background: var(--gold);
+  color: #1a1205;
+  border-color: var(--gold);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
 </style>
 </head>
 <body>
@@ -316,7 +358,25 @@ footer a:hover{color:var(--gold)}
       </div>
     </div>
   </section>
-
+<section class="sizes-section">
+  <div class="wrap">
+    <p class="pager-title">Доступные площади квартир</p>
+    <div class="sizes-grid" aria-label="Все площади">
+      <a href="https://hurghadaavenue.github.io/ru/01-ru-studio-40m.html" class="active">40м²</a>
+      <a href="https://hurghadaavenue.github.io/ru/02-ru-studio-50m.html">50м²</a>
+      <a href="https://hurghadaavenue.github.io/ru/03-ru-studio-51m.html">51м²</a>
+      <a href="https://hurghadaavenue.github.io/ru/04-ru-onebedroom-63m.html">63м²</a>
+      <a href="https://hurghadaavenue.github.io/ru/05-ru-onebedroom-68m.html">68м²</a>
+      <a href="https://hurghadaavenue.github.io/ru/06-ru-twobedrooms-98m.html">98м²</a>
+      <a href="https://hurghadaavenue.github.io/ru/07-ru-twobedrooms-108m.html">108м²</a>
+      <a href="https://hurghadaavenue.github.io/ru/08-ru-twobedrooms-110m.html">110м²</a>
+      <a href="https://hurghadaavenue.github.io/ru/09-ru-twobedrooms-120m.html">120м²</a>
+      <a href="https://hurghadaavenue.github.io/ru/10-ru-threebedrooms-123m.html">123м²</a>
+      <a href="https://hurghadaavenue.github.io/ru/11-ru-threebedrooms-125m.html">125м²</a>
+      <a href="https://hurghadaavenue.github.io/ru/12-ru-threebedrooms-145m.html">145м²</a>
+    </div>
+  </div>
+</section>
   <section style="padding-top:0">
     <div class="wrap">
       <p class="pager-title">Другие планировки</p>
@@ -377,7 +437,6 @@ footer a:hover{color:var(--gold)}
     <div class="copy">All Rights Reserved © Avenue Compound Hurghada</div>
   </div>
 </footer>
-
 <div class="float">
   <a href="https://api.whatsapp.com/send?phone=201131572319" aria-label="WhatsApp" style="background-image:url('ru-photos/whatsappup.webp')"></a>
   <a href="tel:+201131572319" aria-label="Позвонить" style="background-image:url('ru-photos/calltop.webp')"></a>
