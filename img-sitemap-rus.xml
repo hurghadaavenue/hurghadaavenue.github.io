@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+
+  <!-- ============================================================
+       Page: Russian Home — Apartments for sale in Hurghada
+       URL : https://hurghadaavenue.github.io/ru/ru-index.html
+       ============================================================ -->
+  <url>
+    <loc>https://hurghadaavenue.github.io/ru/ru-index.html</loc>
+
+    <!-- 1) Header — Arab Contractors logo
+         alt: "Квартиры на продажу в жилом комплексе Avenue в Хургаде"
+         keywords: Аль-Мукавилун аль-Араб, логотип, Avenue, Хургада -->
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Аль-Мукавилун аль-Араб — логотип — Квартиры на продажу в Хургаде</image:title>
+      <image:caption>Квартиры на продажу в жилом комплексе Avenue в Хургаде — логотип компании «Аль-Мукавилун аль-Араб» (Арабские подрядчики)</image:caption>
+    </image:image>
+
+    <!-- 2) Header — main title image
+         alt: "Аль-Мукавилун аль-Араб — Квартиры на продажу в Хургаде"
+         keywords: Квартиры, Хургада, жилой комплекс, Avenue -->
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в жилом комплексе в Хургаде.webp</image:loc>
+      <image:title>Квартиры на продажу в жилом комплексе в Хургаде</image:title>
+      <image:caption>Аль-Мукавилун аль-Араб — Квартиры на продажу в Хургаде: главный заголовок сайта жилого комплекса Avenue</image:caption>
+    </image:image>
+
+    <!-- 3) Header — Avenue compound logo
+         alt: "Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб"
+         keywords: Avenue, Хургада, логотип, жилой комплекс -->
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Жилой комплекс Avenue Хургада — логотип</image:title>
+      <image:caption>Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб: официальный логотип комплекса</image:caption>
+    </image:image>
+
+    <!-- 4) Unit card — Studio 51 m²
+         alt: "Квартира на продажу в Хургаде 51 м²"
+         keywords: студия, 51 м², квартира, Хургада -->
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартира 51 м² в Хургаде на продажу.webp</image:loc>
+      <image:title>Студия 51 м² на продажу в Хургаде</image:title>
+      <image:caption>Квартира на продажу в Хургаде 51 м² — студия в жилом комплексе Avenue</image:caption>
+    </image:image>
+
+    <!-- 5) Unit card — Studio 40 m²
+         alt: "Студия 40 м² на продажу в комплексе Авеню в Хургаде"
+         keywords: студия, 40 м², Avenue, Хургада -->
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры 40 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Студии 40 м² на продажу в Хургаде</image:title>
+      <image:caption>Студия 40 м² на продажу в комплексе Авеню в Хургаде — жилой комплекс Avenue</image:caption>
+    </image:image>
+
+    <!-- 6) Unit card — Studio 50 m²
+         alt: "Студия 50м² на продажу в комплексе Авеню в Хургаде"
+         keywords: студия, 50 м², Авеню, Хургада -->
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в Хургаде 50 м².webp</image:loc>
+      <image:title>Квартира 50 м² на продажу в Хургаде</image:title>
+      <image:caption>Студия 50м² на продажу в комплексе Авеню в Хургаде — жилой комплекс Avenue</image:caption>
+    </image:image>
+
+    <!-- 7) Unit card — Two bedrooms 98 m²
+         alt: "Двухкомнатные квартиры площадью 98м² на продажу в Хургаде"
+         keywords: двухкомнатная, 98 м², квартира, Хургада -->
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Двухкомнатная квартира площадью 98 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Двухкомнатная квартира 98 м² на продажу в Хургаде</image:title>
+      <image:caption>Двухкомнатные квартиры площадью 98м² на продажу в Хургаде — жилой комплекс Avenue</image:caption>
+    </image:image>
+
+    <!-- 8) Unit card — One bedroom 68 m²
+         alt: "Однокомнатные квартиры 68 м² на продажу в Хургаде"
+         keywords: однокомнатная, 68 м², квартира, Хургада -->
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Однокомнатная квартира 68 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Однокомнатная квартира 68 м² на продажу в Хургаде</image:title>
+      <image:caption>Однокомнатные квартиры 68 м² на продажу в Хургаде — жилой комплекс Avenue</image:caption>
+    </image:image>
+
+    <!-- 9) Unit card — One bedroom 63 m²
+         alt: "Однокомнатная квартира 63 м² на продажу в Хургаде"
+         keywords: однокомнатная, 63 м², спальня, Хургада -->
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартира с одной спальней на продажу в Хургаде 63 м².webp</image:loc>
+      <image:title>Однокомнатная квартира 63 м² на продажу в Хургаде</image:title>
+      <image:caption>Однокомнатная квартира 63 м² на продажу в Хургаде — квартира с одной спальней, жилой комплекс Avenue</image:caption>
+    </image:image>
+
+    <!-- 10) Unit card — Two bedrooms 110 m²
+         alt: "Двухкомнатные квартиры 110м² на продажу в Хургаде"
+         keywords: двухкомнатная, 110 м², квартира, Хургада -->
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Двухкомнатная квартира площадью 110 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Двухкомнатная квартира 110 м² на продажу в Хургаде</image:title>
+      <image:caption>Двухкомнатные квартиры 110м² на продажу в Хургаде — жилой комплекс Avenue</image:caption>
+    </image:image>
+
+    <!-- 11) Unit card — Two bedrooms 108 m²
+         alt: "Двухкомнатные квартиры 108м² на продажу в Хургаде"
+         keywords: двухкомнатная, 108 м², Avenue, Хургада -->
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Двухкомнатная квартира площадью 108 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Двухкомнатная квартира 108 м² на продажу в Хургаде</image:title>
+      <image:caption>Двухкомнатные квартиры 108м² на продажу в Хургаде — жилой комплекс Avenue</image:caption>
+    </image:image>
+
+    <!-- 12) Open Graph / Twitter card image (from <meta>)
+         alt (twitter:image:alt): "Квартиры на продажу в Хургаде в комплексе Avenue"
+         keywords: квартиры, Хургада, Avenue, OG image -->
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru-photos/Жилые квартиры на продажу в Хургаде.webp</image:loc>
+      <image:title>Жилые квартиры на продажу в Хургаде в комплексе Avenue</image:title>
+      <image:caption>Квартиры на продажу в Хургаде в комплексе Avenue — OG изображение (социальные сети)</image:caption>
+    </image:image>
+
+    <!-- 13) Background image (header & footer)
+         alt: none in HTML — descriptive caption supplied
+         keywords: Avenue, Хургада, фон, жилой комплекс -->
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/3.webp</image:loc>
+      <image:title>Avenue Compound Hurghada — фон</image:title>
+      <image:caption>Фоновое изображение жилого комплекса Avenue в Хургаде — вид на комплекс</image:caption>
+    </image:image>
+
+  </url>
+
+  <!-- ============================================================
+       01 – Studio 40 m²
+       ============================================================ -->
+  <url>
+    <loc>https://hurghadaavenue.github.io/ru/01-ru-studio-40m.html</loc>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Аль-Мукавилун аль-Араб — логотип</image:title>
+      <image:caption>Квартиры на продажу в жилом комплексе Avenue в Хургаде — логотип компании «Аль-Мукавилун аль-Араб»</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в жилом комплексе в Хургаде.webp</image:loc>
+      <image:title>Квартиры на продажу в жилом комплексе в Хургаде</image:title>
+      <image:caption>Аль-Мукавилун аль-Араб — Квартиры на продажу в Хургаде: главный заголовок сайта жилого комплекса Avenue</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Жилой комплекс Avenue Хургада — логотип</image:title>
+      <image:caption>Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб: официальный логотип комплекса</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры 40 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Квартиры 40 м² на продажу в Хургаде</image:title>
+      <image:caption>Апарт-отельные квартиры 40м² на продажу в Хургаде — студии в комплексе Avenue с 5 бассейнами</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры студии на продажу в Хургаде 40м².webp</image:loc>
+      <image:title>Студии 40м² на продажу в Хургаде</image:title>
+      <image:caption>Квартиры на продажу в Хургаде 40м² – 5 бассейнов: студии в жилом комплексе Avenue, район Эль-Коусер</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/3.webp</image:loc>
+      <image:title>Avenue Compound Hurghada — фон</image:title>
+      <image:caption>Фоновое изображение жилого комплекса Avenue в Хургаде</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       02 – Studio 50 m²
+       ============================================================ -->
+  <url>
+    <loc>https://hurghadaavenue.github.io/ru/02-ru-studio-50m.html</loc>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Аль-Мукавилун аль-Араб — логотип</image:title>
+      <image:caption>Квартиры на продажу в жилом комплексе Avenue в Хургаде — логотип компании</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в жилом комплексе в Хургаде.webp</image:loc>
+      <image:title>Квартиры на продажу в жилом комплексе в Хургаде</image:title>
+      <image:caption>Аль-Мукавилун аль-Араб — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Жилой комплекс Avenue Хургада — логотип</image:title>
+      <image:caption>Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в Хургаде 50 м².webp</image:loc>
+      <image:title>Жилые квартиры 50м² на продажу в Хургаде</image:title>
+      <image:caption>Жилые квартиры 50м² на продажу в Хургаде — студии в комплексе Avenue</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Студия 50м² на продажу в комплексе Авеню в Хургаде.webp</image:loc>
+      <image:title>Студия 50м² на продажу в комплексе Авеню</image:title>
+      <image:caption>Студия 50м² в Хургаде на продажу — жилой комплекс Avenue</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/3.webp</image:loc>
+      <image:title>Avenue Compound Hurghada — фон</image:title>
+      <image:caption>Фоновое изображение жилого комплекса Avenue</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       03 – Studio 51 m²
+       ============================================================ -->
+  <url>
+    <loc>https://hurghadaavenue.github.io/ru/03-ru-studio-51m.html</loc>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Аль-Мукавилун аль-Араб — логотип</image:title>
+      <image:caption>Квартиры на продажу в жилом комплексе Avenue в Хургаде — логотип</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в жилом комплексе в Хургаде.webp</image:loc>
+      <image:title>Квартиры на продажу в жилом комплексе в Хургаде</image:title>
+      <image:caption>Аль-Мукавилун аль-Араб — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Жилой комплекс Avenue Хургада — логотип</image:title>
+      <image:caption>Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры 51 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Квартиры на продажу в Хургаде 51м²</image:title>
+      <image:caption>Квартиры на продажу в Хургаде 51м² – жилой комплекс Avenue</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в Хургаде 51м² – 5 бассейнов.webp</image:loc>
+      <image:title>Семейные квартиры 51м² на продажу в Хургаде</image:title>
+      <image:caption>Семейные квартиры 51м² на продажу в Хургаде – жилой комплекс Avenue, 5 бассейнов</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/3.webp</image:loc>
+      <image:title>Avenue Compound Hurghada — фон</image:title>
+      <image:caption>Фоновое изображение жилого комплекса Avenue</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       04 – One Bedroom 63 m²
+       ============================================================ -->
+  <url>
+    <loc>https://hurghadaavenue.github.io/ru/04-ru-onebedroom-63m.html</loc>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Аль-Мукавилун аль-Араб — логотип</image:title>
+      <image:caption>Квартиры на продажу в жилом комплексе Avenue в Хургаде — логотип</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в жилом комплексе в Хургаде.webp</image:loc>
+      <image:title>Квартиры на продажу в жилом комплексе в Хургаде</image:title>
+      <image:caption>Аль-Мукавилун аль-Араб — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Жилой комплекс Avenue Хургада — логотип</image:title>
+      <image:caption>Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартира с одной спальней на продажу в Хургаде 63 м².webp</image:loc>
+      <image:title>Однокомнатная квартира 63м² на продажу в Хургаде</image:title>
+      <image:caption>Однокомнатная квартира 63м² на продажу в Хургаде — жилой комплекс Avenue</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры 63 м² на продажу - Хургаде Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Однокомнатные квартиры 63м² на продажу в Хургаде</image:title>
+      <image:caption>Однокомнатные квартиры 63м² на продажу в Хургаде — Аль-Мукавилун аль-Араб</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/3.webp</image:loc>
+      <image:title>Avenue Compound Hurghada — фон</image:title>
+      <image:caption>Фоновое изображение жилого комплекса Avenue</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       05 – One Bedroom 68 m²
+       ============================================================ -->
+  <url>
+    <loc>https://hurghadaavenue.github.io/ru/05-ru-onebedroom-68m.html</loc>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Аль-Мукавилун аль-Араб — логотип</image:title>
+      <image:caption>Квартиры на продажу в жилом комплексе Avenue в Хургаде — логотип</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в жилом комплексе в Хургаде.webp</image:loc>
+      <image:title>Квартиры на продажу в жилом комплексе в Хургаде</image:title>
+      <image:caption>Аль-Мукавилун аль-Араб — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Жилой комплекс Avenue Хургада — логотип</image:title>
+      <image:caption>Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Однокомнатная квартира 68 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Квартиры с одной спальней 68м² на продажу в Хургаде</image:title>
+      <image:caption>Квартиры с одной спальней 68м² на продажу в Хургаде — жилой комплекс Avenue</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Однокомнатные квартиры 68м² в Хургаде на продажу.webp</image:loc>
+      <image:title>Однокомнатные квартиры 68м² в Хургаде на продажу</image:title>
+      <image:caption>Однокомнатные квартиры 68м² в Хургаде на продажу — просторная квартира в престижном комплексе</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/3.webp</image:loc>
+      <image:title>Avenue Compound Hurghada — фон</image:title>
+      <image:caption>Фоновое изображение жилого комплекса Avenue</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       06 – Two Bedrooms 98 m²
+       ============================================================ -->
+  <url>
+    <loc>https://hurghadaavenue.github.io/ru/06-ru-twobedrooms-98m.html</loc>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Аль-Мукавилун аль-Араб — логотип</image:title>
+      <image:caption>Квартиры на продажу в жилом комплексе Avenue в Хургаде — логотип</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в жилом комплексе в Хургаде.webp</image:loc>
+      <image:title>Квартиры на продажу в жилом комплексе в Хургаде</image:title>
+      <image:caption>Аль-Мукавилун аль-Араб — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Жилой комплекс Avenue Хургада — логотип</image:title>
+      <image:caption>Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Двухкомнатная квартира площадью 98 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Двухкомнатные квартиры площадью 98м² на продажу в Хургаде</image:title>
+      <image:caption>Двухкомнатные квартиры площадью 98м² на продажу в Хургаде — жилой комплекс Avenue</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Двухкомнатные квартиры площадью 98 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Двухкомнатная квартира площадью 98м² на продажу в Хургаде</image:title>
+      <image:caption>Двухкомнатная квартира площадью 98м² на продажу в Хургаде — ультраделюкс отделка</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/3.webp</image:loc>
+      <image:title>Avenue Compound Hurghada — фон</image:title>
+      <image:caption>Фоновое изображение жилого комплекса Avenue</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       07 – Two Bedrooms 108 m²
+       ============================================================ -->
+  <url>
+    <loc>https://hurghadaavenue.github.io/ru/07-ru-twobedrooms-108m.html</loc>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Аль-Мукавилун аль-Араб — логотип</image:title>
+      <image:caption>Квартиры на продажу в жилом комплексе Avenue в Хургаде — логотип</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в жилом комплексе в Хургаде.webp</image:loc>
+      <image:title>Квартиры на продажу в жилом комплексе в Хургаде</image:title>
+      <image:caption>Аль-Мукавилун аль-Араб — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Жилой комплекс Avenue Хургада — логотип</image:title>
+      <image:caption>Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Двухкомнатная квартира площадью 108 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Двухкомнатные квартиры 108м² на продажу в Хургаде</image:title>
+      <image:caption>Двухкомнатные квартиры 108м² на продажу в Хургаде — жилой комплекс Avenue</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Двухкомнатные квартиры площадью 108 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Квартиры 108м² на продажу в Хургаде</image:title>
+      <image:caption>Квартиры 108м² на продажу в Хургаде Аль-Мукавилун аль-Араб — ультраделюкс</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/3.webp</image:loc>
+      <image:title>Avenue Compound Hurghada — фон</image:title>
+      <image:caption>Фоновое изображение жилого комплекса Avenue</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       08 – Two Bedrooms 110 m²
+       ============================================================ -->
+  <url>
+    <loc>https://hurghadaavenue.github.io/ru/08-ru-twobedrooms-110m.html</loc>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Аль-Мукавилун аль-Араб — логотип</image:title>
+      <image:caption>Квартиры на продажу в жилом комплексе Avenue в Хургаде — логотип</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в жилом комплексе в Хургаде.webp</image:loc>
+      <image:title>Квартиры на продажу в жилом комплексе в Хургаде</image:title>
+      <image:caption>Аль-Мукавилун аль-Араб — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Жилой комплекс Avenue Хургада — логотип</image:title>
+      <image:caption>Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Двухкомнатная квартира площадью 110 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Хургада — Квартиры на продажу в Хургаде 110 м²</image:title>
+      <image:caption>Хургада — Квартиры на продажу в Хургаде 110 м² — жилой комплекс Avenue</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Двухкомнатные квартиры площадью 110 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Двухкомнатные квартиры 110м² на продажу в Хургаде</image:title>
+      <image:caption>Двухкомнатные квартиры 110м² на продажу в Хургаде — Аль-Мукавилун аль-Араб</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/3.webp</image:loc>
+      <image:title>Avenue Compound Hurghada — фон</image:title>
+      <image:caption>Фоновое изображение жилого комплекса Avenue</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       09 – Two Bedrooms 120 m²
+       ============================================================ -->
+  <url>
+    <loc>https://hurghadaavenue.github.io/ru/09-ru-twobedrooms-120m.html</loc>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Аль-Мукавилун аль-Араб — логотип</image:title>
+      <image:caption>Квартиры на продажу в жилом комплексе Avenue в Хургаде — логотип</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в жилом комплексе в Хургаде.webp</image:loc>
+      <image:title>Квартиры на продажу в жилом комплексе в Хургаде</image:title>
+      <image:caption>Аль-Мукавилун аль-Араб — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Жилой комплекс Avenue Хургада — логотип</image:title>
+      <image:caption>Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Двухкомнатная квартира площадью 120 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Двухкомнатные квартиры 120м² на продажу в Хургаде</image:title>
+      <image:caption>Двухкомнатные квартиры 120м² на продажу в Хургаде — жилой комплекс Avenue</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Двухкомнатные квартиры площадью 120 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Двухкомнатные квартиры 120м² в Хургаде на продажу</image:title>
+      <image:caption>Двухкомнатные квартиры 120м² в Хургаде на продажу — ультраделюкс отделка</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/3.webp</image:loc>
+      <image:title>Avenue Compound Hurghada — фон</image:title>
+      <image:caption>Фоновое изображение жилого комплекса Avenue</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       10 – Three Bedrooms 123 m²
+       ============================================================ -->
+  <url>
+    <loc>https://hurghadaavenue.github.io/ru/10-ru-threebedrooms-123m.html</loc>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Аль-Мукавилун аль-Араб — логотип</image:title>
+      <image:caption>Квартиры на продажу в жилом комплексе Avenue в Хургаде — логотип</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в жилом комплексе в Хургаде.webp</image:loc>
+      <image:title>Квартиры на продажу в жилом комплексе в Хургаде</image:title>
+      <image:caption>Аль-Мукавилун аль-Араб — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Жилой комплекс Avenue Хургада — логотип</image:title>
+      <image:caption>Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Трехкомнатная квартира площадью 123 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Трехкомнатные квартиры площадью 123м² в Хургаде</image:title>
+      <image:caption>Трехкомнатные квартиры площадью 123м² в Хургаде — жилой комплекс Avenue</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Трехкомнатные квартиры площадью 123 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Трехкомнатные квартиры 123м² в Хургаде</image:title>
+      <image:caption>Трехкомнатные квартиры 123м² в Хургаде — ультраделюкс отделка</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/3.webp</image:loc>
+      <image:title>Avenue Compound Hurghada — фон</image:title>
+      <image:caption>Фоновое изображение жилого комплекса Avenue</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       11 – Three Bedrooms 125 m²
+       ============================================================ -->
+  <url>
+    <loc>https://hurghadaavenue.github.io/ru/11-ru-threebedrooms-125m.html</loc>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Аль-Мукавилун аль-Араб — логотип</image:title>
+      <image:caption>Квартиры на продажу в жилом комплексе Avenue в Хургаде — логотип</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в жилом комплексе в Хургаде.webp</image:loc>
+      <image:title>Квартиры на продажу в жилом комплексе в Хургаде</image:title>
+      <image:caption>Аль-Мукавилун аль-Араб — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Жилой комплекс Avenue Хургада — логотип</image:title>
+      <image:caption>Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Трехкомнатная квартира площадью 125 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Семейные квартиры 125 м² на продажу в Хургаде</image:title>
+      <image:caption>Семейные квартиры 125 м² на продажу в Хургаде — жилой комплекс Avenue</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Трехкомнатные квартиры площадью 125 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Трехкомнатные квартиры 125м² на продажу в Хургаде</image:title>
+      <image:caption>Трехкомнатные квартиры 125м² на продажу в Хургаде — ультраделюкс</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/3.webp</image:loc>
+      <image:title>Avenue Compound Hurghada — фон</image:title>
+      <image:caption>Фоновое изображение жилого комплекса Avenue</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       12 – Three Bedrooms 145 m²
+       ============================================================ -->
+  <url>
+    <loc>https://hurghadaavenue.github.io/ru/12-ru-threebedrooms-145m.html</loc>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Аль-Мукавилун аль-Араб — логотип</image:title>
+      <image:caption>Квартиры на продажу в жилом комплексе Avenue в Хургаде — логотип</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в жилом комплексе в Хургаде.webp</image:loc>
+      <image:title>Квартиры на продажу в жилом комплексе в Хургаде</image:title>
+      <image:caption>Аль-Мукавилун аль-Араб — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Жилой комплекс Avenue Хургада — логотип</image:title>
+      <image:caption>Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Трехкомнатная квартира площадью 145 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Новые квартиры 145м² на продажу в Хургаде</image:title>
+      <image:caption>Новые квартиры 145м² на продажу в Хургаде — жилой комплекс Avenue</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Трехкомнатные квартиры площадью 145 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Трехкомнатные квартиры 145м² на продажу в Хургаде</image:title>
+      <image:caption>Трехкомнатные квартиры 145м² на продажу в Хургаде — ультраделюкс</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/3.webp</image:loc>
+      <image:title>Avenue Compound Hurghada — фон</image:title>
+      <image:caption>Фоновое изображение жилого комплекса Avenue</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       ru-company.html
+       ============================================================ -->
+  <url>
+    <loc>https://hurghadaavenue.github.io/ru/ru-company.html</loc>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Аль-Мукавилун аль-Араб — логотип</image:title>
+      <image:caption>Квартиры на продажу в жилом комплексе Avenue в Хургаде — логотип</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в жилом комплексе в Хургаде.webp</image:loc>
+      <image:title>Квартиры на продажу в жилом комплексе в Хургаде</image:title>
+      <image:caption>Аль-Мукавилун аль-Араб — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Жилой комплекс Avenue Хургада — логотип</image:title>
+      <image:caption>Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Аль-Мукавилун аль-Араб – Квартиры на продажу в Хургаде.webp</image:loc>
+      <image:title>Аль-Мукавилун аль-Араб – Квартиры на продажу в Хургаде</image:title>
+      <image:caption>Аль-Мукавилун аль-Араб – Квартиры на продажу в Хургаде — OG изображение</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/3.webp</image:loc>
+      <image:title>Avenue Compound Hurghada — фон</image:title>
+      <image:caption>Фоновое изображение жилого комплекса Avenue</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       ru-compound-features.html
+       ============================================================ -->
+  <url>
+    <loc>https://hurghadaavenue.github.io/ru/ru-compound-features.html</loc>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Аль-Мукавилун аль-Араб — логотип</image:title>
+      <image:caption>Квартиры на продажу в жилом комплексе Avenue в Хургаде — логотип</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в жилом комплексе в Хургаде.webp</image:loc>
+      <image:title>Квартиры на продажу в жилом комплексе в Хургаде</image:title>
+      <image:caption>Аль-Мукавилун аль-Араб — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Жилой комплекс Avenue Хургада — логотип</image:title>
+      <image:caption>Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Аль-Мукавилун аль-Араб – Квартиры на продажу в Хургаде.webp</image:loc>
+      <image:title>Аль-Мукавилун аль-Араб – Квартиры на продажу в Хургаде</image:title>
+      <image:caption>Аль-Мукавилун аль-Араб – Квартиры на продажу в Хургаде — OG изображение</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/3.webp</image:loc>
+      <image:title>Avenue Compound Hurghada — фон</image:title>
+      <image:caption>Фоновое изображение жилого комплекса Avenue</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       ru-location-features.html
+       ============================================================ -->
+  <url>
+    <loc>https://hurghadaavenue.github.io/ru/ru-location-features.html</loc>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Аль-Мукавилун аль-Араб — логотип</image:title>
+      <image:caption>Квартиры на продажу в жилом комплексе Avenue в Хургаде — логотип</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в жилом комплексе в Хургаде.webp</image:loc>
+      <image:title>Квартиры на продажу в жилом комплексе в Хургаде</image:title>
+      <image:caption>Аль-Мукавилун аль-Араб — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Жилой комплекс Avenue Хургада — логотип</image:title>
+      <image:caption>Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Особенности расположения — квартиры на продажу в Хургаде.webp</image:loc>
+      <image:title>Особенности расположения — квартиры на продажу в Хургаде</image:title>
+      <image:caption>Особенности расположения — квартиры на продажу в Хургаде — жилой комплекс Avenue</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/3.webp</image:loc>
+      <image:title>Avenue Compound Hurghada — фон</image:title>
+      <image:caption>Фоновое изображение жилого комплекса Avenue</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       ru-orangepay.html
+       ============================================================ -->
+  <url>
+    <loc>https://hurghadaavenue.github.io/ru/ru-orangepay.html</loc>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Аль-Мукавилун аль-Араб — логотип</image:title>
+      <image:caption>Квартиры на продажу в жилом комплексе Avenue в Хургаде — логотип</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в жилом комплексе в Хургаде.webp</image:loc>
+      <image:title>Квартиры на продажу в жилом комплексе в Хургаде</image:title>
+      <image:caption>Аль-Мукавилун аль-Араб — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Жилой комплекс Avenue Хургада — логотип</image:title>
+      <image:caption>Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Природные теневые навесы Orange Bay - Квартиры на продажу в Хургаде.webp</image:loc>
+      <image:title>Природные теневые навесы Orange Bay</image:title>
+      <image:caption>Природные теневые навесы Orange Bay — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Прямые солнцезащитные навесы Orange Bay - Квартиры на продажу в Хургаде.webp</image:loc>
+      <image:title>Прямые солнцезащитные навесы Orange Bay</image:title>
+      <image:caption>Прямые солнцезащитные навесы Orange Bay — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Шезлонги Orange Bay - Квартиры на продажу в Хургаде.webp</image:loc>
+      <image:title>Шезлонги Orange Bay</image:title>
+      <image:caption>Шезлонги Orange Bay — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Прозрачные воды Orange Bay - Квартиры на продажу в Хургаде.webp</image:loc>
+      <image:title>Прозрачные воды Orange Bay</image:title>
+      <image:caption>Прозрачные воды Orange Bay — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Знаменитая марина Orange Bay - Квартиры на продажу в Хургаде.webp</image:loc>
+      <image:title>Знаменитая марина Orange Bay</image:title>
+      <image:caption>Знаменитая марина Orange Bay — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Инфраструктура Orange Bay - Квартиры на продажу в Хургаде.webp</image:loc>
+      <image:title>Инфраструктура Orange Bay</image:title>
+      <image:caption>Инфраструктура Orange Bay — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Орандж Бэй — бесплатное членство для владельцев квартир.webp</image:loc>
+      <image:title>Орандж Бэй — бесплатное членство для владельцев квартир</image:title>
+      <image:caption>Орандж Бэй — бесплатное членство для владельцев квартир — OG изображение</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/3.webp</image:loc>
+      <image:title>Avenue Compound Hurghada — фон</image:title>
+      <image:caption>Фоновое изображение жилого комплекса Avenue</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       ru-prices.html
+       ============================================================ -->
+  <url>
+    <loc>https://hurghadaavenue.github.io/ru/ru-prices.html</loc>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Аль-Мукавилун аль-Араб — логотип</image:title>
+      <image:caption>Квартиры на продажу в жилом комплексе Avenue в Хургаде — логотип</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в жилом комплексе в Хургаде.webp</image:loc>
+      <image:title>Квартиры на продажу в жилом комплексе в Хургаде</image:title>
+      <image:caption>Аль-Мукавилун аль-Араб — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Жилой комплекс Avenue Хургада — логотип</image:title>
+      <image:caption>Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Цены — квартиры на продажу в Хургаде — Авеню.webp</image:loc>
+      <image:title>Цены — квартиры на продажу в Хургаде — Авеню</image:title>
+      <image:caption>Цены — квартиры на продажу в Хургаде — Авеню — OG изображение</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/3.webp</image:loc>
+      <image:title>Avenue Compound Hurghada — фон</image:title>
+      <image:caption>Фоновое изображение жилого комплекса Avenue</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       ru-finishing.html
+       ============================================================ -->
+  <url>
+    <loc>https://hurghadaavenue.github.io/ru/ru-finishing.html</loc>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Аль-Мукавилун аль-Араб — логотип</image:title>
+      <image:caption>Квартиры на продажу в жилом комплексе Avenue в Хургаде — логотип</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в жилом комплексе в Хургаде.webp</image:loc>
+      <image:title>Квартиры на продажу в жилом комплексе в Хургаде</image:title>
+      <image:caption>Аль-Мукавилун аль-Араб — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Жилой комплекс Avenue Хургада — логотип</image:title>
+      <image:caption>Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка зоны отдыха квартиры — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка зоны отдыха квартиры</image:title>
+      <image:caption>Отделка зоны отдыха квартиры — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка интерьера квартиры — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка интерьера квартиры</image:title>
+      <image:caption>Отделка интерьера квартиры — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка стен ванной комнаты квартиры — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка стен ванной комнаты квартиры</image:title>
+      <image:caption>Отделка стен ванной комнаты квартиры — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка потолков квартиры — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка потолков квартиры</image:title>
+      <image:caption>Отделка потолков квартиры — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка приёмной зоны квартиры — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка приёмной зоны квартиры</image:title>
+      <image:caption>Отделка приёмной зоны квартиры — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка углов квартиры — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка углов квартиры</image:title>
+      <image:caption>Отделка углов квартиры — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка раковины квартиры — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка раковины квартиры</image:title>
+      <image:caption>Отделка раковины квартиры — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка окон квартиры — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка окон квартиры</image:title>
+      <image:caption>Отделка окон квартиры — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка площади террасы квартиры — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка площади террасы квартиры</image:title>
+      <image:caption>Отделка площади террасы квартиры — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка коридора квартиры — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка коридора квартиры</image:title>
+      <image:caption>Отделка коридора квартиры — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка входа в ванную комнату квартиры — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка входа в ванную комнату квартиры</image:title>
+      <image:caption>Отделка входа в ванную комнату квартиры — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка полов и стен квартиры — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка полов и стен квартиры</image:title>
+      <image:caption>Отделка полов и стен квартиры — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка дверей и входных групп квартиры — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка дверей и входных групп квартиры</image:title>
+      <image:caption>Отделка дверей и входных групп квартиры — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка полов квартиры — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка полов квартиры</image:title>
+      <image:caption>Отделка полов квартиры — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка потолков открытой кухни квартиры — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка потолков открытой кухни квартиры</image:title>
+      <image:caption>Отделка потолков открытой кухни квартиры — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/تشطيب ابواب ومداخل الشقة - شقق للبيع في الغردقة.jpg</image:loc>
+      <image:title>Apartment doors and entrances finishing</image:title>
+      <image:caption>Apartment doors and entrances finishing – Apartments for sale in Hurghada</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка углов полов квартиры — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка углов полов квартиры</image:title>
+      <image:caption>Отделка углов полов квартиры — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка залов квартиры — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка залов квартиры</image:title>
+      <image:caption>Отделка залов квартиры — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка открытой кухни квартиры — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка открытой кухни квартиры</image:title>
+      <image:caption>Отделка открытой кухни квартиры — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка боковых входов квартиры — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка боковых входов квартиры</image:title>
+      <image:caption>Отделка боковых входов квартиры — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка выступов стен квартиры — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка выступов стен квартиры</image:title>
+      <image:caption>Отделка выступов стен квартиры — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка стен коридора квартиры — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка стен коридора квартиры</image:title>
+      <image:caption>Отделка стен коридора квартиры — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка лифтов жилого комплекса — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка лифтов жилого комплекса</image:title>
+      <image:caption>Отделка лифтов жилого комплекса — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка фасад жилого комплекса квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка фасад жилого комплекса</image:title>
+      <image:caption>Отделка фасад жилого комплекса квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка бассейнов жилого комплекса — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка бассейнов жилого комплекса</image:title>
+      <image:caption>Отделка бассейнов жилого комплекса — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка дворов жилого комплекса — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка дворов жилого комплекса</image:title>
+      <image:caption>Отделка дворов жилого комплекса — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/تشطيب حمامات سباحة الكمبوند - شقق للبيع في الغردقة.jpg</image:loc>
+      <image:title>Compound swimming pool finishing</image:title>
+      <image:caption>Compound swimming pool finishing – Apartments for sale in Hurghada</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка входных групп жилого комплекса — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка входных групп жилого комплекса</image:title>
+      <image:caption>Отделка входных групп жилого комплекса — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка коридоров жилого комплекса — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка коридоров жилого комплекса</image:title>
+      <image:caption>Отделка коридоров жилого комплекса — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка входных групп жилого комплекса  квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка входных групп жилого комплекса (вариант 2)</image:title>
+      <image:caption>Отделка входных групп жилого комплекса квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка углов жилого комплекса — квартиры на продажу в Хургаде.jpg</image:loc>
+      <image:title>Отделка углов жилого комплекса</image:title>
+      <image:caption>Отделка углов жилого комплекса — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Отделка нескольких лифтов жилого комплекса — квартиры на продажу в Хургаде .jpg</image:loc>
+      <image:title>Отделка нескольких лифтов жилого комплекса</image:title>
+      <image:caption>Отделка нескольких лифтов жилого комплекса — квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Ультраделюкс Авеню квартиры квартиры на продажу в Хургаде.webp</image:loc>
+      <image:title>Ультраделюкс Авеню квартиры</image:title>
+      <image:caption>Ультраделюкс — квартиры на продажу в Хургаде — OG изображение</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/3.webp</image:loc>
+      <image:title>Avenue Compound Hurghada — фон</image:title>
+      <image:caption>Фоновое изображение жилого комплекса Avenue</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       ru-contact.html
+       ============================================================ -->
+  <url>
+    <loc>https://hurghadaavenue.github.io/ru/ru-contact.html</loc>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Аль-Мукавилун аль-Араб — логотип</image:title>
+      <image:caption>Квартиры на продажу в жилом комплексе Avenue в Хургаде — логотип</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в жилом комплексе в Хургаде.webp</image:loc>
+      <image:title>Квартиры на продажу в жилом комплексе в Хургаде</image:title>
+      <image:caption>Аль-Мукавилун аль-Араб — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Жилой комплекс Avenue Хургада — логотип</image:title>
+      <image:caption>Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Свяжитесь с нами – Квартиры на продажу в Хургаде.webp</image:loc>
+      <image:title>Свяжитесь с нами – Квартиры на продажу в Хургаде</image:title>
+      <image:caption>Свяжитесь с нами – Квартиры на продажу в Хургаде — OG изображение</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/imagesmain/call-fotr.png</image:loc>
+      <image:title>Кнопка «Позвонить»</image:title>
+      <image:caption>Кнопка «Позвонить» — свяжитесь с нами по телефону</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/imagesmain/whatsapp-fotr.png</image:loc>
+      <image:title>Кнопка «WhatsApp»</image:title>
+      <image:caption>Кнопка «WhatsApp» — свяжитесь с нами в мессенджере</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/3.webp</image:loc>
+      <image:title>Avenue Compound Hurghada — фон</image:title>
+      <image:caption>Фоновое изображение жилого комплекса Avenue</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       ru-units.html
+       ============================================================ -->
+  <url>
+    <loc>https://hurghadaavenue.github.io/ru/ru-units.html</loc>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Аль-Мукавилун аль-Араб — логотип</image:title>
+      <image:caption>Квартиры на продажу в жилом комплексе Avenue в Хургаде — логотип</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Квартиры на продажу в жилом комплексе в Хургаде.webp</image:loc>
+      <image:title>Квартиры на продажу в жилом комплексе в Хургаде</image:title>
+      <image:caption>Аль-Мукавилун аль-Араб — Квартиры на продажу в Хургаде</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб.webp</image:loc>
+      <image:title>Жилой комплекс Avenue Хургада — логотип</image:title>
+      <image:caption>Жилой комплекс Avenue Хургада — Аль-Мукавилун аль-Араб</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Трехкомнатная квартира площадью 125 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Трехкомнатные квартиры 125м² на продажу в Хургаде</image:title>
+      <image:caption>Трехкомнатные квартиры 125м² на продажу в Хургаде — жилой комплекс Avenue</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Трехкомнатная квартира площадью 123 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Трехкомнатные квартиры площадью 123м² в Хургаде</image:title>
+      <image:caption>Трехкомнатные квартиры площадью 123м² в Хургаде — жилой комплекс Avenue</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Двухкомнатная квартира площадью 120 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Двухкомнатные квартиры 120м² на продажу в Хургаде</image:title>
+      <image:caption>Двухкомнатные квартиры 120м² на продажу в Хургаде — жилой комплекс Avenue</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Трехкомнатная квартира площадью 145 м² на продажу в Хургаде.webp</image:loc>
+      <image:title>Трехкомнатные квартиры 145м² на продажу в Хургаде</image:title>
+      <image:caption>Трехкомнатные квартиры 145м² на продажу в Хургаде — жилой комплекс Avenue</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/Роскошные квартиры на продажу в Хургаде.webp</image:loc>
+      <image:title>Роскошные квартиры на продажу в Хургаде</image:title>
+      <image:caption>Роскошные квартиры на продажу в Хургаде — жилой комплекс Avenue — OG изображение</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hurghadaavenue.github.io/ru/ru-photos/3.webp</image:loc>
+      <image:title>Avenue Compound Hurghada — фон</image:title>
+      <image:caption>Фоновое изображение жилого комплекса Avenue</image:caption>
+    </image:image>
+  </url>
+
+</urlset>
