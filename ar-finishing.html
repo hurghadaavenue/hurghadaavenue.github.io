@@ -326,7 +326,23 @@ footer{background:#080809!important;border-top:1px solid var(--line)}
 .pager{background:#0b0b0c;border-color:var(--line);color:#EFBE7C}
 .lb{background:rgba(0,0,0,.96)}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-</style></head>
+/* Refinements: consistent dark surfaces, contrast, and responsive rhythm */
+.facts{background:#141416!important;border-block:1px solid var(--line)}
+.fact{background:transparent!important;border-color:var(--line)!important}
+.fact .k{color:#b9b2a6!important}.fact .v{color:var(--gold)!important}
+.block,.sec-head,.gallery-head{color:#f3efe8}
+.block{background:#0b0b0c!important}
+.sec-head h2,.block h2,.block h3{color:#f3efe8}
+.block p,.block li,.sec-head p{color:#c6beb1}
+.overlap{background:#0b0b0c!important;box-shadow:0 18px 50px rgba(0,0,0,.3);border:1px solid var(--line);border-radius:18px}
+.btn-wa{background:linear-gradient(135deg,#23b765,#168d4c);box-shadow:0 10px 28px rgba(31,170,89,.25)}
+.btn-ghost:hover{background:rgba(239,190,124,.12);color:#fff}
+.hero{padding-bottom:100px}.hero .wrap{position:relative;z-index:1}
+.hero:before{transform:scale(1.02);filter:saturate(.82)}
+.hero:after{background:linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,.62) 48%,#0b0b0c 100%)!important}
+.badge{border-color:var(--line);background:rgba(239,190,124,.12);color:var(--gold)}
+.pillar{border-radius:0}.pillar h3{line-height:1.45}
+@media(max-width:700px){.hero{padding-bottom:72px}.hero .wrap{padding-inline:18px}.overlap{margin-inline:14px}.facts{grid-template-columns:repeat(2,minmax(0,1fr))}.fact{padding:16px 10px}}</style></head>
 <body>
 
 <div class="topbar">
@@ -485,7 +501,8 @@ footer{background:#080809!important;border-top:1px solid var(--line)}
       <blockquote style="margin-top:14px"><b>النتيجة النهائية:</b> يحصل العميل على وحدة سكنية بتشطيب فاخر، ومرافق متكاملة، ضمن بيئة راقية تحقق له الراحة والأمان، وتُجسّد التزام الشركة بأعلى معايير الجودة.</blockquote>
     </section>
 
-    <div class="pager">
+    <section class="block" aria-labelledby="t-units"><div class="sec-head"><span class="eyebrow">اختر مساحتك</span><h2 id="t-units">باقي الوحدات</h2></div><nav class="units" aria-label="مساحات الوحدات"><a href="https://hurghadaavenue.github.io/03-ar-studio-40m.html" aria-current="page">40م²<small>استوديو</small></a> <a href="https://hurghadaavenue.github.io/01-ar-studio-50m.html">50م²<small>استوديو</small></a> <a href="https://hurghadaavenue.github.io/02-ar-studio-51m.html">51م²<small>استوديو</small></a> <a href="https://hurghadaavenue.github.io/04-onebedroom-63m.html">63م²<small>غرفة</small></a> <a href="https://hurghadaavenue.github.io/05-onebedroom-68m.html">68م²<small>غرفة</small></a> <a href="https://hurghadaavenue.github.io/06-twobedrooms-98m.html">98م²<small>غرفتان</small></a> <a href="https://hurghadaavenue.github.io/07-twobedrooms-108m.html">108م²<small>غرفتان</small></a> <a href="https://hurghadaavenue.github.io/08-twobedrooms-110m.html">110م²<small>غرفتان</small></a> <a href="https://hurghadaavenue.github.io/12-twobedrooms-120m.html">120م²<small>غرفتان</small></a> <a href="https://hurghadaavenue.github.io/09-threebedrooms-123m.html">123م²<small>3 غرف</small></a> <a href="https://hurghadaavenue.github.io/10-threebedrooms-125m.html">125م²<small>3 غرف</small></a> <a href="https://hurghadaavenue.github.io/11-threebedrooms-145m.html">145م²<small>3 غرف</small></a></nav><div class="pager"><a href="./02-ar-studio-51m.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg> السابق</a> <a href="./04-onebedroom-63m.html">التالي <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg></a></div></section>
+<div class="pager">
       <a href="https://hurghadaavenue.github.io/ar-location-features.html">السابق</a>
       <a href="https://hurghadaavenue.github.io">1</a>
       <a href="https://hurghadaavenue.github.io/ar-finishing.html" aria-current="page">2</a>
@@ -682,3 +699,5 @@ footer{background:#080809!important;border-top:1px solid var(--line)}
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-1Y9Z5YXGZ3');</script>
 </body>
 </html>
+
+
