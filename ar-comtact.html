@@ -9,6 +9,10 @@
 <meta name="author" content="hurghadaavenue-Ahmad-Kamel">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://hurghadaavenue.github.io/ar-comtact.html">
+<link rel="alternate" hreflang="ar" href="https://hurghadaavenue.github.io/ar-comtact.html">
+<link rel="alternate" hreflang="en" href="https://hurghadaavenue.github.io/en/en-comtact.html">
+<meta property="og:locale" content="ar_AR">
+<meta property="og:site_name" content="كمبوند أفينيو الغردقة">
 <meta property="og:title" content="تواصل معنا | افينيو كمبوند الغردقة">
 <meta property="og:description" content="تواصل مع فريق افينيو كمبوند الغردقة للاستفسار عن الشقق المتاحة والأسعار وأنظمة السداد.">
 <meta property="og:type" content="website">
@@ -21,309 +25,359 @@
 <meta name="msvalidate.01" content="7B7B81397CBA521DD4133068C0700FF6">
 <meta name="google-site-verification" content="7o7gU_HhcUBbOD3JS5b2oLqrO4efy06Fc3vy8PU78PY">
 <style>
-/* Theme taken from the unit pages: photo header under a black overlay, gold navigation, white content, gold call and WhatsApp icons. Layout is fluid and RTL; no absolute positioning. */
-:root{
-  --gold:#EFBE7C; --gold-2:#EABA7B; --gold-text:#7A5415;
-  --black:#0A0A0A; --ink:#141414; --muted:#5A5A5A;
-  --paper:#FFFFFF; --soft:#F6F2EA; --line:#E3DBCB;
-  --font:"Segoe UI",Tahoma,Arial,sans-serif;
-}
+/* Same theme as index.html: Cairo, ink and gold with a maroon accent, sticky dark header, photo hero, rounded gold buttons, icon cards, maroon call-to-action band. */
+@font-face{font-family:"Cairo";src:url("./fonts/Cairo.woff2") format("woff2");font-weight:200 1000;font-style:normal;font-display:swap}
+:root{--ink:#14110f;--ink-2:#2a2420;--muted:#6b625b;--gold:#c99a4b;--gold-soft:#eabb7b;--gold-pale:#f7ecd9;--maroon:#7a1f1f;--paper:#fbf8f3;--card:#ffffff;--line:#eadfce;--wa:#1faa59;--radius:18px;--shadow:0 10px 30px rgba(40,25,10,.10);--max:1120px}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font);font-size:18px;line-height:1.8}
-a{color:inherit}
-img{max-width:100%;height:auto}
-h1,h2,h3{margin:0;line-height:1.35}
-:focus-visible{outline:3px solid var(--gold-2);outline-offset:3px;border-radius:4px}
-.wrap{width:min(1120px,100% - 32px);margin-inline:auto}
+body{margin:0;font-family:"Cairo",Arial,Tahoma,sans-serif;font-size:17px;line-height:1.85;color:var(--ink);background:var(--paper);-webkit-text-size-adjust:100%}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit;text-decoration:none}
+ul{margin:0;padding:0;list-style:none}
+.wrap{width:100%;max-width:var(--max);margin-inline:auto;padding-inline:20px}
+.ltr{direction:ltr;unicode-bidi:isolate;display:inline-block}
 
-/* header */
-.masthead{position:relative;isolation:isolate;background:#000 url('imagesmain/3.webp') center/cover no-repeat;color:#fff}
-.masthead::before{content:"";position:absolute;inset:0;z-index:-1;background:rgba(0,0,0,.6)}
-.strip{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:10px;flex-wrap:wrap}
-.langs{display:flex;gap:6px 18px;flex-wrap:wrap;font-size:15px}
-.langs a{color:var(--gold-2);text-decoration:none;padding:4px 2px}
-.langs a:hover{color:#fff}
-.icons{display:flex;gap:10px}
-.icons a{display:block;width:44px;height:44px;border-radius:50%}
-.icons img{display:block;width:44px;height:44px;object-fit:contain}
-.brandrow{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px 18px}
-.brandrow .logo{width:clamp(56px,10vw,104px);flex:none}
-.brandrow .title{flex:1;min-width:0;display:flex;justify-content:center}
-.brandrow .title img{width:min(100%,520px)}
-.nav-bar{border-top:1px solid rgba(239,190,124,.3)}
-.menu-toggle{display:none;width:100%;margin:0;padding:12px 0;background:none;border:0;color:var(--gold);font:600 18px/1 var(--font);cursor:pointer;text-align:start}
-.nav{display:flex;justify-content:center;flex-wrap:wrap;gap:0 6px}
-.nav>a,.dd>summary{display:block;padding:14px 16px;color:var(--gold-2);text-decoration:none;font-size:19px;cursor:pointer;list-style:none}
-.dd>summary::-webkit-details-marker{display:none}
-.dd>summary::after{content:"";display:inline-block;margin-inline-start:8px;border:5px solid transparent;border-top-color:currentColor;border-bottom:0;vertical-align:middle}
-.nav>a:hover,.dd>summary:hover,.dd[open]>summary,.nav a[aria-current="page"]{color:#fff}
-.nav a[aria-current="page"]{box-shadow:inset 0 -3px 0 var(--gold)}
-.dd{position:relative}
-.dd-list{position:absolute;inset-inline-start:0;top:100%;z-index:20;min-width:190px;background:#000;border:1px solid var(--gold-2);border-radius:8px;padding:6px 0;display:grid}
-.dd-list a{padding:7px 20px;color:#fff;text-decoration:none;font-size:18px;white-space:nowrap}
-.dd-list a:hover{color:var(--gold)}
-.dd-list.cols{grid-template-columns:repeat(2,auto)}
-@media (max-width:820px){
-  .menu-toggle{display:block}
-  .nav{display:none;flex-direction:column;flex-wrap:nowrap;padding-bottom:10px}
-  .nav.open{display:flex}
-  .nav>a,.dd>summary{padding:11px 4px;border-top:1px solid rgba(255,255,255,.12)}
-  .dd-list{position:static;background:transparent;border:0;border-radius:0;padding:0 0 8px;min-width:0}
-  .dd-list.cols{grid-template-columns:repeat(3,1fr)}
-  .dd-list a{padding:6px 8px}
-  .nav a[aria-current="page"]{box-shadow:none;color:#fff}
+/* top bar + header */
+.topbar{background:var(--ink);color:#e9dcc6;font-size:14px}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-block:6px;flex-wrap:wrap}
+.topbar a:hover{color:#fff}
+.langs{display:flex;gap:14px}
+.langs a{opacity:.85}
+.langs a[aria-current="true"]{opacity:1;color:var(--gold-soft);font-weight:700}
+.top-contact{display:flex;gap:16px;direction:ltr}
+.site-header{position:sticky;top:0;z-index:50;background:rgba(20,17,15,.94);backdrop-filter:blur(8px);border-bottom:1px solid rgba(234,187,123,.25)}
+.site-header .wrap{display:flex;align-items:center;gap:16px;min-height:68px}
+.brand{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.brand img{height:46px;width:auto}
+.brand .brand-title{height:34px;display:none}
+.nav-toggle{margin-inline-start:auto;width:46px;height:46px;border-radius:12px;background:transparent;border:1px solid rgba(234,187,123,.4);color:var(--gold-soft);cursor:pointer;display:inline-flex;align-items:center;justify-content:center}
+.nav-toggle svg{width:24px;height:24px}
+.main-nav{position:absolute;top:100%;inset-inline:0;background:var(--ink);border-bottom:1px solid rgba(234,187,123,.25);max-height:0;overflow:hidden;transition:max-height .35s ease}
+.main-nav.open{max-height:80vh;overflow-y:auto}
+.main-nav>ul{padding:10px 20px 18px}
+.main-nav a,.dd>button{display:flex;width:100%;align-items:center;justify-content:space-between;padding:12px 6px;color:var(--gold-soft);background:none;border:0;border-bottom:1px solid rgba(255,255,255,.07);font:inherit;font-size:16px;cursor:pointer;text-align:start}
+.main-nav a:hover,.dd>button:hover{color:#fff}
+.dd.current>button{color:#fff;font-weight:700}
+.dd-menu{display:none;padding:4px 14px 10px}
+.dd.open .dd-menu{display:block}
+.dd-menu a{font-size:15px;color:#e9dcc6;border-bottom:0;padding:8px 6px}
+.dd .chev{width:14px;height:14px;transition:transform .2s}
+.dd.open .chev{transform:rotate(180deg)}
+.header-cta{display:none}
+@media (min-width:960px){
+  .brand .brand-title{display:block}
+  .nav-toggle{display:none}
+  .main-nav{position:static;max-height:none;overflow:visible;background:none;border:0;margin-inline-start:auto}
+  .main-nav>ul{display:flex;align-items:center;gap:2px;padding:0}
+  .main-nav a,.dd>button{padding:10px 11px;border:0;border-radius:10px;width:auto;font-size:15.5px;gap:6px;justify-content:flex-start}
+  .main-nav a:hover,.dd>button:hover{background:rgba(234,187,123,.14)}
+  .dd{position:relative}
+  .dd-menu{position:absolute;top:calc(100% + 6px);inset-inline-start:0;min-width:190px;background:var(--ink-2);border:1px solid rgba(234,187,123,.3);border-radius:14px;padding:8px;box-shadow:0 18px 40px rgba(0,0,0,.35)}
+  .dd-menu a{display:block;padding:9px 14px;border-radius:9px}
+  .dd-menu a:hover{background:rgba(234,187,123,.16)}
+  .header-cta{display:inline-flex}
 }
 
-/* page title */
-.pagehead{padding-block:3.2rem 2.4rem;text-align:center}
-.pagehead h1{font-size:clamp(2rem,5vw,3rem);font-weight:700;display:inline-block;padding-bottom:.6rem;border-bottom:4px solid var(--gold)}
-.pagehead p{margin:1.3rem auto 0;max-width:34rem;font-weight:700;font-size:1.2rem}
-.crumb{margin:0 0 1.4rem;font-size:15px;color:var(--muted)}
-.crumb a{color:var(--muted)}
-.crumb span{padding:0 8px;color:var(--gold-text)}
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:13px 26px;border-radius:999px;border:2px solid transparent;font:inherit;font-weight:700;font-size:16px;cursor:pointer;transition:transform .15s ease,box-shadow .15s ease,background .15s}
+.btn svg{width:20px;height:20px;flex-shrink:0}
+.btn:hover{transform:translateY(-2px)}
+.btn-gold{background:linear-gradient(135deg,#e9bf80,#c58f3d);color:#2a1a05;box-shadow:0 8px 20px rgba(201,154,75,.35)}
+.btn-wa{background:var(--wa);color:#fff;box-shadow:0 8px 20px rgba(31,170,89,.3)}
+.btn-sm{padding:8px 18px;font-size:14.5px}
 
-/* contact band */
-.contact{padding-block:0 3.2rem}
-.contact-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:2rem 3rem;align-items:start}
-.contact-grid>*{min-width:0}
-.facts{margin:0;display:grid}
-.facts div{display:flex;gap:.6rem;align-items:baseline;padding:.85rem 0;border-bottom:1px dotted var(--line)}
-.facts dt{flex:none;min-width:8.5rem;font-weight:700}
-.facts dt::after{content:" :"}
-.facts dd{margin:0;min-width:0}
-.facts a{text-decoration:none;font-weight:700}
-.facts a:hover{text-decoration:underline}
-.num{direction:ltr;unicode-bidi:isolate;display:inline-block}
-.cta{background:#000 url('imagesmain/3.webp') center/cover no-repeat;position:relative;isolation:isolate;border-radius:14px;overflow:hidden;color:#fff;padding:2rem 1.6rem;text-align:center}
-.cta::before{content:"";position:absolute;inset:0;z-index:-1;background:rgba(0,0,0,.62)}
-.cta h2{font-size:1.35rem;margin-bottom:1.3rem}
-.cta .actions{display:flex;justify-content:center;gap:1.6rem;flex-wrap:wrap}
-.cta .act{display:grid;justify-items:center;gap:.35rem;text-decoration:none;color:var(--gold);font-weight:600;min-width:96px}
-.cta .act img{width:64px;height:64px;object-fit:contain}
-.cta .act:hover{color:#fff}
-.cta .tel{display:block;margin-top:1.4rem;font-size:1.7rem;font-weight:700;color:#fff;text-decoration:none;letter-spacing:.02em}
-@media (max-width:820px){.contact-grid{grid-template-columns:1fr}}
-@media (max-width:480px){.facts div{flex-direction:column;gap:.1rem}.facts dt{min-width:0}}
+/* hero */
+.hero{position:relative;color:#fff;text-align:center;background:#1a1411 url('imagesmain/3.webp') center/cover no-repeat;isolation:isolate}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(12,9,7,.78),rgba(12,9,7,.6) 50%,rgba(12,9,7,.92))}
+.hero .wrap{padding-block:52px 92px}
+.badge{display:inline-block;background:rgba(234,187,123,.18);border:1px solid rgba(234,187,123,.5);color:var(--gold-soft);padding:4px 16px;border-radius:999px;font-size:14px;font-weight:600;margin-bottom:14px}
+.hero h1{margin:0 auto 14px;max-width:900px;font-size:clamp(27px,5.6vw,48px);line-height:1.35;font-weight:800}
+.hero p.lead{max-width:700px;margin:0 auto 28px;color:#efe4d0;font-size:clamp(16px,2.4vw,20px)}
+.hero .actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
 
-/* more info + units */
-.more{background:var(--soft);padding-block:3rem}
-.more h2,.units h2{font-size:1.6rem;margin-bottom:1.2rem}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,12.5rem),1fr));gap:1rem}
-.cards a{display:block;padding:1.1rem 1.2rem;background:#fff;border:1px solid var(--line);border-inline-start:4px solid var(--gold);border-radius:8px;text-decoration:none;font-weight:700}
-.cards a small{display:block;margin-top:.2rem;font-weight:400;color:var(--muted);font-size:15px}
-.cards a:hover{border-color:var(--gold-2);background:#FFFBF3}
-.units{padding-block:3rem}
-.sizes{display:grid;grid-template-columns:repeat(3,1fr);gap:.7rem}
-@media (min-width:520px){.sizes{grid-template-columns:repeat(4,1fr)}}
-@media (min-width:900px){.sizes{grid-template-columns:repeat(6,1fr)}}
-.sizes a{display:block;text-align:center;padding:.7rem .4rem;border:1px solid var(--line);border-radius:8px;text-decoration:none;font-weight:700;font-variant-numeric:tabular-nums}
-.sizes a:hover{background:#000;color:var(--gold);border-color:#000}
-.sizes small{display:block;font-weight:400;font-size:13px;color:var(--muted)}
-.sizes a:hover small{color:var(--gold-2)}
+/* contact cards overlapping the hero */
+.overlap{margin-top:-52px;position:relative;z-index:2}
+.grid{display:grid;gap:14px;grid-template-columns:1fr}
+@media (min-width:600px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:980px){.grid.cols-3{grid-template-columns:repeat(3,1fr)}.grid.cols-4{grid-template-columns:repeat(4,1fr)}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;display:flex;gap:14px;align-items:flex-start;transition:transform .2s ease,box-shadow .2s ease,border-color .2s}
+.overlap .card{box-shadow:var(--shadow)}
+a.card:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:var(--gold-soft)}
+.card>div{min-width:0}
+.card .ic{flex:0 0 42px;height:42px;border-radius:12px;background:linear-gradient(135deg,var(--gold-pale),#f1dcb6);color:var(--maroon);display:flex;align-items:center;justify-content:center}
+.card .ic svg{width:22px;height:22px}
+.card p{margin:0;font-size:16px;line-height:1.7}
+.card strong{display:block;color:var(--maroon);font-size:16.5px}
+.card small{display:block;color:var(--muted);font-size:14px;line-height:1.6}
+
+/* sections */
+section.block{padding-block:56px 6px}
+.sec-head{margin-bottom:26px}
+.sec-head .eyebrow{color:var(--gold);font-weight:700;font-size:14px}
+.sec-head h2{margin:2px 0 0;font-size:clamp(23px,3.6vw,32px);line-height:1.4;color:var(--ink)}
+.sec-head h2::after{content:"";display:block;width:62px;height:4px;border-radius:4px;margin-top:10px;background:linear-gradient(270deg,var(--gold),transparent)}
+.sizes{display:flex;flex-wrap:wrap;gap:8px}
+.sizes a{background:var(--gold-pale);border:1px solid var(--line);color:#6a4a14;padding:5px 16px;border-radius:999px;font-weight:700;font-size:15px;transition:all .15s}
+.sizes a:hover{background:var(--gold);color:#2a1a05;border-color:var(--gold)}
+
+/* call-to-action band */
+.cta-band{margin-top:56px;border-radius:24px;overflow:hidden;color:#fff;background:linear-gradient(135deg,#2a1a12,#4a1d1d 60%,#6a2a1a);padding:34px 26px;display:grid;gap:18px;align-items:center;box-shadow:var(--shadow);position:relative;isolation:isolate}
+.cta-band::after{content:"";position:absolute;inset-inline-end:-80px;top:-80px;width:260px;height:260px;background:radial-gradient(circle,rgba(234,187,123,.35),transparent 70%);z-index:-1}
+.cta-band h2{margin:0 0 6px;font-size:clamp(22px,3.4vw,30px);line-height:1.4}
+.cta-band p{margin:0;color:#f1e3cb}
+.cta-band .actions{display:flex;gap:12px;flex-wrap:wrap}
+@media (min-width:820px){.cta-band{grid-template-columns:1.4fr auto;padding:40px 46px}}
 
 /* footer */
-.foot{position:relative;isolation:isolate;background:#000 url('imagesmain/3.webp') center/cover no-repeat;color:#fff;padding-block:2.6rem 1.4rem}
-.foot::before{content:"";position:absolute;inset:0;z-index:-1;background:rgba(0,0,0,.6)}
-.foot-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,12rem),1fr));gap:1.8rem}
-.foot-grid>*{min-width:0}
-.foot h3{font-size:1.05rem;color:#fff;margin-bottom:.6rem}
-.foot ul{margin:0;padding:0;list-style:none;display:grid;gap:.3rem}
-.foot a{color:var(--gold);text-decoration:none;font-size:17px}
-.foot a:hover{color:#fff}
-.copy{margin-top:1.8rem;padding-top:1rem;border-top:1px solid rgba(239,190,124,.3);text-align:center;font-size:14px;color:#ddd}
+.site-footer{margin-top:64px;color:#e9dcc6;position:relative;isolation:isolate;background:#14110f url('imagesmain/3.webp') center/cover no-repeat}
+.site-footer::before{content:"";position:absolute;inset:0;background:rgba(12,9,7,.9);z-index:-1}
+.foot-grid{display:grid;gap:30px;padding-block:46px 26px;grid-template-columns:1fr}
+@media (min-width:640px){.foot-grid{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:980px){.foot-grid{grid-template-columns:1.3fr 1fr 1fr 1fr}}
+.foot-grid h3{margin:0 0 12px;color:var(--gold-soft);font-size:17px}
+.foot-grid li{margin-bottom:6px}
+.foot-grid a{opacity:.88}
+.foot-grid a:hover{opacity:1;color:var(--gold-soft)}
+.foot-brand img{height:56px;width:auto;margin-bottom:12px}
+.foot-brand p{margin:0;font-size:15px;opacity:.85}
+.copy{border-top:1px solid rgba(255,255,255,.12);padding-block:16px;text-align:center;font-size:14px;opacity:.8;direction:ltr}
 
-.float{position:fixed;z-index:30;inset-inline-start:16px;bottom:16px;display:grid;gap:10px}
-.float a{display:block;width:52px;height:52px;border-radius:50%;background:#000;border:2px solid var(--gold);padding:5px}
-.float img{display:block;width:100%;height:100%;object-fit:contain}
+/* floating buttons */
+.float{position:fixed;inset-inline-start:14px;bottom:16px;z-index:60;display:flex;flex-direction:column;gap:10px}
+.float a{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;box-shadow:0 8px 22px rgba(0,0,0,.28);transition:transform .15s}
+.float a:hover{transform:scale(1.08)}
+.float svg{width:26px;height:26px}
+.float .f-wa{background:var(--wa)}
+.float .f-call{background:linear-gradient(135deg,#e9bf80,#c58f3d);color:#2a1a05}
 
-@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px;border-radius:8px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 </style>
 </head>
 <body>
 
-<header class="masthead">
-  <div class="wrap">
-    <div class="strip">
-      <nav class="langs" aria-label="اللغات">
-        <a href="https://hurghadaavenue.github.io/" lang="ar" hreflang="ar">العربية</a>
-        <a href="https://hurghadaavenue.github.io/eng-index.html" lang="en" hreflang="en">English</a>
-        <a href="https://hurghadaavenue.github.io/de/de-index.html" lang="de" hreflang="de">Deutsche</a>
-        <a href="https://hurghadaavenue.github.io/ru-index.html" lang="ru" hreflang="ru">Русский</a>
-      </nav>
-      <div class="icons">
-        <a href="tel:+201131572319" aria-label="اتصال"><img src="imagesmain/goldencall.png" alt="" width="44" height="44"></a>
-        <a href="https://api.whatsapp.com/send?phone=201131572319" aria-label="واتس اب"><img src="imagesmain/gogldnwhatsab.webp" alt="" width="44" height="44"></a>
-      </div>
-    </div>
-    <div class="brandrow">
-      <a class="logo" href="https://hurghadaavenue.github.io/" title="كمبوند افينيو الغردقة - المقاولون العرب"><img src="imagesmain/المقاولون%20العرب%20-%20شقق%20فاخرة%20بالغردقة%20للبيع.webp" alt="المقاولون العرب" width="116" height="117"></a>
-      <a class="title" href="https://hurghadaavenue.github.io/" title="المقاولون العرب - شقق التراديلوكس للبيع في الغردقة"><img src="imagesmain/Hurghada%20Avenue%20Compound%20المقاولون%20العرب%20FOTTITL.webp" alt="كمبوند افينيو الغردقة - المقاولون العرب" width="528" height="98"></a>
-      <a class="logo" href="https://hurghadaavenue.github.io/" title="كمبوند افينيو الغردقة"><img src="imagesmain/شقق%20للبيع%20في%20الغردقة%20في%20كمبوند%20المقاولون%20العرب.webp" alt="Avenue Compound كمبوند افينيو" width="116" height="113"></a>
-    </div>
+<div class="topbar"><div class="wrap">
+  <nav class="langs" aria-label="اللغة">
+    <a href="https://hurghadaavenue.github.io" aria-current="true" title="شقق للبيع في الغردقة - كمبوند افينيو المقاولون العرب">العربية</a>
+    <a href="https://hurghadaavenue.github.io/eng-index.html" title="Apartments For Sale in Hurghada in Avenue Compound">English</a>
+    <a href="https://hurghadaavenue.github.io/de/de-index.html" title="Ultra-Luxus-Wohnungen zum Verkauf in Hurghada">Deutsche</a>
+    <a href="https://hurghadaavenue.github.io/ru-index.html" title="Квартира на продажу в Хургаде — жилой комплекс Avenue Эль-Коусер">Русский</a>
+  </nav>
+  <div class="top-contact">
+    <a href="tel:+201131572319" title="اتصال - كمبوند افينيو - شقق للبيع في الغردقة">+201131572319</a>
+    <a href="https://api.whatsapp.com/send?phone=201131572319" title="واتس اب - كمبوند افينيو - شقق للبيع في الغردقة">WhatsApp</a>
   </div>
-  <div class="nav-bar">
-    <div class="wrap">
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav">القائمة ☰</button>
-      <nav class="nav" id="nav" aria-label="القائمة الرئيسية">
-        <a href="https://hurghadaavenue.github.io/">الرئيسية</a>
-        <details class="dd">
-          <summary>الوحدات</summary>
-          <div class="dd-list cols">
-            <a href="https://hurghadaavenue.github.io/03-ar-studio-40m.html">40م²</a>
-            <a href="https://hurghadaavenue.github.io/01-ar-studio-50m.html">50م²</a>
-            <a href="https://hurghadaavenue.github.io/02-ar-studio-51m.html">51م²</a>
-            <a href="https://hurghadaavenue.github.io/04-onebedroom-63m.html">63م²</a>
-            <a href="https://hurghadaavenue.github.io/05-onebedroom-68m.html">68م²</a>
-            <a href="https://hurghadaavenue.github.io/06-twobedrooms-98m.html">98م²</a>
-            <a href="https://hurghadaavenue.github.io/07-twobedrooms-108m.html">108م²</a>
-            <a href="https://hurghadaavenue.github.io/08-twobedrooms-110m.html">110م²</a>
-            <a href="https://hurghadaavenue.github.io/12-twobedrooms-120m.html">120م²</a>
-            <a href="https://hurghadaavenue.github.io/09-threebedrooms-123m.html">123م²</a>
-            <a href="https://hurghadaavenue.github.io/10-threebedrooms-125m.html">125م²</a>
-            <a href="https://hurghadaavenue.github.io/11-threebedrooms-145m.html">145م²</a>
-          </div>
-        </details>
-        <details class="dd">
-          <summary>معلومات الكمبوند</summary>
-          <div class="dd-list">
-            <a href="https://hurghadaavenue.github.io/ar-finishing.html">التشطيب</a>
-            <a href="https://hurghadaavenue.github.io/ar-compount-features.html">مزايا الكمبوند</a>
-            <a href="https://hurghadaavenue.github.io/ar-location-features.html">مزايا الموقع</a>
-          </div>
-        </details>
-        <a href="https://hurghadaavenue.github.io/ar-prices.html">الاسعار</a>
-        <a href="https://hurghadaavenue.github.io/ar-orangepay.html">اورانج باي</a>
-        <a href="https://hurghadaavenue.github.io/ar-company.html">الشركة</a>
-        <a href="https://hurghadaavenue.github.io/ar-comtact.html" aria-current="page">التواصل</a>
-      </nav>
-    </div>
-  </div>
-</header>
+</div></div>
+
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="https://hurghadaavenue.github.io" title="كمبوند افينيو الغردقة - المقاولون العرب">
+    <img src="imagesmain/المقاولون العرب - شقق فاخرة بالغردقة للبيع.webp" alt="شقق سكنية للبيع في كمبوند المقاولون العرب بالغردقة" width="116" height="117">
+    <img class="brand-title" src="imagesmain/Hurghada Avenue Compound المقاولون العرب FOTTITL.webp" alt="المقاولون العرب - شقق التراديلوكس للبيع في الغردقة" width="528" height="98">
+    <img src="imagesmain/شقق للبيع في الغردقة في كمبوند المقاولون العرب.webp" alt="Avenue Compound كمبوند افينيو" width="116" height="113">
+  </a>
+  <button class="nav-toggle" type="button" aria-label="القائمة" aria-expanded="false" aria-controls="mainNav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  <nav class="main-nav" id="mainNav" aria-label="القائمة الرئيسية"><ul>
+    <li><a href="https://hurghadaavenue.github.io" title="شقق للبيع في الغردقة - كمبوند المقاولون العرب">الرئيسية</a></li>
+    <li class="dd"><button type="button" aria-expanded="false">الوحدات<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></button>
+      <div class="dd-menu">
+        <a href="https://hurghadaavenue.github.io/03-ar-studio-40m.html">40م²</a>
+        <a href="https://hurghadaavenue.github.io/01-ar-studio-50m.html">50م²</a>
+        <a href="https://hurghadaavenue.github.io/02-ar-studio-51m.html">51م²</a>
+        <a href="https://hurghadaavenue.github.io/04-onebedroom-63m.html">63م²</a>
+        <a href="https://hurghadaavenue.github.io/05-onebedroom-68m.html">68م²</a>
+        <a href="https://hurghadaavenue.github.io/06-twobedrooms-98m.html">98م²</a>
+        <a href="https://hurghadaavenue.github.io/07-twobedrooms-108m.html">108م²</a>
+        <a href="https://hurghadaavenue.github.io/08-twobedrooms-110m.html">110م²</a>
+        <a href="https://hurghadaavenue.github.io/12-twobedrooms-120m.html">120م²</a>
+        <a href="https://hurghadaavenue.github.io/09-threebedrooms-123m.html">123م²</a>
+        <a href="https://hurghadaavenue.github.io/10-threebedrooms-125m.html">125م²</a>
+        <a href="https://hurghadaavenue.github.io/11-threebedrooms-145m.html">145م²</a>
+      </div></li>
+    <li class="dd"><button type="button" aria-expanded="false">معلومات الكمبوند<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></button>
+      <div class="dd-menu">
+        <a href="https://hurghadaavenue.github.io/ar-finishing.html">التشطيب</a>
+        <a href="https://hurghadaavenue.github.io/ar-compount-features.html">مزايا الكمبوند</a>
+        <a href="https://hurghadaavenue.github.io/ar-location-features.html">مزايا الموقع</a>
+      </div></li>
+    <li><a href="https://hurghadaavenue.github.io/ar-orangepay.html" title="شقق للبيع في الغردقة مع عضوية مجانية باورانج باي">اورانج باي</a></li>
+    <li><a href="https://hurghadaavenue.github.io/ar-company.html" title="شقق للبيع في الغردقة من شركة المقاولون العرب">الشركة</a></li>
+    <li><a href="https://hurghadaavenue.github.io/ar-prices.html" title="شقق للبيع في الغردقة باسعار مميزة من المقاولون العرب">الاسعار</a></li>
+    <li class="dd current"><button type="button" aria-expanded="false">التواصل<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></button>
+      <div class="dd-menu">
+        <a href="tel:+201131572319">اتصال</a>
+        <a href="https://api.whatsapp.com/send?phone=201131572319">واتس اب</a>
+        <a href="https://hurghadaavenue.github.io/ar-comtact.html" aria-current="page">صفحة التواصل</a>
+      </div></li>
+    <li><a class="btn btn-gold btn-sm header-cta" href="tel:+201131572319">اتصل الآن</a></li>
+  </ul></nav>
+</div></header>
 
 <main>
 
-<section class="pagehead">
-  <div class="wrap">
-    <p class="crumb"><a href="https://hurghadaavenue.github.io/">الرئيسية</a><span>/</span>التواصل</p>
-    <h1>تواصل معنا</h1>
-    <p>بامكانكم التواصل معنا دائما على مدار الساعة 7 ايام بالاسبوع</p>
+<section class="hero"><div class="wrap">
+  <span class="badge">نحن هنا لمساعدتك</span>
+  <h1>تواصل معنا</h1>
+  <p class="lead">بامكانكم التواصل معنا دائما على مدار الساعة 7 ايام بالاسبوع. يسعد فريق افينيو أن يجيب عن استفساراتك حول الوحدات المتاحة والأسعار وأنظمة السداد.</p>
+  <div class="actions">
+    <a class="btn btn-gold" href="tel:+201131572319"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.6a1 1 0 01-.25 1z"/></svg>اتصل الآن</a>
+    <a class="btn btn-wa" href="https://api.whatsapp.com/send?phone=201131572319"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11 11 0 003.3 17.2L2 22l4.9-1.3A11 11 0 0020.5 3.5zM12 20a9 9 0 01-4.6-1.3l-.3-.2-2.9.8.8-2.8-.2-.3A9 9 0 1112 20zm5-6.7c-.3-.1-1.6-.8-1.9-.9s-.5-.1-.7.1-.8.9-.9 1.1-.3.2-.6.1a7.4 7.4 0 01-3.7-3.2c-.3-.5.3-.5.8-1.5a.6.6 0 000-.6l-.9-2.1c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.2 5.2 5.2 0 001.1 2.8 12 12 0 004.6 4.1c1.7.7 2.4.8 3.2.7a2.7 2.7 0 001.8-1.3 2.2 2.2 0 00.2-1.3c-.1-.1-.3-.2-.6-.3z"/></svg>واتس اب</a>
   </div>
-</section>
+</div></section>
 
-<section class="contact">
-  <div class="wrap contact-grid">
-    <dl class="facts">
-      <div><dt>اتصال مباشر</dt><dd><a class="num" href="tel:+201131572319">+20 11 3157 2319</a></dd></div>
-      <div><dt>واتس اب</dt><dd><a href="https://api.whatsapp.com/send?phone=201131572319">ابدأ محادثة الآن</a></dd></div>
-      <div><dt>مواعيد التواصل</dt><dd>على مدار الساعة، طوال أيام الأسبوع</dd></div>
-      <div><dt>المشروع</dt><dd>كمبوند افينيو المقاولون العرب - الكوثر - الغردقة</dd></div>
-      <div><dt>للاستفسار عن</dt><dd>الوحدات المتاحة والأسعار وأنظمة السداد</dd></div>
-    </dl>
-    <aside class="cta" aria-label="التواصل السريع">
-      <h2>تواصلوا معنا للمزيد من التفاصيل والوحدات المتاحة</h2>
-      <div class="actions">
-        <a class="act" href="https://api.whatsapp.com/send?phone=201131572319"><img src="imagesmain/gogldnهwhats.webp" alt="" width="64" height="64">واتس اب</a>
-        <a class="act" href="tel:+201131572319"><img src="imagesmain/goldencall.png" alt="" width="64" height="64">اتصال</a>
-      </div>
-      <a class="tel num" href="tel:+201131572319">+20 11 3157 2319</a>
-    </aside>
-  </div>
-</section>
-
-<section class="more">
-  <div class="wrap">
-    <h2>المزيد من التفاصيل</h2>
-    <div class="cards">
-      <a href="https://hurghadaavenue.github.io/ar-prices.html">الأسعار وأنظمة الدفع<small>كاش أو تقسيط حتى 8 سنوات</small></a>
-      <a href="https://hurghadaavenue.github.io/ar-compount-features.html">مزايا الكمبوند<small>المرافق والخدمات داخل المشروع</small></a>
-      <a href="https://hurghadaavenue.github.io/ar-location-features.html">مزايا الموقع<small>الكوثر أمام مطار الغردقة</small></a>
-      <a href="https://hurghadaavenue.github.io/ar-finishing.html">مستويات التشطيب<small>تشطيب التراديلوكس</small></a>
-      <a href="https://hurghadaavenue.github.io/ar-orangepay.html">عضوية أورانج باي<small>مجانية لمالكي الوحدات</small></a>
+<div class="wrap overlap">
+  <div class="grid cols-4">
+    <a class="card" href="tel:+201131572319">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.6a1 1 0 01-.25 1z"/></svg></span>
+      <div><strong>اتصال مباشر</strong><p class="ltr">+20 11 3157 2319</p></div>
+    </a>
+    <a class="card" href="https://api.whatsapp.com/send?phone=201131572319">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11 11 0 003.3 17.2L2 22l4.9-1.3A11 11 0 0020.5 3.5zM12 20a9 9 0 01-4.6-1.3l-.3-.2-2.9.8.8-2.8-.2-.3A9 9 0 1112 20zm5-6.7c-.3-.1-1.6-.8-1.9-.9s-.5-.1-.7.1-.8.9-.9 1.1-.3.2-.6.1a7.4 7.4 0 01-3.7-3.2c-.3-.5.3-.5.8-1.5a.6.6 0 000-.6l-.9-2.1c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.2 5.2 5.2 0 001.1 2.8 12 12 0 004.6 4.1c1.7.7 2.4.8 3.2.7a2.7 2.7 0 001.8-1.3 2.2 2.2 0 00.2-1.3c-.1-.1-.3-.2-.6-.3z"/></svg></span>
+      <div><strong>واتس اب</strong><p>ابدأ محادثة الآن</p></div>
+    </a>
+    <div class="card">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+      <div><strong>مواعيد التواصل</strong><p>على مدار الساعة، طوال أيام الأسبوع</p></div>
+    </div>
+    <div class="card">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-11a7 7 0 10-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+      <div><strong>المشروع</strong><p>كمبوند افينيو المقاولون العرب - الكوثر - الغردقة</p></div>
     </div>
   </div>
-</section>
+</div>
 
-<section class="units">
-  <div class="wrap">
-    <h2>الوحدات المتاحة</h2>
-    <div class="sizes">
-      <a href="https://hurghadaavenue.github.io/03-ar-studio-40m.html">40م²<small>ستوديو</small></a>
-      <a href="https://hurghadaavenue.github.io/01-ar-studio-50m.html">50م²<small>ستوديو</small></a>
-      <a href="https://hurghadaavenue.github.io/02-ar-studio-51m.html">51م²<small>ستوديو</small></a>
-      <a href="https://hurghadaavenue.github.io/04-onebedroom-63m.html">63م²<small>غرفة</small></a>
-      <a href="https://hurghadaavenue.github.io/05-onebedroom-68m.html">68م²<small>غرفة</small></a>
-      <a href="https://hurghadaavenue.github.io/06-twobedrooms-98m.html">98م²<small>غرفتان</small></a>
-      <a href="https://hurghadaavenue.github.io/07-twobedrooms-108m.html">108م²<small>غرفتان</small></a>
-      <a href="https://hurghadaavenue.github.io/08-twobedrooms-110m.html">110م²<small>غرفتان</small></a>
-      <a href="https://hurghadaavenue.github.io/12-twobedrooms-120m.html">120م²<small>غرفتان</small></a>
-      <a href="https://hurghadaavenue.github.io/09-threebedrooms-123m.html">123م²<small>3 غرف</small></a>
-      <a href="https://hurghadaavenue.github.io/10-threebedrooms-125m.html">125م²<small>3 غرف</small></a>
-      <a href="https://hurghadaavenue.github.io/11-threebedrooms-145m.html">145م²<small>3 غرف</small></a>
-    </div>
+<div class="wrap">
+
+<section class="block" id="details">
+  <div class="sec-head"><span class="eyebrow">قبل أن تتواصل</span><h2>المزيد من التفاصيل</h2></div>
+  <div class="grid cols-3">
+    <a class="card" href="https://hurghadaavenue.github.io/ar-prices.html">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12V4h8l10 10-8 8L3 12z"/><circle cx="7.5" cy="8.5" r="1"/></svg></span>
+      <div><strong>الأسعار وأنظمة الدفع</strong><small>كاش أو تقسيط حتى 8 سنوات</small></div>
+    </a>
+    <a class="card" href="https://hurghadaavenue.github.io/ar-compount-features.html">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V5l8-2 8 2v16M9 21v-5h6v5M8 9h2M14 9h2M8 13h2M14 13h2"/></svg></span>
+      <div><strong>مزايا الكمبوند</strong><small>المرافق والخدمات داخل المشروع</small></div>
+    </a>
+    <a class="card" href="https://hurghadaavenue.github.io/ar-location-features.html">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg></span>
+      <div><strong>مزايا الموقع</strong><small>الكوثر أمام مطار الغردقة</small></div>
+    </a>
+    <a class="card" href="https://hurghadaavenue.github.io/ar-finishing.html">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.2 5.3L20 10l-5.8 1.7L12 17l-2.2-5.3L4 10l5.8-1.7z"/></svg></span>
+      <div><strong>مستويات التشطيب</strong><small>تشطيب التراديلوكس</small></div>
+    </a>
+    <a class="card" href="https://hurghadaavenue.github.io/ar-orangepay.html">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M12 8v13M3 12h18M12 8c-2-4-6-3-5 0M12 8c2-4 6-3 5 0"/></svg></span>
+      <div><strong>عضوية أورانج باي</strong><small>مجانية لمالكي الوحدات</small></div>
+    </a>
+    <a class="card" href="https://hurghadaavenue.github.io/ar-company.html">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.2 8-8 9-4.8-1-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span>
+      <div><strong>عن المقاولون العرب</strong><small>الجهة المطورة للمشروع</small></div>
+    </a>
   </div>
 </section>
 
+<section class="block" id="units">
+  <div class="sec-head"><span class="eyebrow">اختر وحدتك</span><h2>الوحدات المتاحة</h2></div>
+  <div class="sizes">
+    <a href="https://hurghadaavenue.github.io/03-ar-studio-40m.html" title="شقق للبيع في الغردقة 40م² بكمبوند افينيو المقاولون العرب">ستوديو 40م²</a>
+    <a href="https://hurghadaavenue.github.io/01-ar-studio-50m.html" title="شقق ستوديو للبيع في الغردقة 50م² افينيو كمبوند">ستوديو 50م²</a>
+    <a href="https://hurghadaavenue.github.io/02-ar-studio-51m.html" title="شقق من المقاولون العرب للبيع في الغردقة 51م²">ستوديو 51م²</a>
+    <a href="https://hurghadaavenue.github.io/04-onebedroom-63m.html" title="شقق غرفة للبيع في الغردقة 63م² كمبوند المقاولون العرب">غرفة 63م²</a>
+    <a href="https://hurghadaavenue.github.io/05-onebedroom-68m.html" title="المقاولون العرب - شقق 68م² للبيع بالغردقة">غرفة 68م²</a>
+    <a href="https://hurghadaavenue.github.io/06-twobedrooms-98m.html" title="شقق غرفتين للبيع في الغردقة 98م² كمبوند المقاولون العرب">غرفتان 98م²</a>
+    <a href="https://hurghadaavenue.github.io/07-twobedrooms-108m.html" title="شقق للبيع في الغردقة 108م² بكمبوند المقاولون العرب">غرفتان 108م²</a>
+    <a href="https://hurghadaavenue.github.io/08-twobedrooms-110m.html" title="شقق للبيع بالغردقة 110م² بكمبوند افينيو الغردقة">غرفتان 110م²</a>
+    <a href="https://hurghadaavenue.github.io/12-twobedrooms-120m.html" title="شقق للبيع في الغردقة 120م² كمبوند المقاولون العرب افينيو">غرفتان 120م²</a>
+    <a href="https://hurghadaavenue.github.io/09-threebedrooms-123m.html" title="شقق عائلية للبيع بالغردقة 123م² في كمباوند افينيو الغردقة">3 غرف 123م²</a>
+    <a href="https://hurghadaavenue.github.io/10-threebedrooms-125m.html" title="شقق للبيع في الغردقة 125م² التراديلوكس بكمبوند افينيو الغردقة">3 غرف 125م²</a>
+    <a href="https://hurghadaavenue.github.io/11-threebedrooms-145m.html" title="شقق للبيع في الغردقة 145م² مع 5 حمامات سباحة">3 غرف 145م²</a>
+  </div>
+</section>
+
+<div class="cta-band">
+  <div>
+    <h2>تواصلوا معنا للمزيد من التفاصيل والوحدات المتاحة</h2>
+    <p>خطوتك الأولى تبدأ بسؤال. استفسر عن تفاصيل الشقق ومزايا الكمبوند، وسنساعدك في الوصول إلى الخيار المناسب لك.</p>
+  </div>
+  <div class="actions">
+    <a class="btn btn-gold" href="tel:+201131572319"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.6a1 1 0 01-.25 1z"/></svg>اتصل الآن</a>
+    <a class="btn btn-wa" href="https://api.whatsapp.com/send?phone=201131572319"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11 11 0 003.3 17.2L2 22l4.9-1.3A11 11 0 0020.5 3.5zM12 20a9 9 0 01-4.6-1.3l-.3-.2-2.9.8.8-2.8-.2-.3A9 9 0 1112 20zm5-6.7c-.3-.1-1.6-.8-1.9-.9s-.5-.1-.7.1-.8.9-.9 1.1-.3.2-.6.1a7.4 7.4 0 01-3.7-3.2c-.3-.5.3-.5.8-1.5a.6.6 0 000-.6l-.9-2.1c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.2 5.2 5.2 0 001.1 2.8 12 12 0 004.6 4.1c1.7.7 2.4.8 3.2.7a2.7 2.7 0 001.8-1.3 2.2 2.2 0 00.2-1.3c-.1-.1-.3-.2-.6-.3z"/></svg>واتس اب</a>
+  </div>
+</div>
+
+</div>
 </main>
 
-<footer class="foot">
-  <div class="wrap">
-    <div class="foot-grid">
-      <nav aria-label="الوحدات والتشطيب">
-        <h3>الوحدات والتشطيب</h3>
-        <ul>
-          <li><a href="https://hurghadaavenue.github.io/">الوحدات</a></li>
-          <li><a href="https://hurghadaavenue.github.io/ar-finishing.html">التشطيب</a></li>
-          <li><a href="https://hurghadaavenue.github.io/ar-compount-features.html">مزايا الكمبوند</a></li>
-          <li><a href="https://hurghadaavenue.github.io/ar-location-features.html">مزايا الموقع</a></li>
-        </ul>
-      </nav>
-      <nav aria-label="الشركة">
-        <h3>الشركة</h3>
-        <ul>
-          <li><a href="https://hurghadaavenue.github.io/ar-orangepay.html">اورانج باي</a></li>
-          <li><a href="https://hurghadaavenue.github.io/ar-prices.html">الاسعار</a></li>
-          <li><a href="https://hurghadaavenue.github.io/ar-company.html">عن الشركة</a></li>
-          <li><a href="https://hurghadaavenue.github.io/ar-comtact.html">التواصل</a></li>
-        </ul>
-      </nav>
-      <nav aria-label="التواصل واللغات">
-        <h3>تواصل ولغات</h3>
-        <ul>
-          <li><a class="num" href="tel:+201131572319">Call: +201131572319</a></li>
-          <li><a href="https://api.whatsapp.com/send?phone=201131572319">Whatsapp</a></li>
-          <li><a href="https://hurghadaavenue.github.io/">العربية</a></li>
-          <li><a href="https://hurghadaavenue.github.io/eng-index.html">English</a></li>
-          <li><a href="https://hurghadaavenue.github.io/de/de-index.html">Deutsche</a></li>
-          <li><a href="https://hurghadaavenue.github.io/ru-index.html">Русский</a></li>
-        </ul>
-      </nav>
+<footer class="site-footer"><div class="wrap">
+  <div class="foot-grid">
+    <div class="foot-brand">
+      <img src="imagesmain/Hurghada Avenue Compound المقاولون العرب FOTTITL.webp" alt="كمبوند افينيو الغردقة - المقاولون العرب" width="528" height="98">
+      <p>شقق التراديلوكس للبيع في الغردقة بكمبوند افينيو من المقاولون العرب.</p>
     </div>
-    <p class="copy">All Rights Reserved © Avenue Compound Hurghada</p>
+    <div>
+      <h3>الوحدات والتشطيب</h3>
+      <ul>
+        <li><a href="https://hurghadaavenue.github.io" title="شقق للبيع بالغردقة بكمبوند افينيو المقاولون العرب">الوحدات</a></li>
+        <li><a href="https://hurghadaavenue.github.io/ar-finishing.html" title="Ultradelux - Apartments For Sale in Avenue Compound Hurghada">التشطيب</a></li>
+        <li><a href="https://hurghadaavenue.github.io/ar-compount-features.html" title="شقق للبيع في الغردقة بكمبوند فاخر من المقاولون العرب">مزايا الكمبوند</a></li>
+        <li><a href="https://hurghadaavenue.github.io/ar-location-features.html" title="شقق للبيع في الغردقة بقلب المنطقة السياحية من المقاولون العرب">مزايا الموقع</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>الشركة</h3>
+      <ul>
+        <li><a href="https://hurghadaavenue.github.io/ar-orangepay.html" title="عضوية مجانية باورانج باي لمشتري شقق كمبوند المقاولون العرب">اورانج باي</a></li>
+        <li><a href="https://hurghadaavenue.github.io/ar-prices.html" title="شقق للبيع بالتقسيط في الغردقة من المقاولون العرب">الاسعار</a></li>
+        <li><a href="https://hurghadaavenue.github.io/ar-company.html" title="كمبوند افينيو - شقق للبيع بالغردقة من المقاولون العرب">عن الشركة</a></li>
+        <li><a href="https://hurghadaavenue.github.io/ar-comtact.html" title="تواصلوا معنا - شقق للبيع بالغردقة بكمبوند المقاولون العرب">التواصل</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>تواصل واللغات</h3>
+      <ul>
+        <li><a class="ltr" href="tel:+201131572319" title="بيانات الاتصال - 01131572319 - شقق للبيع بالغردقة كمبوند افينيو">Call: +201131572319</a></li>
+        <li><a class="ltr" href="https://api.whatsapp.com/send?phone=201131572319" title="واتس اب - شقق للبيع بالغردقة من المقاولون العرب">Whatsapp</a></li>
+        <li><a href="https://hurghadaavenue.github.io" title="شقق التراديلوكس للبيع في الغردقة من المقاولون العرب">الرئيسية</a></li>
+        <li><a href="https://hurghadaavenue.github.io" title="شقق للبيع بكمبوند افينيو المقاولون العرب بمدينة الغردقة">العربية</a></li>
+        <li><a href="https://hurghadaavenue.github.io/eng-index.html" title="Apartments For Sale in Avenue Compound in Hurghada">English</a></li>
+        <li><a href="https://hurghadaavenue.github.io/de/de-index.html" title="Ultra Luxus Wohnungen zum Verkauf in Hurghada">Deutsche</a></li>
+        <li><a href="https://hurghadaavenue.github.io/ru-index.html" title="Квартиры на продажу в Хургаде — жилой комплекс Avenue">Русский</a></li>
+      </ul>
+    </div>
   </div>
-</footer>
+  <div class="copy">All Rights Reserved © المقاولون العرب Avenue Compound Hurghada</div>
+</div></footer>
 
-<div class="float">
-  <a href="https://api.whatsapp.com/send?phone=201131572319" aria-label="تواصل عبر واتس اب"><img src="imagesmain/gogldnwhatsab.webp" alt=""></a>
-  <a href="tel:+201131572319" aria-label="اتصل بنا"><img src="imagesmain/goldencall.png" alt=""></a>
+<div class="float" aria-label="تواصل سريع">
+  <a class="f-wa" href="https://api.whatsapp.com/send?phone=201131572319" aria-label="واتس اب" title="واتس اب"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11 11 0 003.3 17.2L2 22l4.9-1.3A11 11 0 0020.5 3.5zM12 20a9 9 0 01-4.6-1.3l-.3-.2-2.9.8.8-2.8-.2-.3A9 9 0 1112 20zm5-6.7c-.3-.1-1.6-.8-1.9-.9s-.5-.1-.7.1-.8.9-.9 1.1-.3.2-.6.1a7.4 7.4 0 01-3.7-3.2c-.3-.5.3-.5.8-1.5a.6.6 0 000-.6l-.9-2.1c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.2 5.2 5.2 0 001.1 2.8 12 12 0 004.6 4.1c1.7.7 2.4.8 3.2.7a2.7 2.7 0 001.8-1.3 2.2 2.2 0 00.2-1.3c-.1-.1-.3-.2-.6-.3z"/></svg></a>
+  <a class="f-call" href="tel:+201131572319" aria-label="اتصال" title="اتصال"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.6a1 1 0 01-.25 1z"/></svg></a>
 </div>
 
 <script>
 (function(){
-  var btn=document.querySelector('.menu-toggle'),nav=document.getElementById('nav');
-  btn.addEventListener('click',function(){
-    var open=btn.getAttribute('aria-expanded')==='true';
-    btn.setAttribute('aria-expanded',String(!open));
-    nav.classList.toggle('open',!open);
+  var toggle=document.querySelector('.nav-toggle');
+  var nav=document.getElementById('mainNav');
+  toggle.addEventListener('click',function(){
+    var open=nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded',open);
   });
-  var dds=[].slice.call(document.querySelectorAll('.dd'));
-  dds.forEach(function(d){
-    d.addEventListener('toggle',function(){
-      if(d.open)dds.forEach(function(o){if(o!==d)o.open=false;});
+  var dds=document.querySelectorAll('.dd');
+  function closeAll(){
+    dds.forEach(function(o){o.classList.remove('open');o.querySelector('button').setAttribute('aria-expanded','false');});
+  }
+  dds.forEach(function(dd){
+    var btn=dd.querySelector('button');
+    btn.addEventListener('click',function(e){
+      e.stopPropagation();
+      var willOpen=!dd.classList.contains('open');
+      closeAll();
+      if(willOpen){dd.classList.add('open');btn.setAttribute('aria-expanded','true');}
     });
   });
-  document.addEventListener('click',function(e){
-    dds.forEach(function(d){if(d.open&&!d.contains(e.target))d.open=false;});
+  document.addEventListener('click',function(e){if(!e.target.closest('.dd'))closeAll();});
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'){closeAll();nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');}
   });
 })();
 </script>
