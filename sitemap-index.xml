@@ -22,3 +22,8 @@
    <sitemap>
       <loc>https://hurghadaavenue.github.io/img-sitemap-eng.xml</loc>
    </sitemap>
+
+   <sitemap>
+      <loc>https://hurghadaavenue.github.io/image-sitemap-ico.xml</loc>
+   </sitemap>
+</sitemapindex>
