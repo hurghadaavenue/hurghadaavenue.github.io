@@ -1,138 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wohnungen zum Verkauf in Hurghada | Avenue Compound - Arab Contractors</title>
-    <meta name="description" content="Luxus-Wohnungen zum Verkauf in Hurghada am Roten Meer. Avenue Compound von Arab Contractors gegenüber dem Flughafen Hurghada.">
+    <meta name="description" content="Luxuswohnungen von 40 bis 145 m² im Avenue Compound von Arab Contractors in Hurghada. Flexible Ratenzahlung bis zu 8 Jahren.">    <link rel="canonical" href="https://hurghadaavenue.github.io/de/de-index.html">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="de_DE">
+    <meta property="og:title" content="Wohnungen zum Verkauf in Hurghada | Avenue Compound">
+    <meta property="og:description" content="Wohnungen von 40 bis 145 m² im Avenue Compound von Arab Contractors in Hurghada.">
+    <meta property="og:url" content="https://hurghadaavenue.github.io/de/de-index.html">
+    <meta property="og:image" content="https://hurghadaavenue.github.io/imagesmain/3.webp">
     
-    <!-- Schema.org JSON-LD for SEO -->
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@type": "RealEstateListing",
-      "name": "Avenue Compound Hurghada - Arab Contractors",
-      "description": "Luxus-Wohnungen zum Verkauf in Hurghada am Roten Meer. Avenue Compound gegenüber dem internationalen Flughafen Hurghada im Al Kawther Viertel.",
-      "url": "https://hurghadaavenue.github.io/de/de-index.html",
-      "telephone": "+201131572319",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Hurghada",
-        "addressRegion": "Red Sea",
-        "addressCountry": "EG"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "27.184",
-        "longitude": "33.825"
-      },
-      "offers": {
-        "@type": "Offer",
-        "availability": "https://schema.org/InStock",
-        "priceCurrency": "EGP",
-        "url": "https://hurghadaavenue.github.io/de/de-wohnungspreise.html"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Arab Contractors",
-        "url": "https://hurghadaavenue.github.io/de/de-entwickler.html"
-      }
+      "@context":"https://schema.org",
+      "@graph":[
+        {"@type":"Organization","@id":"https://hurghadaavenue.github.io/#organization","name":"Arab Contractors","alternateName":"The Arab Contractors (Osman Ahmed Osman & Co.)","url":"https://hurghadaavenue.github.io/","telephone":"+201131572319","address":{"@type":"PostalAddress","addressLocality":"Hurghada","addressRegion":"Red Sea Governorate","addressCountry":"EG"}},
+        {"@type":"ApartmentComplex","@id":"https://hurghadaavenue.github.io/de/de-index.html#compound","name":"Avenue Compound Hurghada","url":"https://hurghadaavenue.github.io/de/de-index.html","description":"Wohnanlage Avenue Compound von Arab Contractors in Al Kawther, Hurghada, mit Wohnungen von 40 bis 145 m².","address":{"@type":"PostalAddress","streetAddress":"Al Kawther","addressLocality":"Hurghada","addressRegion":"Red Sea Governorate","addressCountry":"EG"},"geo":{"@type":"GeoCoordinates","latitude":27.184,"longitude":33.825},"numberOfAccommodationUnits":12,"amenityFeature":[{"@type":"LocationFeatureSpecification","name":"Swimmingpools","value":5},{"@type":"LocationFeatureSpecification","name":"Tiefgarage","value":true},{"@type":"LocationFeatureSpecification","name":"Gesundheitsclub, Fitnessstudio, Sauna und Jacuzzi","value":true}],"telephone":"+201131572319","containedInPlace":{"@id":"https://hurghadaavenue.github.io/#organization"}},
+        {"@type":"WebPage","@id":"https://hurghadaavenue.github.io/de/de-index.html#webpage","url":"https://hurghadaavenue.github.io/de/de-index.html","name":"Wohnungen zum Verkauf in Hurghada | Avenue Compound","description":"Wohnungen von 40 bis 145 m² im Avenue Compound von Arab Contractors in Hurghada.","inLanguage":"de","about":{"@id":"https://hurghadaavenue.github.io/de/de-index.html#compound"},"publisher":{"@id":"https://hurghadaavenue.github.io/#organization"}}
+      ]
     }
     </script>
 
     <style>
-        /* Modern Premium Real Estate Theme */
-        :root {
-            --primary: #0a192f;
-            --secondary: #d4af37;
-            --text: #333333;
-            --bg: #ffffff;
-            --light-bg: #f8f9fa;
-            --border: #e0e0e0;
-        }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: var(--text);
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background: var(--bg);
-        }
-        a { text-decoration: none; color: inherit; }
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-        
-        /* Header */
-        header { background: var(--primary); color: #fff; padding: 15px 0; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        .header-flex { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
-        .logo { font-size: 1.5rem; font-weight: bold; color: var(--secondary); letter-spacing: 1px; }
-        .nav-links { display: flex; gap: 20px; align-items: center; }
-        .nav-links a:hover { color: var(--secondary); }
-        .btn { padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: 0.3s; display: inline-block; cursor: pointer; }
-        .btn-primary { background: var(--secondary); color: var(--primary); }
-        .btn-primary:hover { background: #b5952f; }
-        .btn-outline { border: 2px solid var(--secondary); color: var(--secondary); background: transparent; }
-        .btn-outline:hover { background: var(--secondary); color: var(--primary); }
-        .btn-whatsapp { background: #25D366; color: #fff; }
-        .btn-whatsapp:hover { background: #1da851; }
-
-        /* Hero */
-        .hero { background: linear-gradient(rgba(10, 25, 47, 0.85), rgba(10, 25, 47, 0.85)), url('https://hurghadaavenue.github.io/imagesmain/arab contractor hd.jpg') center/cover; color: #fff; padding: 120px 0; text-align: center; }
-        .hero h1 { font-size: 2.8rem; margin-bottom: 20px; color: var(--secondary); }
-        .hero p { font-size: 1.2rem; max-width: 800px; margin: 0 auto 30px; opacity: 0.9; }
-        .hero-btns { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }
-
-        /* Stats */
-        .stats { background: var(--light-bg); padding: 60px 0; }
-        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 30px; text-align: center; }
-        .stat-item h3 { font-size: 2rem; color: var(--secondary); margin: 0; }
-        .stat-item p { margin: 5px 0 0; font-weight: 500; color: var(--primary); }
-        .stats-title { text-align: center; font-size: 1.5rem; color: var(--primary); margin-bottom: 40px; font-style: italic; opacity: 0.8; }
-
-        /* Units */
-        .units { padding: 80px 0; }
-        .section-title { text-align: center; font-size: 2rem; color: var(--primary); margin-bottom: 50px; position: relative; }
-        .section-title::after { content: ''; display: block; width: 60px; height: 4px; background: var(--secondary); margin: 15px auto 0; }
-        .units-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px; }
-        .unit-card { border: 1px solid var(--border); border-radius: 10px; padding: 25px; text-align: center; transition: 0.3s; background: #fff; }
-        .unit-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.08); border-color: var(--secondary); }
-        .unit-card h4 { color: var(--primary); margin: 0 0 10px; font-size: 1.5rem; }
-        .unit-card p { margin: 5px 0; color: #666; }
-        .unit-card .btn { margin-top: 15px; width: 100%; }
-
-        /* About */
-        .about { background: var(--light-bg); padding: 80px 0; }
-        .about-content { max-width: 900px; margin: 0 auto; text-align: justify; font-size: 1.05rem; line-height: 1.8; }
-        .about-content p { margin-bottom: 20px; }
-
-        /* Highlights */
-        .highlights { padding: 80px 0; }
-        .highlights-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
-        .highlight-card { display: flex; gap: 15px; align-items: flex-start; background: #fff; padding: 20px; border-radius: 8px; border: 1px solid var(--border); }
-        .highlight-icon { font-size: 2rem; min-width: 50px; text-align: center; }
-        .highlight-text h4 { margin: 0 0 5px; color: var(--primary); }
-        .highlight-text p { margin: 0; color: #666; }
-
-        /* CTA */
-        .cta { background: var(--primary); color: #fff; padding: 80px 0; text-align: center; }
-        .cta h2 { color: var(--secondary); font-size: 2rem; margin-bottom: 20px; }
-        .cta p { font-size: 1.1rem; margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto; opacity: 0.9; }
-        .cta-btns { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }
-
-        /* Footer */
-        footer { background: #050d1a; color: #ccc; padding: 60px 0 20px; }
-        .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 40px; margin-bottom: 40px; }
-        .footer-col h4 { color: var(--secondary); margin-bottom: 20px; }
-        .footer-col ul { list-style: none; padding: 0; }
-        .footer-col li { margin-bottom: 10px; }
-        .footer-col a:hover { color: var(--secondary); }
-        .copyright { text-align: center; border-top: 1px solid #222; padding-top: 20px; font-size: 0.9rem; color: #888; }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .hero h1 { font-size: 2rem; }
-            .nav-links { gap: 10px; font-size: 0.9rem; }
-            .header-flex { justify-content: center; gap: 15px; }
-        }
+@font-face{font-family:Cairo;src:url("../fonts/Cairo.woff2") format("woff2");font-display:swap}*{box-sizing:border-box}html{scroll-behavior:smooth} :root{--ink:#14110f;--ink2:#2a2420;--muted:#6b625b;--gold:#c99a4b;--soft:#eabb7b;--maroon:#7a1f1f;--paper:#fbf8f3;--card:#fff;--line:#eadfce;--wa:#1faa59;--shadow:0 10px 30px rgba(40,25,10,.1);--max:1120px}body{margin:0;font:17px/1.8 Cairo,Arial,Tahoma,sans-serif;color:var(--ink);background:var(--paper)}a{color:inherit;text-decoration:none}ul{list-style:none;margin:0;padding:0}.container{width:min(100% - 40px,var(--max));margin:auto}header{position:sticky;top:0;z-index:50;background:rgba(20,17,15,.96);color:#e9dcc6;border-bottom:1px solid #6c5030;backdrop-filter:blur(10px)}.header-flex{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}.logo{font-size:1.2rem;font-weight:800;letter-spacing:.04em;color:var(--soft)}.nav-links{display:flex;align-items:center;gap:5px;flex-wrap:wrap}.nav-links>a{padding:9px 12px;border-radius:10px;color:var(--soft);font-size:.94rem}.nav-links>a:hover{background:#ffffff18;color:#fff}.btn{display:inline-flex;align-items:center;justify-content:center;padding:11px 22px;border-radius:999px;border:1px solid transparent;font-weight:700;transition:.2s;cursor:pointer}.btn:hover{transform:translateY(-2px)}.btn-primary{background:linear-gradient(135deg,#e9bf80,#c58f3d);color:#2a1a05;box-shadow:0 8px 20px #c99a4b55}.btn-outline{border:1px solid var(--gold);color:var(--soft);background:transparent}.btn-whatsapp{background:var(--wa);color:#fff}.hero{position:relative;isolation:isolate;text-align:center;color:white;background:#1a1411 url('https://hurghadaavenue.github.io/imagesmain/arab contractor hd.jpg') center/cover no-repeat}.hero:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,#0c0907c9,#0c090799 55%,#0c0907eb)}.hero .container{padding-block:76px 92px}.badge{display:inline-block;margin-bottom:14px;padding:4px 16px;border-radius:999px;border:1px solid #eabb7b80;background:#eabb7b22;color:var(--soft);font-size:14px;font-weight:700}.hero h1{max-width:900px;margin:0 auto 15px;font-size:clamp(30px,5vw,52px);line-height:1.3;color:var(--soft)}.hero p{max-width:760px;margin:0 auto 26px;color:#efe4d0;font-size:clamp(16px,2.5vw,20px)}.hero-btns,.cta-btns{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}.stats{position:relative;margin-top:-36px;padding:26px 0 12px;background:transparent}.stats-title{text-align:center;color:var(--maroon);font-weight:700;margin:0 0 14px}.stats-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:var(--shadow)}.stat-item{padding:18px 10px;text-align:center;background:#fff}.stat-item h3{margin:0;color:var(--maroon);font-size:clamp(21px,3vw,29px)}.stat-item p{margin:3px 0 0;font-size:14px;color:var(--muted)}.units,.about,.highlights{padding:54px 0 8px}.section-title{margin:0 0 25px;font-size:clamp(24px,3.5vw,33px);color:var(--ink)}.section-title:after{content:"";display:block;width:62px;height:4px;border-radius:4px;margin-top:9px;background:linear-gradient(90deg,var(--gold),transparent)}.units-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}.unit-card{padding:0 18px 19px;background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;text-align:start;box-shadow:0 5px 20px #28190a0c;transition:.2s}.unit-card:before{content:"";display:block;height:115px;margin:0 -18px 14px;background:linear-gradient(135deg,#2a1a12dd,#7a1f1f99),url('https://hurghadaavenue.github.io/imagesmain/3.webp') center/cover}.unit-card:hover{transform:translateY(-4px);border-color:var(--gold);box-shadow:var(--shadow)}.unit-card h4{margin:0;color:var(--maroon);font-size:1.35rem}.unit-card p{margin:2px 0;color:var(--muted);font-size:.93rem}.unit-card .btn{margin-top:12px}.about{background:#f3ece1;margin-top:52px}.about-content{max-width:900px;line-height:1.9}.about-content p{margin:0 0 17px;color:var(--ink2)}.highlights-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.highlight-card{display:flex;align-items:flex-start;gap:13px;padding:17px;background:#fff;border:1px solid var(--line);border-radius:16px;transition:.2s}.highlight-card:hover{transform:translateY(-3px);border-color:var(--soft);box-shadow:var(--shadow)}.highlight-icon{min-width:42px;text-align:center;font-size:1.65rem}.highlight-text h4{margin:0 0 4px;color:var(--maroon)}.highlight-text p{margin:0;color:var(--muted);font-size:.94rem}.cta{margin:54px auto 0!important;padding:36px 28px!important;border-radius:22px;background:linear-gradient(135deg,#2a1a12,#4a1d1d 60%,#6a2a1a);color:#fff;text-align:start!important;box-shadow:var(--shadow)}.cta h2{margin:0 0 6px;color:var(--soft);font-size:clamp(23px,3.4vw,31px)}.cta p{max-width:670px;margin:0 0 18px;color:#f1e3cb}.cta-btns{justify-content:flex-start}footer{margin-top:60px;padding:40px 0 16px;color:#e9dcc6;background:#14110f url('https://hurghadaavenue.github.io/imagesmain/3.webp') center/cover}.footer-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin-bottom:25px}.footer-col h4{margin:0 0 12px;color:var(--soft)}.footer-col li{margin:5px 0}.footer-col a{opacity:.85}.footer-col a:hover{color:var(--soft);opacity:1}.copyright{border-top:1px solid #ffffff24;padding-top:14px;text-align:center;color:#d3c8ba;font-size:.88rem}.copyright p{margin:0}:focus-visible{outline:3px solid var(--gold);outline-offset:3px}@media(max-width:960px){.units-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.highlights-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.nav-links{gap:0}.nav-links>a{padding:8px}}@media(max-width:640px){.header-flex{padding:10px 0;align-items:flex-start;flex-direction:column;gap:4px}.nav-links{width:100%;overflow:auto;flex-wrap:nowrap}.nav-links>a{white-space:nowrap}.stats-grid{grid-template-columns:repeat(2,1fr)}.units-grid,.highlights-grid,.footer-grid{grid-template-columns:1fr}.hero .container{padding-block:58px 74px}.cta{padding:27px 20px!important}.unit-card:before{height:130px}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
     </style>
 </head>
 <body>
@@ -140,7 +33,7 @@
     <!-- Header -->
     <header>
         <div class="container header-flex">
-            <div class="logo">AVENUE COMPOUND</div>
+            <a class="logo" href="https://hurghadaavenue.github.io/de/de-index.html" aria-label="Avenue Compound Startseite">AVENUE COMPOUND</a>
             <nav class="nav-links">
                 <a href="https://hurghadaavenue.github.io/de/de-index.html">Startseite</a>
                 <a href="https://hurghadaavenue.github.io/de/de-Wohnungen.html">Wohnungen</a>
@@ -155,7 +48,7 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <h1>Luxus-Wohnungen zum Verkauf in Hurghada</h1>
+            <span class="badge">Arab Contractors · Tradilux Finish</span><h1>Luxuswohnungen zum Verkauf in Hurghada</h1>
             <p>Avenue Compound von Arab Contractors – gegenüber dem internationalen Flughafen Hurghada im Al Kawther Viertel, nur eine Minute vom touristischen Spazierweg entfernt. Flächen von 40m² bis 145m².</p>
             <div class="hero-btns">
                 <a href="#units" class="btn btn-primary">Einheiten durchsuchen</a>
@@ -355,3 +248,4 @@
 
 </body>
 </html>
+
