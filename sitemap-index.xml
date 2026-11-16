@@ -26,4 +26,8 @@
    <sitemap>
       <loc>https://hurghadaavenue.github.io/image-sitemap-ico.xml</loc>
    </sitemap>
+
+      <sitemap>
+      <loc>https://hurghadaavenue.github.io/prices-all.xml</loc>
+   </sitemap>
 </sitemapindex>
