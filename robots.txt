@@ -1,5 +1,2 @@
 User-agent: *
 Disallow:
-Allow: /
-
-Sitemap: https://hurghadaavenue.github.io/sitemap-index.xml
